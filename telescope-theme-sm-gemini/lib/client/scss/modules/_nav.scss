@@ -1,0 +1,51 @@
+.header{
+	background-color: transparent;
+	background: url('/packages/telescope-theme-sm-gemini/img/header-bg.jpg') no-repeat;
+	background-position-y: -111px;
+	height: 106px;
+	border-bottom: 15px rgb(35, 204, 199) solid;
+	margin-bottom: 25px;
+	.logo{
+		text-transform: uppercase;
+		text-align: left;
+		padding: 0 64px;
+		@include small{
+			font-size: 18px;
+		}
+		@include medium-large{
+			font-size:80px;
+			&:after {
+				content: '/scopemount';
+				font-weight: bold;
+				font-size: 27px;
+			}
+		}
+
+	}
+	.secondary-nav {
+	  top: 48%;
+	}
+	.user-menu, .notifications-menu {
+		display: none;
+	}
+}
+
+
+.header .logo,
+.nav {
+  position: relative;
+  top: 53%;
+}
+
+
+.nav{
+	>li{
+		>a, >div >a{
+			color:white;
+			font-size:13px;
+			font-weight:normal;
+			text-transform: uppercase;
+		}
+	}
+}
+

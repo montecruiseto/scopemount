@@ -1,0 +1,80 @@
+
+// ------------------------------------ post ------------------------------------ //
+
+.post {
+	padding: 0px 0px 0px 0px;
+	box-shadow: -2px 1px 0px rgba(0,0,0,.1);
+	border-bottom: 0px;
+	margin-bottom: 20px;
+	&:first-child{
+		border-radius: 0px 0px 0px 0px;
+	}
+	&:last-child{
+		border-radius: 0px 0px 0px 0px;
+	}
+}
+
+
+// ------------------------------ posts-list layout ------------------------------ //
+
+.posts-list {
+	.post-rank{
+			display: none;
+		}
+	.post-content {
+	  align-items: flex-start;
+	}
+}
+
+
+
+// -------------------------------- post content --------------------------------- //
+
+.post-heading{
+	margin-top: 25px;
+	.post-title{
+		display: block;
+		@include small{
+			font-size: 20px;
+		}
+		@include medium-large{
+			font-size:30px;
+		}
+		font-weight:bold;
+	}
+}
+
+.post-meta{
+	a{
+		&:hover{
+			color: $green;
+		}
+	}
+}
+
+.post-meta-item{
+	font-size: 13px;
+	font-weight: normal;
+	color: #AAAAAA;
+}
+
+
+
+// -------------------------------- post tags --------------------------------- //
+
+.post-category{
+	background:$green;
+	color: white !important;
+  &:hover{
+    background:$green;
+  }
+}
+
+// -------------------------------- embedly thumbs --------------------------------- //
+
+.post-thumbnail-link {
+  width: 180px;
+}
+.posts-list .post-thumbnail {
+  margin-right: 20px;
+}
