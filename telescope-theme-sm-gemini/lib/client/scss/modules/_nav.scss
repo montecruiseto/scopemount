@@ -1,51 +1,53 @@
-.header{
-	background-color: transparent;
-	background: url('/packages/telescope-theme-sm-gemini/img/header-bg.jpg') no-repeat;
-	background-position-y: -111px;
-	height: 106px;
-	border-bottom: 15px rgb(35, 204, 199) solid;
-	margin-bottom: 25px;
-	.logo{
-		text-transform: uppercase;
-		text-align: left;
-		padding: 0 64px;
-		@include small{
-			font-size: 18px;
+
+// ------------------------------------ Top Nav Layout ------------------------------------ //
+
+.top-nav{
+	.header{
+		background-color: transparent;
+		background: url('/packages/telescope-theme-sm-gemini/img/header-bg.jpg') no-repeat;
+		background-position-y: -111px;
+		height: 106px;
+		border-bottom: 15px rgb(35, 204, 199) solid;
+		box-shadow: 0px 1px 0px rgba(20, 120, 117, 0.6); // optional extra bottom border
+		margin-bottom: 25px;
+		.mobile-menu-button {
+			font-size: 27px;
+			margin-top: -25px;
 		}
-		@include medium-large{
-			font-size:80px;
-			&:after {
-				content: '/scopemount';
-				font-weight: bold;
-				font-size: 27px;
+		.logo{
+			text-transform: uppercase;
+			text-align: left;
+			padding: 0 76px;
+			@include small{
+				font-size: 18px;
+			}
+			@include medium-large{
+				font-size:80px;
+				&:after {
+					content: '/scopemount';
+					font-weight: bold;
+					font-size: 27px;
+				}
 			}
 		}
+		.secondary-nav {
+		  top: 142%;
+	  	color:white;
+	  	>a, >.btn {
+	  			font-size:18px;
+	  			font-weight:normal;
+	  			text-transform: uppercase;
+	  		  font-style: italic;
+	  		  text-shadow: 0px -1px rgba(0, 0, 0, 0.5);
+	  	}
 
-	}
-	.secondary-nav {
-	  top: 48%;
-	}
-	.user-menu, .notifications-menu {
-		display: none;
-	}
-}
-
-
-.header .logo,
-.nav {
-  position: relative;
-  top: 53%;
-}
-
-
-.nav{
-	>li{
-		>a, >div >a{
-			color:white;
-			font-size:13px;
-			font-weight:normal;
-			text-transform: uppercase;
+		}
+		.header-submodule{
+	  	display: none;
+		  &:last-child{
+		  	display: inline-block;
+		  	border-bottom: 7px dotted #147875;
+	  	}
 		}
 	}
 }
-

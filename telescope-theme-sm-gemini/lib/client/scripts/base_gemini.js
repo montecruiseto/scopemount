@@ -30,9 +30,13 @@ postHeading = [
     order: 40
   },
   {
-    template: 'postAdmin',
+    template: 'postCategories',
     order: 50
   },
+  {
+    template: 'postAdmin',
+    order: 60
+  }
 
 ];
 
