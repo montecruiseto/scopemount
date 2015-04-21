@@ -18,7 +18,7 @@ postHeading = [
     order: 10
   },
   {
-    template: 'postAuthor',
+    template: 'postDomain',
     order: 20
   },
   {
@@ -44,11 +44,10 @@ postMeta = [
 
   {
     template: 'postAvatars',
-    order: 50
+    order: 10
   },
   {
-    template: 'postActions',
-    order: 60
+    template: 'postDiscuss',
+    order: 20
   }
-
 ];

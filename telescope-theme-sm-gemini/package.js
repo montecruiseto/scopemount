@@ -47,6 +47,7 @@ Package.onUse(function (api) {
 
       // customizations
       'lib/client/scripts/base_gemini.js',
+      'lib/client/scripts/icons_gemini.js',
 
       // images
       'img/header-bg.jpg'
@@ -58,7 +59,9 @@ Package.onUse(function (api) {
   api.export([
     'postModules',
     'postHeading',
-    'postMeta'
+    'postMeta',
+    'getIcon',
+    'icons'
   ]);
 
 });
