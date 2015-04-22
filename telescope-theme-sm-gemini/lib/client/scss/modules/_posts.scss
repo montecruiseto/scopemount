@@ -42,6 +42,7 @@
 .post-upvote {
     .upvote-link {
         color: $light-text;
+        transform: scale(1.2);
         &.voted {
             i.icon-voted {
                 border: 1px solid $light-text;
@@ -52,40 +53,62 @@
 }
 // -------------------------------- post content --------------------------------- //
 .post-heading {
-    margin-top: 25px;
+    margin-top: 10px;
+    @include medium-large {
+        margin-top: 25px;
+    }
     .post-title {
         display: block;
-        @include small {
-            font-size: 20px;
-        }
-        @include medium-large {
-            font-size: 30px;
-        }
         font-weight:bold;
+        font-size: 14px;
         &:visited {
             color: $text;
         }
-        width: 920px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        @include medium {
+            font-size: 21px;
+        }
+        @include mid-section {
+            font-size: 28px;
+        }
+        @include top-section {
+            font-size: 30px;
+            width: 920px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
     }
     .post-domain {
         color: black;
         font-weight: bold;
         text-transform: uppercase;
         font-size: 13px;
+        @include small-medium {
+            display: none !important;
+        }
     }
 }
 .post-meta-item {
-    font-size: 13px;
+    font-size: 11px;
     font-weight: normal;
     color: $light-text;
+    @include medium-large {
+        font-size: 13px;
+    }
+    &:nth-of-type(3) {
+        display: none;
+        @include top-section {
+            display: block;
+        }
+    }
 }
 .post-meta {
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
+    margin-top: 5px;
+    @include top-section {
+        margin-top: 10px;
+    }
     a:link, a:visited, a:active {
         color: $grey;
     }
@@ -96,8 +119,15 @@
         position: absolute;
         right: 10px;
         bottom: 0px;
+        display: none;
+        @media screen and (min-width: 38em) {
+          display: block;
+        }
         .icon {
-            font-size: 50px;
+            font-size: 40px;
+            @include large {
+                font-size: 50px;
+            }
         }
         .action-count {
           font-size: 14px;
@@ -115,19 +145,47 @@
     &:hover {
         background: orange;
     }
+    @include small {
+        display: none;
+    }
 }
 
 // -------------------------------- embedly thumbs --------------------------------- //
 .post-thumbnail-link {
-    width: 180px;
+    width: 100px;
+    @include medium-large {
+        width: 180px;
+    }
 }
 .posts-list .post-thumbnail {
-    margin-right: 20px;
+    margin-right: 0px;
+    @include medium-large {
+        margin-right: 20px;
+    }
 }
 
 // ----------------------------------- avatars ------------------------------------ //
+.avatar {
+    display: none;
+    height: 25px;
+    width: 25px;
+    @include medium-large {
+        display: block;
+    }
+    @media screen and (min-width: 38em) {
+      height: 45px;
+      width: 45px;
+    }
+    @include top-section {
+        height: 50px;
+        width: 50px;
+    }
+}
 .avatar.avatar-circle {
-    border: 8px black;
+    border: 5px black;
+    @media screen and (min-width: 38em) {
+      border-width: 8px
+    }
     border-radius: 50px;
     border-style: ridge;
     border-right-color: rgb(35, 204, 199);
@@ -137,12 +195,15 @@
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
     font-weight: bold;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+    @media screen and (max-width: 38em) {
+      font-size: 0px;
+    }
 }
 
 // ----------------------------------- other ------------------------------------ //
 .more-button {
     margin: 0 auto;
-    width: 20%;
+    width: 50%;
     height: 63px;
     border-bottom: 7px dotted #147875;
     background: $green;
@@ -157,5 +218,8 @@
     border-radius: 0px;
     &:hover {
         background: $green;
+    }
+    @include large {
+        width: 20%;
     }
 }
