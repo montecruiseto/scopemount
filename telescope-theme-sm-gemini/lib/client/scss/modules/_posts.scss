@@ -13,6 +13,9 @@
         border-radius: 0px 0px 0px 0px;
     }
 }
+.post-list-title, .page-title{
+    display: none;
+}
 // ------------------------------------ posts views nav ------------------------------------ //
 .posts-list-views{
     background: none;
@@ -138,6 +141,19 @@
     display: none;
 }
 
+.post-body, .page-body {
+    font-size: 13px;
+    @include medium {
+        font-size: 15px;
+    }
+    @include large {
+        font-size: 16px;
+    }
+}
+.post.sticky {
+    background: lightyellow;
+}
+
 // -------------------------------- post tags --------------------------------- //
 .post-category {
     background: orange;
@@ -218,6 +234,9 @@
     border-radius: 0px;
     &:hover {
         background: $green;
+    }
+    @include small {
+        font-size: 16px;
     }
     @include large {
         width: 20%;

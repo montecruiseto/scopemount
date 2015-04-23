@@ -10,7 +10,7 @@
 		height: 106px;
 		border-bottom: 15px rgb(35, 204, 199) solid;
 		box-shadow: 0px 1px 0px rgba(20, 120, 117, 0.6); // optional extra bottom border
-		margin-bottom: 5px;
+		margin-bottom: 15px;
 		@include large {
 		    margin-bottom: 25px;
 		    background-position-x: 0px;
