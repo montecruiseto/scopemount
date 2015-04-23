@@ -30,6 +30,7 @@ Package.onUse(function (api) {
       // modules
       'lib/client/scss/modules/_avatars.scss',
       'lib/client/scss/modules/_comments.scss',
+      'lib/client/scss/modules/_errors.scss',
       'lib/client/scss/modules/_layout.scss',
       'lib/client/scss/modules/_nav.scss',
       'lib/client/scss/modules/_mobile_nav.scss',
