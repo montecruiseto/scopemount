@@ -47,12 +47,13 @@ Package.onUse(function (api) {
       'lib/client/scss/screen.scss',
 
       // overrides
-      'lib/client/templates/nav_mod.html',
-      'lib/client/templates/post_info_mod.html',
+      'lib/client/templates/nav_gemini.html',
+      'lib/client/templates/post_info_gemini.html',
 
       // customizations
       'lib/client/scripts/base_gemini.js',
       'lib/client/scripts/icons_gemini.js',
+      'lib/client/scripts/templates_gemini.js',
 
       // images
       'img/header-bg.jpg'
