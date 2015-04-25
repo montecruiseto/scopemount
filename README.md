@@ -1,7 +1,9 @@
-# scopemount
+scopemount
+=========
 themes for Telescope
 
-1. Gemini (coming soon)
+1. [Gemini](http://sm-gemini.meteor.com/): a music community
+![gemini](http://i.imgur.com/z52BCNe.png)
 2. Hale (coming soon)
 3. Laval (coming soon)
 4. Starfire (coming soon)
@@ -22,3 +24,7 @@ themes for Telescope
 19. Lulin (coming soon)
 20. Magellan (coming soon)
 21. Jacobus (coming soon)
+
+### License
+
+js-tracks is licensed under the [MIT license](http://opensource.org/licenses/MIT).
