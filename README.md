@@ -2,11 +2,12 @@ scopemount
 =========
 themes for Telescope
 
-1.- [Gemini](http://sm-gemini.meteor.com/): a music community
+1- [Gemini](http://sm-gemini.meteor.com/): a music community
 
 ![gemini](http://i.imgur.com/9G6XYEi.jpg)
 
 2 -  Hale (a medical community - coming soon)
+
 3 -  Laval (a book club community - coming soon)
 4 -  Starfire (a gaming community - coming soon)
 5 -  Sloan (a content sharing community - coming soon)
