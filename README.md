@@ -3,7 +3,9 @@ scopemount
 themes for Telescope
 
 1. [Gemini](http://sm-gemini.meteor.com/): a music community
-![gemini](http://i.imgur.com/z52BCNe.png)
+
+![gemini](http://i.imgur.com/9G6XYEi.jpg)
+
 2. Hale (coming soon)
 3. Laval (coming soon)
 4. Starfire (coming soon)
@@ -27,4 +29,4 @@ themes for Telescope
 
 ### License
 
-js-tracks is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+scopemount is licensed under the [MIT license](http://opensource.org/licenses/MIT).
