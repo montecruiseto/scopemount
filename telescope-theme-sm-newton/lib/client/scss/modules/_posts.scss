@@ -1,0 +1,17 @@
+// ------------------------------------ post ------------------------------------ //
+.post-list-title, .page-title{
+    display: none;
+}
+
+// -------------------------------- post content --------------------------------- //
+.post-heading {
+	.post-title {
+		font-weight: 600;
+		@include medium-large {
+			font-size: 15px;
+		}
+		&:visited {
+			color: black;
+		}
+	}
+}
