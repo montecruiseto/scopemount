@@ -10,8 +10,8 @@ getIcon = function (iconName, iconClass) {
 icons = {
   open: "plus",
   close: "minus",
-  upvote: "long-arrow-up",
-  voted: "long-arrow-up",
+  upvote: "angle-double-up",
+  voted: "angle-double-up",
   downvote: "chevron-down",
   facebook: "facebook-square",
   twitter: "twitter",

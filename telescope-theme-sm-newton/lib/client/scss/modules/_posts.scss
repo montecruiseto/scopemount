@@ -1,6 +1,25 @@
 // ------------------------------------ post ------------------------------------ //
+.post {
+	padding: 11px 0px 11px 10px;
+}
 .post-list-title, .page-title{
     display: none;
+}
+
+// ------------------------------ posts-list layout ------------------------------ //
+.posts-list {
+	.post-rank {
+		order: 7;
+		span {
+			right: 0px;
+			height: 25px;
+			line-height: 25px;
+			width: 30px;
+			text-align: right;
+			font-size: 12px;
+			font-weight: bold;
+		}
+	}
 }
 
 // -------------------------------- post content --------------------------------- //
@@ -8,7 +27,7 @@
 	.post-title {
 		font-weight: 600;
 		@include medium-large {
-			font-size: 15px;
+			font-size: 16px;
 		}
 		&:visited {
 			color: black;
@@ -18,21 +37,39 @@
 // -------------------------------- post modules --------------------------------- //
 
 .post-upvote {
+	text-align: center;
+	font-size: 11px;
     .upvote-link {
-        transform: scale(1.2);
+        transform: scale(1.5);
         .icon-upvote{
         	border: none;
         }
         &.voted {
-        	border: none;
+        	i.icon-voted {
+        		border: none;
+        		color: black;
+        	}
         }
+    }
+    .points {
+    	display: flex;
+    	flex-direction: column;
     }
 }
 // -------------------------------- other --------------------------------- //
 
 .more-button {
+	margin: 20px 0 0 auto;
 	background: white;
+	border-radius: 3px 3px 3px 3px;
+	text-transform: uppercase;
+	font-size: 14px;
+	height: 50px;
+	line-height: 46px;
 	&:hover {
 		background: white;
+	}
+	@include large {
+	    width: 12%;
 	}
 }

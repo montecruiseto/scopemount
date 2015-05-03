@@ -25,11 +25,13 @@ Package.onUse(function (api) {
     [
       // globals
       'lib/client/scss/global/_forms.scss',
+      'lib/client/scss/global/_links.scss',
 
       // modules
       'lib/client/scss/modules/_layout.scss',
       'lib/client/scss/modules/_nav.scss',
       'lib/client/scss/modules/_posts.scss',
+      'lib/client/scss/modules/_search.scss',
 
       // partials
       'lib/client/scss/partials/_typography.scss',
@@ -40,6 +42,9 @@ Package.onUse(function (api) {
 
       // overrides
       'lib/client/templates/post_content_newton.html',
+      'lib/client/templates/post_domain_newton.html',
+      'lib/client/templates/post_info_newton.html',
+      'lib/client/templates/post_upvote_newton.html',
 
       // customizations
       'lib/client/scripts/base_newton.js',
