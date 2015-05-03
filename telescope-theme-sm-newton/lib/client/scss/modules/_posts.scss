@@ -15,3 +15,24 @@
 		}
 	}
 }
+// -------------------------------- post modules --------------------------------- //
+
+.post-upvote {
+    .upvote-link {
+        transform: scale(1.2);
+        .icon-upvote{
+        	border: none;
+        }
+        &.voted {
+        	border: none;
+        }
+    }
+}
+// -------------------------------- other --------------------------------- //
+
+.more-button {
+	background: white;
+	&:hover {
+		background: white;
+	}
+}

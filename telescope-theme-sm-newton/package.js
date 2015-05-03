@@ -24,8 +24,10 @@ Package.onUse(function (api) {
   api.addFiles(
     [
       // globals
+      'lib/client/scss/global/_forms.scss',
 
       // modules
+      'lib/client/scss/modules/_layout.scss',
       'lib/client/scss/modules/_nav.scss',
       'lib/client/scss/modules/_posts.scss',
 
@@ -41,6 +43,7 @@ Package.onUse(function (api) {
 
       // customizations
       'lib/client/scripts/base_newton.js',
+      'lib/client/scripts/icons_newton.js',
       'lib/client/scripts/templates_newton.js'
 
     ],
@@ -48,7 +51,10 @@ Package.onUse(function (api) {
   );
 
   api.export([
-    'postHeading'
+    'postModules',
+    'postHeading',
+    'getIcon',
+    'icons'
   ]);
 
 });

@@ -1,0 +1,6 @@
+input[type="submit"], button, .button, .btn{
+  &.btn-primary, &.submit{
+    background: transparent;
+    border: 2px solid white;
+  }
+}
