@@ -36,6 +36,7 @@ Package.onUse(function (api) {
       // partials
       'lib/client/scss/partials/_typography.scss',
       'lib/client/scss/partials/_grid.scss',
+      'lib/client/scss/partials/_colors.scss',
 
       // screen
       'lib/client/scss/screen.scss',
@@ -58,6 +59,7 @@ Package.onUse(function (api) {
   api.export([
     'postModules',
     'postHeading',
+    'postMeta',
     'getIcon',
     'icons'
   ]);

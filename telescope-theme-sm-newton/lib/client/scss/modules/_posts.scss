@@ -6,6 +6,22 @@
     display: none;
 }
 
+// ------------------------------------ posts views nav ------------------------------------ //
+.posts-list-views{
+	.menu-top-level{
+		font-size: 11px;
+		margin-right: 20px;
+	}
+	.menu-item{
+		text-transform: uppercase;
+		a {
+			font-size: 11px;
+			letter-spacing: 1px;
+			color: $main;
+		}
+	}
+}
+
 // ------------------------------ posts-list layout ------------------------------ //
 .posts-list {
 	.post-rank {
@@ -34,11 +50,32 @@
 		}
 	}
 }
+.post-meta {
+	a {
+		&:link,
+		&:visited,
+		&:active {
+			font-weight: normal;
+		}
+		&:hover {
+			color: $mainDark;
+			text-decoration: underline;
+		}
+	}
+}
+.post-body, .page-body {
+    font-size: 13px;
+    @include large {
+        font-size: 14px;
+    }
+}
 // -------------------------------- post modules --------------------------------- //
 
 .post-upvote {
 	text-align: center;
 	font-size: 11px;
+	color: $main;
+	font-weight: bold;
     .upvote-link {
         transform: scale(1.5);
         .icon-upvote{

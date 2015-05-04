@@ -1,8 +1,8 @@
 <template name="postInfoNewton">
   <div class="post-meta-item" aria-live="off">
-    {{#if postedAt}}<span class="post-time">{{timeAgo postedAt}}</span>{{/if}}
-    {{#if canEdit this}}
-      | <a href="{{pathFor route='post_edit' _id=_id}}" class="edit-link goto-edit">{{_ "edit"}}</a>
-    {{/if}}
+	  {{#if canEdit this}}
+	    | <a href="{{pathFor route='post_edit' _id=_id}}" class="edit-link goto-edit">{{_ "edit"}}</a>
+	  {{/if}}
+    {{#if postedAt}}<span class="post-time"> &mdash; {{timeAgo postedAt}} by</span>{{/if}}
   </div>
 </template>

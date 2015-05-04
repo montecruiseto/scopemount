@@ -30,3 +30,22 @@ postHeading = [
     order: 20
   }
 ];
+
+postMeta = [
+  {
+    template: 'postCommentsLink',
+    order: 10
+  },
+  {
+    template: 'postInfo',
+    order: 20
+  },
+  {
+    template: 'postAuthor',
+    order: 30
+  },
+  {
+    template: 'postAdmin',
+    order: 50
+  }
+];
