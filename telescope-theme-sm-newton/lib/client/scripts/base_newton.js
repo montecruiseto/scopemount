@@ -13,10 +13,6 @@ postModules = [
   {
     template: 'postRank',
     order: 30
-  },
-  {
-    template: 'postActions',
-    order: 40
   }
 ];
 

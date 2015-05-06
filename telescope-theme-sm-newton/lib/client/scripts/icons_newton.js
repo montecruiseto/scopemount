@@ -12,7 +12,7 @@ icons = {
   close: "minus",
   upvote: "angle-double-up",
   voted: "angle-double-up",
-  downvote: "chevron-down",
+  downvote: "angle-double-down",
   facebook: "facebook-square",
   twitter: "twitter",
   googleplus: "google-plus",

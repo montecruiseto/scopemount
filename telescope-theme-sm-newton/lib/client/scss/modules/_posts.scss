@@ -1,6 +1,9 @@
 // ------------------------------------ post ------------------------------------ //
 .post {
 	padding: 11px 0px 11px 10px;
+	@include small {
+		padding: 11px 10px 11px 0px;
+	}
 }
 .post-list-title, .page-title{
     display: none;
@@ -24,6 +27,11 @@
 
 // ------------------------------ posts-list layout ------------------------------ //
 .posts-list {
+	.post-upvote {
+		@include small {
+			display: block;
+		}
+	}
 	.post-rank {
 		order: 7;
 		span {
@@ -42,6 +50,9 @@
 .post-heading {
 	.post-title {
 		font-weight: 600;
+		@include small {
+			font-size: 14px;
+		}
 		@include medium-large {
 			font-size: 16px;
 		}
@@ -49,16 +60,25 @@
 			color: black;
 		}
 	}
+	.post-domain {
+		@include small {
+			font-size: 13px;
+		}
+		@include medium-large {
+			font-size: 13px;
+		}
+	}
 }
 .post-meta {
 	a {
+		text-transform: capitalize;
 		&:link,
 		&:visited,
 		&:active {
 			font-weight: normal;
 		}
 		&:hover {
-			color: $mainDark;
+			color: gray;
 			text-decoration: underline;
 		}
 	}
@@ -108,5 +128,9 @@
 	}
 	@include large {
 	    width: 12%;
+	}
+	&:after {
+		font-size: 16px;
+		content: " »";
 	}
 }

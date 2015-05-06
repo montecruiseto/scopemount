@@ -1,39 +1,45 @@
 
 // ------------------------------------ Top Nav Layout ------------------------------------ //
 
-.top-nav{
-	.header{
-		background-color: $main;
-		.primary-nav{
-			text-transform: capitalize;
-			letter-spacing: 0.8px;
-			font-size: 13px;
-		}
-		.secondary-nav{
-			text-transform: capitalize;
-			letter-spacing: 0.8px;
-			font-size: 13px;
-			.btn.btn-primary, .btn.submit {
-			  background: transparent;
-			  padding: 15px 0px;
-			  letter-spacing: 1px;
-			  font-size: 13px;
-			  border: none;
-			}
-		}
-		.menu-item a {
-  		font-size: 12px;
+.top-nav {
+    .header {
+        background-color: $main;
+        .primary-nav {
+            text-transform: capitalize;
+            letter-spacing: 0.8px;
+            font-size: 13px;
+        }
+        .secondary-nav {
+            text-transform: capitalize;
+            letter-spacing: 0.8px;
+            font-size: 13px;
+            .btn.btn-primary, .btn.submit {
+                background: transparent;
+                padding: 15px 0px;
+                letter-spacing: 1px;
+                font-size: 13px;
+                border: none;
+            }
+        }
+        .menu-item a {
+            font-size: 12px;
+        }
+        	.header-submodule:nth-child(2) {
+        	  	@include medium {
+        	  	    display: none;
+        	  	}
+        	}
+    }
+    .logo {
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        text-shadow: -1px -1px rgba(0, 0, 0, 0.33);
+        @include medium-large {
+            font-size: 19px;
+        }
+    }
 }
-	}
-	.logo{
-		letter-spacing: 8px;
-		text-transform: uppercase;
-		text-shadow: -1px -1px rgba(0, 0, 0, 0.33);
-		@include medium-large{
-			font-size:19px;
-		}
-	}
-}
+
 
 
 
