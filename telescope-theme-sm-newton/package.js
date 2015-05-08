@@ -31,8 +31,10 @@ Package.onUse(function (api) {
       'lib/client/scss/modules/_comments.scss',
       'lib/client/scss/modules/_layout.scss',
       'lib/client/scss/modules/_nav.scss',
+      'lib/client/scss/modules/_mobile_nav.scss',
       'lib/client/scss/modules/_posts.scss',
       'lib/client/scss/modules/_search.scss',
+      'lib/client/scss/modules/_errors.scss',
 
       // partials
       'lib/client/scss/partials/_typography.scss',
