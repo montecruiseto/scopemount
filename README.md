@@ -57,8 +57,6 @@ Download and extract themes to your Telescope package directory and add to your 
 
 21 -  Jacobus (a mindfulness community - coming soon)
 
-### Usage
-
 ### License
 
 scopemount is licensed under the [MIT license](http://opensource.org/licenses/MIT).
