@@ -9,11 +9,11 @@ Download and extract themes to your Telescope package directory and add to your 
 
 ### Themes
 
-1 -  [Newton](http://sm-newton.meteor.com/) (a minimal tech news theme)
+1 -  Newton (a minimal tech news theme - [Demo](http://sm-newton.meteor.com/))
 
 ![newton](http://i.imgur.com/MTAnmx2.png)
 
-2 - [Gemini](http://sm-gemini.meteor.com/): (a modern music theme)
+2 - Gemini (a modern music theme - [Demo](http://sm-gemini.meteor.com/))
 
 ![gemini](http://i.imgur.com/9G6XYEi.jpg)
 
