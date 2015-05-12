@@ -1,6 +1,7 @@
 input[type="submit"], button, .button, .btn{
   &.btn-primary, &.submit{
-    background: gray;
+    background: transparent;
+    border: 2px solid white;
     font-size: 13px;
     letter-spacing: 1px;
   }
