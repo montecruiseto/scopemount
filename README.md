@@ -3,6 +3,8 @@ Scopemount
 
 Free, professional themes for Telescope
 
+![Imgur](http://i.imgur.com/8yYLXiY.jpg)
+
 ### Usage
 
 Download and extract themes to your Telescope package directory and add to your Telescope directory e.g. `meteor add telescope-theme-sm-gemini`. All the themes use the default base and hubble themes as a dependency, so make sure you have them added to your app.
