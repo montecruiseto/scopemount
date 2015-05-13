@@ -12,6 +12,6 @@ $nav-width: 150px;
     	@include medium-large{
     		width: $nav-width;
     	}
-        background-color: orange;
+        background-color: $mainDark;
     }
 }
