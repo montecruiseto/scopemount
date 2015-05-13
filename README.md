@@ -1,7 +1,7 @@
 Scopemount
 =========
 
-Free, professional themes for Telescope
+[![Imgur](http://i.imgur.com/8yYLXiY.jpg)](http://scopemount.startrack.io)
 
 ### Usage
 
