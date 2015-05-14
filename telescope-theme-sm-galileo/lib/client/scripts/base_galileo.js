@@ -1,7 +1,4 @@
-// ------------------------------------- Views -------------------------------- //
-
-postModules = [
-
+Telescope.modules.register("postComponents", [
   {
     template: 'postUpvote',
     order: 10
@@ -14,20 +11,20 @@ postModules = [
     template: 'postRank',
     order: 30
   }
-];
+]);
 
-postHeading = [
+Telescope.modules.register("postHeading", [
   {
-    template: 'postTitle',
+    template: 'post_title',
     order: 10
   },
   {
     template: 'postDomain',
     order: 20
   }
-];
+]);
 
-postMeta = [
+Telescope.modules.register("postMeta", [
   {
     template: 'postCommentsLink',
     order: 10
@@ -42,6 +39,6 @@ postMeta = [
   },
   {
     template: 'postAdmin',
-    order: 50
+    order: 40
   }
-];
+]);

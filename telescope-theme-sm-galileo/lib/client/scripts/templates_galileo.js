@@ -1,6 +1,5 @@
-templates["postContent"]  = "postContentGalileo";
-templates["postDomain"]  = "postDomainGalileo";
-templates["postUpvote"]  = "postUpvoteGalileo";
-templates["postInfo"]  = "postInfoGalileo";
-
-
+// Override original templates
+Template.postContentGalileo.replaces("postContent");
+Template.postDomainGalileo.replaces("postDomain");
+Template.postUpvoteGalileo.replaces("postUpvote");
+Template.postInfoGalileo.replaces("postInfo");

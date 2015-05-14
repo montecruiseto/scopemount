@@ -1,28 +1,21 @@
 Package.describe({
-  summary: "Telescope scopemount-galileo theme",
-  version: '0.1.0',
-  name: "telescope-theme-sm-galileo"
+  name: "telescope:theme-sm-galileo",
+  summary: "Telescope Scopemount:Galileo theme package",
+  version: "0.1.0",
+  git: "https://github.com/montecruiseto/scopemount.git"
 });
 
 Package.onUse(function (api) {
 
-  api.use(
-    [
-      'templating',
-      'telescope-lib',
-      'telescope-base',
-      'telescope-theme-hubble',
-      'fourseven:scss'
-    ],
-    ['client', 'server']
-  );
+  api.versionsFrom("METEOR@1.0");
+
+  api.use([
+      // core dependencies
+      'telescope:core@0.1.0',
+      'telescope:theme-hubble@0.1.0'
+    ]);
 
   api.addFiles([
-    //
-    ], ['client', 'server']);
-
-  api.addFiles(
-    [
       // globals
       'lib/client/scss/global/_forms.scss',
       'lib/client/scss/global/_links.scss',
@@ -55,16 +48,12 @@ Package.onUse(function (api) {
       'lib/client/scripts/icons_galileo.js',
       'lib/client/scripts/templates_galileo.js'
 
-    ],
-    'client'
-  );
+    ], ['client']);
 
   api.export([
-    'postModules',
+    'postComponents',
     'postHeading',
-    'postMeta',
-    'getIcon',
-    'icons'
+    'postMeta'
   ]);
 
 });
