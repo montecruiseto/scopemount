@@ -1,14 +1,10 @@
 <template name="postContentGalileo">
     <div class="post-info">
       <h3 class="post-heading">
-        {{#each postHeading}}
-          {{> UI.dynamic template=getTemplate data=..}}
-        {{/each}}
+        {{> modules "postHeading"}}
       </h3>
       <div class="post-meta">
-        {{#each postMeta}}
-          {{> UI.dynamic template=getTemplate data=..}}
-        {{/each}}
+        {{> modules "postMeta"}}
       </div>
     </div>
 </template>

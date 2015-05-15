@@ -16,6 +16,10 @@ Package.onUse(function (api) {
     ]);
 
   api.addFiles([
+      'lib/modules_galileo.js'
+  ], ['client', 'server']);
+
+  api.addFiles([
       // globals
       'lib/client/scss/global/_forms.scss',
       'lib/client/scss/global/_links.scss',
@@ -44,16 +48,9 @@ Package.onUse(function (api) {
       'lib/client/templates/post_upvote_galileo.html',
 
       // customizations
-      'lib/client/scripts/base_galileo.js',
       'lib/client/scripts/icons_galileo.js',
       'lib/client/scripts/templates_galileo.js'
 
     ], ['client']);
-
-  api.export([
-    'postComponents',
-    'postHeading',
-    'postMeta'
-  ]);
 
 });
