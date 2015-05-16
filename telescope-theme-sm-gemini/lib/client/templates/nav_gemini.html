@@ -5,15 +5,13 @@
       {{{icon "menu"}}}
     </a>
 
-    {{> Template.dynamic template=logoTemplate}}
+    {{> logo}}
 
-    {{#with secondaryNav}}
+    {{#if hasSecondaryNav}}
       <div class="nav secondary-nav desktop-nav header-module desktop-only">
-        {{#each this}}
-          {{> UI.dynamic template=getTemplate}}
-        {{/each}}
+        {{> modules "secondaryNav"}}
       </div>
-    {{/with}}
+    {{/if}}
 
   </header>
 </template>

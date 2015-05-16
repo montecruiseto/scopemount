@@ -1,2 +1,2 @@
-templates["postInfo"]  = "postInfoGemini";
-templates["nav"]  = "navGemini";
+Template.postInfoGemini.replaces("postInfo");
+Template.navGemini.replaces("nav");

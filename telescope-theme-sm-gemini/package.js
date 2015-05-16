@@ -1,25 +1,21 @@
 Package.describe({
-  summary: "Telescope scopemount-gemini theme",
-  version: '0.1.0',
-  name: "telescope-theme-sm-gemini"
+  name: "telescope:theme-sm-gemini",
+  summary: "Telescope Scopemount: Gemini theme package",
+  version: "0.1.0",
+  git: "https://github.com/montecruiseto/scopemount.git"
 });
 
 Package.onUse(function (api) {
 
-  api.use(
-    [
-      'templating',
-      'telescope-lib',
-      'telescope-base',
-      'telescope-theme-hubble',
-      'fourseven:scss'
-    ],
-    ['client', 'server']
-  );
+  api.use([
+      // core dependencies
+      'telescope:core@0.1.0',
+      'telescope:theme-hubble@0.1.0'
+    ]);
 
   api.addFiles([
-    //
-    ], ['client', 'server']);
+      'lib/modules_gemini.js'
+  ], ['client', 'server']);
 
   api.addFiles(
     [
@@ -52,7 +48,6 @@ Package.onUse(function (api) {
       'lib/client/templates/post_info_gemini.html',
 
       // customizations
-      'lib/client/scripts/base_gemini.js',
       'lib/client/scripts/icons_gemini.js',
       'lib/client/scripts/templates_gemini.js',
 
@@ -62,13 +57,5 @@ Package.onUse(function (api) {
     ],
     'client'
   );
-
-  api.export([
-    'postModules',
-    'postHeading',
-    'postMeta',
-    'getIcon',
-    'icons'
-  ]);
 
 });
