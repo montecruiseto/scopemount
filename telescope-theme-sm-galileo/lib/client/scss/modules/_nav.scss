@@ -17,5 +17,10 @@ $nav-width: 175px;
         background:     -ms-linear-gradient($top 10%, $bottom 90%); /* IE10 */
         background:      -o-linear-gradient($top 10%, $bottom 90%); /* Opera 11.10+ */
         background:         linear-gradient($top 10%, $bottom 90%); /* W3C */
+        .logo {
+            margin-bottom: 40px;
+            margin-top: 40px;
+            font-size: 50px;
+        }
     }
 }
