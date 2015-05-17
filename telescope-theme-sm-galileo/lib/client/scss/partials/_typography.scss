@@ -1,6 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Amaranth:400);
+@import url(http://fonts.googleapis.com/css?family=Lora|Nunito:400,700);
 
 body, textarea, input, button, input[type="submit"], input[type="button"]{
-	font-family:"Amaranth", sans-serif;
+	font-family:"Nunito", sans-serif;
+}
+
+.post-body, .page-body {
+	font-family: "Lora";
 }
 

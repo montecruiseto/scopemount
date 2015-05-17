@@ -1,6 +1,6 @@
 // ------------------------------------ post ------------------------------------ //
 .post {
-	padding: 11px 0px 11px 10px;
+	padding: 40px 0px 30px 10px;
 	@include small {
 		padding: 11px 10px 11px 0px;
 	}
@@ -28,6 +28,7 @@
 // ------------------------------ posts-list layout ------------------------------ //
 .posts-list {
 	.post-upvote {
+		order: 3;
 		@include small {
 			display: block;
 		}
@@ -50,11 +51,12 @@
 .post-heading {
 	.post-title {
 		color: $main;
+		font-weight: 700;
 		@include small {
-			font-size: 14px;
+			font-size: 19px;
 		}
 		@include medium-large {
-			font-size: 20px;
+			font-size: 26px;
 		}
 		&:visited {
 			color: $main;
@@ -82,11 +84,26 @@
 			text-decoration: underline;
 		}
 	}
+	.avatar {
+		margin-top: 10px;
+	}
+	.post-commenters {
+		display: none;
+	}
 }
 .post-body, .page-body {
-    font-size: 13px;
+    font-size: 14px;
+    color: #57656d;
     @include large {
-        font-size: 14px;
+        font-size: 17px;
+    }
+    box-shadow: none;
+    padding: 15px 20px 3px 0px;
+    .list & {
+    	display: block;
+    }
+    p {
+        line-height: 1.6;
     }
 }
 // -------------------------------- post modules --------------------------------- //
@@ -97,7 +114,7 @@
 	color: $main;
 	font-weight: bold;
     .upvote-link {
-        transform: scale(1.5);
+        transform: scale(1.2);
         .icon-upvote{
         	border: none;
         }
@@ -113,6 +130,20 @@
     	flex-direction: column;
     }
 }
+// -------------------------------- post tags --------------------------------- //
+.post-category {
+    font-size: 13px;
+    font-weight: normal !important;
+    text-transform: capitalize;
+    &:hover {
+        background: gainsboro;
+    }
+    @include small {
+        display: none;
+    }
+}
+
+
 // -------------------------------- other --------------------------------- //
 
 .more-button {

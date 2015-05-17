@@ -46,6 +46,7 @@ Package.onUse(function (api) {
       'lib/client/templates/post_domain_galileo.html',
       'lib/client/templates/post_info_galileo.html',
       'lib/client/templates/post_upvote_galileo.html',
+      'lib/client/templates/post_page_galileo.html',
 
       // customizations
       'lib/client/scripts/icons_galileo.js',

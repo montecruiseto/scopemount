@@ -7,16 +7,27 @@ Telescope.modules.remove("postComponents", "postActions");
 
 Telescope.modules.register("postComponents", [
   {
-    template: 'postUpvote',
+    template: 'postContent',
     order: 10
   },
   {
-    template: 'postContent',
+    template: 'postUpvote',
     order: 20
+  }
+]);
+
+Telescope.modules.remove("postHeading", "post_title");
+Telescope.modules.remove("postHeading", "postDomain");
+Telescope.modules.remove("postHeading", "postCategories");
+
+Telescope.modules.register("postHeading", [
+  {
+    template: 'post_title',
+    order: 10
   },
   {
-    template: 'postRank',
-    order: 30
+    template: 'postCategories',
+    order: 20
   }
 ]);
 
@@ -41,5 +52,9 @@ Telescope.modules.register("postMeta", [
   {
     template: 'postAdmin',
     order: 40
+  },
+  {
+    template: 'postAvatars',
+    order: 50
   }
 ]);

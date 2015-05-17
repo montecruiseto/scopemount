@@ -1,6 +1,6 @@
 // ------------------------------------ Side Nav Layout ------------------------------------ //
 
-$nav-width: 150px;
+$nav-width: 175px;
 
 .side-nav{
 	  .inner-wrapper{
@@ -12,6 +12,10 @@ $nav-width: 150px;
     	@include medium-large{
     		width: $nav-width;
     	}
-        background-color: $mainDark;
+        background: -webkit-linear-gradient(tomato 8%, #F9D423 100%); /* Chrome 10+, Saf5.1+ */
+        background:    -moz-linear-gradient(tomato 8%, #F9D423 100%); /* FF3.6+ */
+        background:     -ms-linear-gradient(tomato 8%, #F9D423 100%); /* IE10 */
+        background:      -o-linear-gradient(tomato 8%, #F9D423 100%); /* Opera 11.10+ */
+        background:         linear-gradient(tomato 8%, #F9D423 100%); /* W3C */
     }
 }
