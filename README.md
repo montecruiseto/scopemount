@@ -5,7 +5,7 @@ Scopemount
 
 ### Usage
 
-Download and extract themes to your Telescope package directory and add to your Telescope directory e.g. `meteor add telescope-theme-sm-gemini`. All the themes use the default base and hubble themes as a dependency, so make sure you have them added to your app.
+Download and extract themes to your Telescope package directory and add to your Telescope app by running the `meteor add` command e.g. `meteor add telescope-theme-sm-gemini`. All the themes use the default base and hubble themes as a dependency, so make sure you have them added to your app.
 
 ### Themes
 
