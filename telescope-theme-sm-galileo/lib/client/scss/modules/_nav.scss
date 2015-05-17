@@ -12,10 +12,10 @@ $nav-width: 175px;
     	@include medium-large{
     		width: $nav-width;
     	}
-        background: -webkit-linear-gradient(tomato 8%, #F9D423 100%); /* Chrome 10+, Saf5.1+ */
-        background:    -moz-linear-gradient(tomato 8%, #F9D423 100%); /* FF3.6+ */
-        background:     -ms-linear-gradient(tomato 8%, #F9D423 100%); /* IE10 */
-        background:      -o-linear-gradient(tomato 8%, #F9D423 100%); /* Opera 11.10+ */
-        background:         linear-gradient(tomato 8%, #F9D423 100%); /* W3C */
+        background: -webkit-linear-gradient($top 10%, $bottom 90%); /* Chrome 10+, Saf5.1+ */
+        background:    -moz-linear-gradient($top 10%, $bottom 90%); /* FF3.6+ */
+        background:     -ms-linear-gradient($top 10%, $bottom 90%); /* IE10 */
+        background:      -o-linear-gradient($top 10%, $bottom 90%); /* Opera 11.10+ */
+        background:         linear-gradient($top 10%, $bottom 90%); /* W3C */
     }
 }

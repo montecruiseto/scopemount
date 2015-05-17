@@ -114,14 +114,22 @@
 	color: $main;
 	font-weight: bold;
     .upvote-link {
-        transform: scale(1.2);
+        transform: scale(1.3);
+        margin-bottom: 13px;
+        .icon-circle {
+        	border-radius: 0%;
+        	padding: 3px;
+        }
         .icon-upvote{
-        	border: none;
+        	border: 1px solid silver;
+        	color: silver;
+        	background-color: white;
         }
         &.voted {
         	i.icon-voted {
-        		border: none;
-        		color: black;
+        		border: 1px solid dimgray;
+        		color: white;
+        		background-color: dimgray;
         	}
         }
     }
@@ -134,9 +142,13 @@
 .post-category {
     font-size: 13px;
     font-weight: normal !important;
+    color: #808393 !important;
+    background: whitesmoke;
     text-transform: capitalize;
+    padding: 3px 5px 3px 5px;
     &:hover {
-        background: gainsboro;
+        background: #EFECEC;
+        color: black;
     }
     @include small {
         display: none;

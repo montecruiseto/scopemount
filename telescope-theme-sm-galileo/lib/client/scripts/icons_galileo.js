@@ -1,4 +1,4 @@
 // override icons
 
-Telescope.utils.icons.upvote = "arrow-up";
-Telescope.utils.icons.voted = "arrow-up";
+Telescope.utils.icons.upvote = "long-arrow-up";
+Telescope.utils.icons.voted = "long-arrow-up";
