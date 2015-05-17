@@ -28,6 +28,7 @@ Package.onUse(function (api) {
       'lib/client/scss/modules/_avatars.scss',
       'lib/client/scss/modules/_comments.scss',
       'lib/client/scss/modules/_layout.scss',
+      'lib/client/scss/modules/_menu.scss',
       'lib/client/scss/modules/_nav.scss',
       'lib/client/scss/modules/_mobile_nav.scss',
       'lib/client/scss/modules/_posts.scss',

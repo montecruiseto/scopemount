@@ -1,6 +1,9 @@
 // ------------------------------------ post ------------------------------------ //
 .post {
 	padding: 40px 0px 30px 10px;
+	&:nth-of-type(1) {
+		padding-top: 20px;
+	}
 	@include small {
 		padding: 11px 10px 11px 0px;
 	}
@@ -159,18 +162,15 @@
 // -------------------------------- other --------------------------------- //
 
 .more-button {
-	margin: 20px 0 0 auto;
+	margin-top: 20px;
 	background: white;
-	border-radius: 3px 3px 3px 3px;
+	text-decoration: underline;
 	text-transform: uppercase;
 	font-size: 14px;
 	height: 50px;
 	line-height: 46px;
 	&:hover {
 		background: white;
-	}
-	@include large {
-	    width: 12%;
 	}
 	&:after {
 		font-size: 16px;
