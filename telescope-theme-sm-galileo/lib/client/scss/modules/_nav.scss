@@ -22,5 +22,13 @@ $nav-width: 175px;
             margin-top: 40px;
             font-size: 50px;
         }
+        input[type="submit"], button, .button, .btn{
+          &.btn-primary, &.submit{
+            background: transparent;
+            border: 2px solid white;
+            font-size: 13px;
+            letter-spacing: 1px;
+          }
+        }
     }
 }

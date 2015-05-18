@@ -1,60 +1,47 @@
-Telescope.modules.remove("postComponents", "postRank");
-Telescope.modules.remove("postComponents", "postUpvote");
-Telescope.modules.remove("postComponents", "postContent");
-Telescope.modules.remove("postComponents", "postAvatars");
-Telescope.modules.remove("postComponents", "postDiscuss");
-Telescope.modules.remove("postComponents", "postActions");
-
-Telescope.modules.register("postComponents", [
+Telescope.modules.removeAll("postComponents");
+Telescope.modules.add("postComponents", [
   {
-    template: 'postUpvote',
+    template: 'post_upvote',
     order: 10
   },
   {
-    template: 'postContent',
+    template: 'post_content',
     order: 20
   },
   {
-    template: 'postRank',
+    template: 'post_rank',
     order: 30
   }
 ]);
 
-Telescope.modules.remove("postHeading", "post_title");
-Telescope.modules.remove("postHeading", "postDomain");
-Telescope.modules.remove("postHeading", "postCategories");
-
-Telescope.modules.register("postHeading", [
+Telescope.modules.removeAll("postHeading");
+Telescope.modules.add("postHeading", [
   {
     template: 'post_title',
     order: 10
   },
   {
-    template: 'postDomain',
+    template: 'post_domain',
     order: 20
   }
 ]);
 
-Telescope.modules.remove("postMeta", "postCommentsLink");
-Telescope.modules.remove("postMeta", "postInfo");
-Telescope.modules.remove("postMeta", "postAuthor");
-Telescope.modules.remove("postMeta", "postAdmin");
-
-Telescope.modules.register("postMeta", [
+Telescope.modules.removeAll("postMeta");
+Telescope.modules.add("postMeta", [
   {
-    template: 'postCommentsLink',
+    template: 'post_comments_link',
     order: 10
   },
   {
-    template: 'postInfo',
+    template: 'post_info',
     order: 20
   },
   {
-    template: 'postAuthor',
+    template: 'post_author',
     order: 30
   },
   {
-    template: 'postAdmin',
+    template: 'post_admin',
     order: 40
   }
 ]);

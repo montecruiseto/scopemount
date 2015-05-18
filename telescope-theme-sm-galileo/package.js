@@ -44,6 +44,8 @@ Package.onUse(function (api) {
       'lib/client/scss/screen.scss',
 
       // overrides
+      'lib/client/templates/comment_submit_galileo.html',
+      'lib/client/templates/post_comments_link_galileo.html',
       'lib/client/templates/post_content_galileo.html',
       'lib/client/templates/post_domain_galileo.html',
       'lib/client/templates/post_info_galileo.html',

@@ -1,9 +1,12 @@
 input[type="submit"], button, .button, .btn{
   &.btn-primary, &.submit{
-    background: transparent;
-    border: 2px solid white;
-    font-size: 13px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    color: #808393;
+    border: 1px solid #808393;
+    font-size: 12px;
     letter-spacing: 1px;
+    text-transform: uppercase;
   }
 }
 
