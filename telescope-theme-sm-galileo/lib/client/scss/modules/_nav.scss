@@ -25,6 +25,7 @@ $nav-width: 175px;
         input[type="submit"], button, .button, .btn{
           &.btn-primary, &.submit{
             background: transparent;
+            text-transform: capitalize;
             border: 2px solid white;
             font-size: 13px;
             letter-spacing: 1px;

@@ -1,0 +1,64 @@
+{
+   // Settings Schema
+  "commentInterval": "Answer Interval",
+
+  // Settings Fieldsets
+  "comments": "Answers",
+
+  // Post Schema
+  "commentCount": "Answer Count",
+  "commenters": "Responders",
+  "lastCommentedAt": "Last Answered At",
+  "userId": "User",
+  "sorry_we_couldnt_find_any_posts": "Sorry, we couldn't find any questions.",
+
+  //Commments
+  "your_comment_has_been_deleted": "Your answer has been deleted.",
+  "comment_": "Answer",
+  "delete_comment": "Delete Answer",
+  "add_comment": "Add Answer",
+  "no_comments": "No answers.",
+
+  //Errors
+  "sorry_you_do_not_have_the_rights_to_comments": "Sorry, you do not have the rights to leave answers at this time.",
+
+  // Post deleted
+  "your_post_has_been_deleted": "Your question has been deleted.",
+
+  // Post submit & edit
+  "note_this_post_is_still_pending_so_it_has_no_submission_timestamp_yet": "Note: this question is still pending so it has no submission timestamp yet.",
+  "delete_post": "Delete Question",
+  "thanks_your_post_is_awaiting_approval": "Thanks, your question is awaiting approval.",
+
+  // Post item
+  "comment": "answer",
+  "comments": "answers",
+
+  //User /client/views/users/account/user_account.html
+  "comments_on_my_posts": "Answers to my questions",
+  "replies_to_my_comments": "Replies to my answers",
+  "comments_": "Answers",
+
+  //helpers
+  "sorry_you_cannot_edit_this_comment": "Sorry, you cannot edit this answer.",
+
+  //Collections
+  "you_need_to_login_or_be_invited_to_post_new_comments": "You need to login or be invited to post new answers.",
+  "seconds_before_commenting_again": " seconds before answering again",
+  "your_comment_is_empty": "Your answer is empty.",
+  "you_dont_have_permission_to_delete_this_comment": "You don't have permission to delete this answer.",
+  "someone_replied_to_your_comment_on": "Someone replied to your answer on",
+  "has_replied_to_your_comment_on": " has replied to your answer on",
+  "a_new_comment_on_your_post": "A new answer on your post",
+  "you_have_a_new_comment_by": "You have a new answer by ",
+  "on_your_post": " on your question",
+  "has_created_a_new_post": " has created a new question",
+
+  //Common
+  "please_log_in_to_comment": "Please log in to answer.",
+
+  // Subscriptions
+  "subscribed_posts": "Subscribed Posts",
+  "subscribe_to_thread": "Subscribe to Q&A thread",
+  "unsubscribe_from_thread": "Unsubscribe from Q&A thread"
+}

@@ -15,6 +15,12 @@ Package.onUse(function (api) {
       'telescope:theme-hubble@0.1.0'
     ]);
 
+  // i18n config (must come first)
+
+  api.addFiles([
+    'package-tap.i18n'
+  ], ['client', 'server']);
+
   api.addFiles([
       'lib/modules_galileo.js'
   ], ['client', 'server']);
@@ -23,6 +29,8 @@ Package.onUse(function (api) {
       // globals
       'lib/client/scss/global/_forms.scss',
       'lib/client/scss/global/_links.scss',
+      'lib/client/scss/global/_forms.scss',
+      'lib/client/scss/global/_markdown.scss',
 
       // modules
       'lib/client/scss/modules/_avatars.scss',
@@ -44,8 +52,6 @@ Package.onUse(function (api) {
       'lib/client/scss/screen.scss',
 
       // overrides
-      'lib/client/templates/comment_submit_galileo.html',
-      'lib/client/templates/post_comments_link_galileo.html',
       'lib/client/templates/post_content_galileo.html',
       'lib/client/templates/post_domain_galileo.html',
       'lib/client/templates/post_info_galileo.html',
@@ -57,5 +63,11 @@ Package.onUse(function (api) {
       'lib/client/scripts/templates_galileo.js'
 
     ], ['client']);
+
+  // i18n languages (must come last)
+
+  api.addFiles([
+    'i18n/en.i18n.json'
+  ], ['client', 'server']);
 
 });
