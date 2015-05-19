@@ -32,9 +32,6 @@
 .posts-list {
 	.post-upvote {
 		order: 3;
-		@include small {
-			display: block;
-		}
 	}
 	.post-rank {
 		order: 7;
@@ -55,9 +52,7 @@
 	.post-title {
 		color: $main;
 		font-weight: 700;
-		@include small {
-			font-size: 19px;
-		}
+		font-size: 24px;
 		@include medium-large {
 			font-size: 26px;
 		}
@@ -75,6 +70,9 @@
 	}
 }
 .post-meta {
+	@include small {
+	    font-size: 12px !important;
+	}
 	a {
 		text-transform: capitalize;
 		&:link,
@@ -95,7 +93,7 @@
 	}
 }
 .post-body, .page-body {
-    font-size: 14px;
+    font-size: 15px;
     color: #57656d;
     @include large {
         font-size: 17px;

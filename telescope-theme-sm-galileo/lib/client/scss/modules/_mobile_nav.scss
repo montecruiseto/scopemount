@@ -1,4 +1,3 @@
-
 .mobile-nav{
   .menu-top-level{
     text-transform: capitalize;
@@ -12,7 +11,8 @@
     font-size: 12px;
   }
   .btn.btn-primary, .btn.submit {
-    background: $main;
+    background: transparent;
     text-transform: uppercase;
+    border: 2px solid white;
   }
 }
