@@ -1,7 +1,7 @@
 Package.describe({
   name: "telescope:theme-sm-gemini",
   summary: "Telescope Scopemount: Gemini theme package",
-  version: "0.1.0",
+  version: "0.0.0",
   git: "https://github.com/montecruiseto/scopemount.git"
 });
 
