@@ -1,5 +1,5 @@
 Package.describe({
-  name: "telescope:theme-sm-newton",
+  name: "montecruiseto:telescope-theme-sm-newton",
   summary: "Telescope Scopemount: Newton theme package",
   version: "0.1.0",
   git: "https://github.com/montecruiseto/scopemount.git"

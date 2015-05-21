@@ -1,15 +1,22 @@
 Scopemount
 =========
 
+*Update: Scopemount themes are up-to-date with Telescope v0.20.4.*
+
 Scopemount is a set of free professional themes for Telescope. [Telescope](http://www.telescopeapp.org/) is an open source Meteor app that makes it easy to launch communities.
 
 [![Imgur](http://i.imgur.com/8yYLXiY.jpg)](http://scopemount.startrack.io)
 
 ### Usage
 
-Download and extract themes to your Telescope package directory and add to your Telescope app by running the `meteor add` command e.g. `meteor add telescope-theme-sm-gemini`. All the themes use the default base and hubble themes as a dependency, so make sure you have them added to your app.
+Install automagically from Atmosphere
 
-*Update: Scopemount themes are up-to-date with Telescope v0.20.4.*
+```bash
+meteor add montecruiseto:telescope-theme-sm-galileo
+```
+
+Alternatively if you want to customize the themes: Download and extract themes to your Telescope package directory and add to your Telescope app by running the `meteor add` command e.g. `meteor add montecruiseto:telescope-theme-sm-galileo`.
+All the themes use the hubble theme as a dependency.
 
 ### Themes
 

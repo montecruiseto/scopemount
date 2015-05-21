@@ -1,6 +1,6 @@
 Package.describe({
-  name: "telescope:theme-sm-galileo",
-  summary: "Telescope Scopemount:Galileo theme package",
+  name: "montecruiseto:telescope-theme-sm-galileo",
+  summary: "Telescope Scopemount: Galileo theme package",
   version: "0.1.0",
   git: "https://github.com/montecruiseto/scopemount.git"
 });
