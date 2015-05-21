@@ -15,8 +15,8 @@ Install automagically from Atmosphere
 meteor add montecruiseto:telescope-theme-sm-galileo
 ```
 
-Alternatively if you want to customize the themes: Download and extract themes to your Telescope package directory and add to your Telescope app by running the `meteor add` command e.g. `meteor add montecruiseto:telescope-theme-sm-galileo`.
-All the themes use the hubble theme as a dependency.
+Alternatively if you want to customize the themes: Download and extract the themes of your choice to your Telescope package directory and add to your Telescope app by running the `meteor add` command e.g. `meteor add montecruiseto:telescope-theme-sm-galileo`.
+All the themes use the base and hubble theme as a dependency.
 
 ### Themes
 
