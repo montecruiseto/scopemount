@@ -1,7 +1,7 @@
 Scopemount
 =========
 
-Scopemount is a set of free professional themes for Telescope, an open source Meteor app that makes it easy to launch communities.
+Scopemount is a set of free professional themes for Telescope. [Telescope](http://www.telescopeapp.org/) is an open source Meteor app that makes it easy to launch communities.
 
 [![Imgur](http://i.imgur.com/8yYLXiY.jpg)](http://scopemount.startrack.io)
 
