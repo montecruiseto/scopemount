@@ -11,8 +11,8 @@ Package.onUse(function (api) {
 
   api.use([
       // core dependencies
-      'telescope:core@0.1.0',
-      'telescope:theme-hubble@0.1.0'
+      'telescope:core@0.20.4',
+      'telescope:theme-hubble@0.20.4'
     ]);
 
   // i18n config (must come first)
