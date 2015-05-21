@@ -9,39 +9,43 @@ Download and extract themes to your Telescope package directory and add to your 
 
 ### Themes
 
-1 -  Newton (a minimal tech news theme - [Demo](http://sm-newton.meteor.com/))
+1 -  Galileo (a Q&A theme - [Demo](http://sm-galileo.meteor.com/))
+
+![Galileo](http://i.imgur.com/s0X9RXg.png)
+
+![Galileo](http://i.imgur.com/neEMhux.png)
+
+2 -  Newton (a minimal tech news theme - [Demo](http://sm-newton.meteor.com/))
 
 ![newton](http://i.imgur.com/MTAnmx2.png)
 
-2 - Gemini (a modern music theme - [Demo](http://sm-gemini.meteor.com/))
+3 - Gemini (a modern music theme - [Demo](http://sm-gemini.meteor.com/))
 
 ![gemini](http://i.imgur.com/9G6XYEi.jpg)
 
-3 -  Hale (a medical community - coming soon)
+4 -  Hale (a medical community - coming soon)
 
-4 -  Laval (a book club community - coming soon)
+5 -  Laval (a book club community - coming soon)
 
-5 -  Starfire (a gaming community - coming soon)
+6 -  Starfire (a gaming community - coming soon)
 
-6 -  Sloan (a content sharing community - coming soon)
+7 -  Sloan (a content sharing community - coming soon)
 
-7 -  Hooke (a modern intranet - coming soon)
+8 -  Hooke (a modern intranet - coming soon)
 
-8 -  Palomar (a travel community - coming soon)
+9 -  Palomar (a travel community - coming soon)
 
-9 -  Lemmon (a kids community - coming soon)
+10 -  Lemmon (a kids community - coming soon)
 
-10 -  Newton (a news community - coming soon)
+11 -  Newton (a news community - coming soon)
 
-11 -  Paris (an art community - coming soon)
+12 -  Paris (an art community - coming soon)
 
-12 -  Gillett (hipster style - coming soon)
+13 -  Gillett (hipster style - coming soon)
 
-13 -  AZT-11 (a fashion community - coming soon)
+14 -  AZT-11 (a fashion community - coming soon)
 
-14 -  Cassini (a journalism community - coming soon)
-
-15 -  Galileo (a classic FAQ - coming soon)
+15 -  Cassini (a journalism community - coming soon)
 
 16 -  Colossus (an exclusive member community - coming soon)
 
@@ -57,6 +61,10 @@ Download and extract themes to your Telescope package directory and add to your 
 
 21 -  Jacobus (a mindfulness community - coming soon)
 
+### Thanks
+
+[Sacha Greif](https://github.com/SachaG) for building [Telescope](https://github.com/TelescopeJS/Telescope)
+
 ### License
 
-scopemount is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Scopemount is licensed under the [MIT license](http://opensource.org/licenses/MIT).
