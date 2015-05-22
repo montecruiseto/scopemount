@@ -16,9 +16,9 @@ meteor add montecruiseto:telescope-theme-sm-galileo
 
 Galileo is a modern looking Q&A theme - [Demo](http://sm-galileo.meteor.com/))
 
-![Galileo](http://i.imgur.com/s0X9RXg.png)
+![Galileo](http://i.imgur.com/T3oKWbs.png)
 
-![Galileo](http://i.imgur.com/neEMhux.png)
+![Galileo](http://i.imgur.com/Jvk80Be.png)
 
 ### Thanks
 

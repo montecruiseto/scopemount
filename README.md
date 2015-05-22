@@ -12,19 +12,25 @@ Scopemount is a set of free professional themes for Telescope. [Telescope](http:
 Install automagically from Atmosphere
 
 ```bash
+meteor add montecruiseto:telescope-theme-sm-<name>
+```
+
+so for instance if you wanted to add the 'Galileo' theme you would run
+
+```bash
 meteor add montecruiseto:telescope-theme-sm-galileo
 ```
 
 Alternatively if you want to customize the themes: Download and extract the themes of your choice to your Telescope package directory and add to your Telescope app by running the `meteor add` command e.g. `meteor add montecruiseto:telescope-theme-sm-galileo`.
 All the themes use the base and hubble theme as a dependency.
 
-### Themes
+### Themes (click on images for larger view)
 
 ##### 1 -  Galileo (a Q&A theme - [Demo](http://sm-galileo.meteor.com/))
 
-![Galileo](http://i.imgur.com/s0X9RXg.png)
+![Galileo](http://i.imgur.com/T3oKWbs.png)
 
-![Galileo](http://i.imgur.com/neEMhux.png)
+![Galileo](http://i.imgur.com/Jvk80Be.png)
 
 ##### 2 -  Newton (a minimal tech news theme - [Demo](http://sm-newton.meteor.com/))
 
