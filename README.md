@@ -24,7 +24,9 @@ meteor add montecruiseto:telescope-theme-sm-galileo
 Alternatively if you want to customize the themes: Download and extract the themes of your choice to your Telescope package directory and add to your Telescope app by running the `meteor add` command e.g. `meteor add montecruiseto:telescope-theme-sm-galileo`.
 All the themes use the base and hubble theme as a dependency.
 
-### Themes (click on images for larger view)
+### Themes
+
+*Click on images for larger view.*
 
 ##### 1 -  Galileo (a Q&A theme - [Demo](http://sm-galileo.meteor.com/))
 
