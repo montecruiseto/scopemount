@@ -1,0 +1,12 @@
+
+body{
+  background: white;
+}
+
+.content-wrapper{
+  max-width: 660px;
+  padding: 0 20px;
+  @include large {
+    padding: 0 10px;
+  }
+}

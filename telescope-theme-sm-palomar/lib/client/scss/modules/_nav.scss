@@ -1,0 +1,45 @@
+// ------------------------------------ Side Nav Layout ------------------------------------ //
+
+$nav-width: 175px;
+
+.side-nav{
+	  .inner-wrapper{
+			@include medium-large{
+		      margin-left: $nav-width;
+	       }
+		}
+    .header{
+    	@include medium-large{
+    		width: $nav-width;
+    	}
+        background: -webkit-linear-gradient(90deg, $top 10%, $bottom 90%); /* Chrome 10+, Saf5.1+ */
+        background:    -moz-linear-gradient(90deg, $top 10%, $bottom 90%); /* FF3.6+ */
+        background:     -ms-linear-gradient(90deg, $top 10%, $bottom 90%); /* IE10 */
+        background:      -o-linear-gradient(90deg, $top 10%, $bottom 90%); /* Opera 11.10+ */
+        background:         linear-gradient(90deg, $top 10%, $bottom 90%); /* W3C */
+        @include medium-large {
+            background: -webkit-linear-gradient($top 10%, $bottom 90%); /* Chrome 10+, Saf5.1+ */
+            background:    -moz-linear-gradient($top 10%, $bottom 90%); /* FF3.6+ */
+            background:     -ms-linear-gradient($top 10%, $bottom 90%); /* IE10 */
+            background:      -o-linear-gradient($top 10%, $bottom 90%); /* Opera 11.10+ */
+            background:         linear-gradient($top 10%, $bottom 90%); /* W3C */
+        }
+        .logo {
+            font-size: 28px;
+            @include medium-large {
+                margin-bottom: 40px;
+                margin-top: 40px;
+                font-size: 48px;
+            }
+        }
+        input[type="submit"], button, .button, .btn{
+          &.btn-primary, &.submit{
+            background: transparent;
+            text-transform: capitalize;
+            border: 2px solid white;
+            font-size: 13px;
+            letter-spacing: 1px;
+          }
+        }
+    }
+}

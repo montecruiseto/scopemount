@@ -1,0 +1,14 @@
+<template name="post_upvote_galileo">
+  {{#if upvoted}}
+    <span class="upvote-link voted action" title="{{_ "upvoted"}}">
+      {{{icon "voted" "icon-circle"}}}
+      <span class="sr-only">{{_ "upvoted"}}</span>
+    </span>
+  {{else}}
+    <a class="upvote-link not-voted action" href="#" title="{{_ "upvote_"}}">
+      {{{icon "upvote" "icon-circle"}}}
+      <span class="sr-only">{{_ "upvote_"}}</span>
+    </a>
+  {{/if}}
+  <span class="points">{{baseScore}}</span>
+</template>
