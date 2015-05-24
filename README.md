@@ -28,16 +28,16 @@ All the themes use the base and hubble theme as a dependency.
 
 *Click on images for larger view.*
 
-##### 1 -  Galileo (a Q&A theme - [Demo](http://sm-galileo.meteor.com/))
+##### 1 -  Galileo (a Q&A theme - [Demo](http://sm-galileo.meteor.com/) - [Blog](http://blog.startrack.io/scopemount-theme-galileo/))
 
 ![Galileo](http://i.imgur.com/T3oKWbs.png)
 
 ![Galileo](http://i.imgur.com/Jvk80Be.png)
 
-##### 2 -  Newton (a minimal tech news theme - [Demo](http://sm-newton.meteor.com/))
+##### 2 -  Newton (a minimal tech news theme - [Demo](http://sm-newton.meteor.com/) - [Blog](http://blog.startrack.io/scopemount-theme-newton/))
 
 ![newton](http://i.imgur.com/MTAnmx2.png)
-##### 3 - Gemini (a modern music theme - [Demo](http://sm-gemini.meteor.com/))
+##### 3 - Gemini (a modern music theme - [Demo](http://sm-gemini.meteor.com/) - [Blog](http://blog.startrack.io/scopemount-theme-gemini/))
 
 ![gemini](http://i.imgur.com/9G6XYEi.jpg)
 
