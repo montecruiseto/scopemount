@@ -14,7 +14,7 @@ meteor add montecruiseto:telescope-theme-sm-newton
 
 ### Look & Feel
 
-Newton is a minimal looking tech news theme - [Demo](http://sm-newton.meteor.com/)
+Newton is a minimal looking tech news theme - [Demo](http://sm-newton.meteor.com/) - [Blog](http://blog.startrack.io/scopemount-theme-newton/)
 
 ![newton](http://i.imgur.com/MTAnmx2.png)
 

@@ -14,7 +14,7 @@ meteor add montecruiseto:telescope-theme-sm-galileo
 
 ### Look & Feel
 
-Galileo is a modern looking Q&A theme - [Demo](http://sm-galileo.meteor.com/)
+Galileo is a modern looking Q&A theme - [Demo](http://sm-galileo.meteor.com/) - [Blog](http://blog.startrack.io/scopemount-theme-galileo/)
 
 ![Galileo](http://i.imgur.com/T3oKWbs.png)
 

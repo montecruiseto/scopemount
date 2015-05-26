@@ -14,7 +14,7 @@ meteor add montecruiseto:telescope-theme-sm-gemini
 
 ### Look & Feel
 
-Gemini is a modern music theme - [Demo](http://sm-gemini.meteor.com/)
+Gemini is a modern music theme - [Demo](http://sm-gemini.meteor.com/) - [Blog](http://blog.startrack.io/scopemount-theme-gemini/)
 
 ![gemini](http://i.imgur.com/9G6XYEi.jpg)
 
