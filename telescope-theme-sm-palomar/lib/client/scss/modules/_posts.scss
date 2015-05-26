@@ -1,9 +1,6 @@
 // ------------------------------------ post ------------------------------------ //
 .post {
 	padding: 40px 0px 30px 10px;
-	&:nth-of-type(1) {
-		padding-top: 20px;
-	}
 	@include small {
 		padding: 11px 10px 11px 0px;
 	}
@@ -14,6 +11,7 @@
 
 // ------------------------------------ posts views nav ------------------------------------ //
 .posts-list-views{
+	background: #F2F2F2;
 	.menu-top-level{
 		font-size: 11px;
 		margin-right: 20px;
@@ -35,6 +33,8 @@
 		@include medium-large {
 			width: calc((100% - 20px));
 		}
+		border-radius: 4px;
+		margin: 0 0 25px 0;
 	}
 	.post-thumbnail {
 	    margin-left: -10px;
@@ -44,12 +44,14 @@
 
 // -------------------------------- post content --------------------------------- //
 .post-heading {
+	margin-top: 50px;
 	.post-title {
 		color: $main;
 		font-weight: 700;
 		font-size: 24px;
 		@include medium-large {
-			font-size: 26px;
+			font-size: 35px;
+			line-height: 1;
 		}
 		&:visited {
 			color: $main;
@@ -136,18 +138,18 @@
 }
 // -------------------------------- post tags --------------------------------- //
 .post-category {
-    font-size: 13px;
+    font-size: 11px;
     font-weight: normal !important;
-    color: #808393 !important;
-    background: whitesmoke;
-    text-transform: capitalize;
-    padding: 3px 5px 3px 5px;
+    color: white !important;
+    background: deepskyblue;
+    text-transform: uppercase;
+    padding: 7px 32px 7px 15px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
     &:hover {
-        background: #EFECEC;
-        color: black;
-    }
-    @include small {
-        display: none;
+        background: deepskyblue;
+        color: white;
     }
 }
 
