@@ -16,14 +16,8 @@ Package.onUse(function (api) {
       'telescope:theme-hubble@0.20.4'
     ]);
 
-  // i18n config (must come first)
-
   api.addFiles([
-    'package-tap.i18n'
-  ], ['client', 'server']);
-
-  api.addFiles([
-      'lib/modules_galileo.js'
+      'lib/modules_palomar.js'
   ], ['client', 'server']);
 
   api.addFiles([
@@ -53,22 +47,16 @@ Package.onUse(function (api) {
       'lib/client/scss/screen.scss',
 
       // overrides
-      'lib/client/templates/post_content_galileo.html',
-      'lib/client/templates/post_domain_galileo.html',
-      'lib/client/templates/post_info_galileo.html',
-      'lib/client/templates/post_upvote_galileo.html',
-      'lib/client/templates/post_page_galileo.html',
+      'lib/client/templates/post_content_palomar.html',
+      'lib/client/templates/post_domain_palomar.html',
+      'lib/client/templates/post_info_palomar.html',
+      'lib/client/templates/post_upvote_palomar.html',
+      'lib/client/templates/post_page_palomar.html',
 
       // customizations
-      'lib/client/scripts/icons_galileo.js',
-      'lib/client/scripts/templates_galileo.js'
+      'lib/client/scripts/icons_palomar.js',
+      'lib/client/scripts/templates_palomar.js'
 
     ], ['client']);
-
-  // i18n languages (must come last)
-
-  api.addFiles([
-    'i18n/en.i18n.json'
-  ], ['client', 'server']);
 
 });

@@ -1,13 +1,14 @@
-<template name="post_content_galileo">
+<template name="post_content_palomar">
     <div class="post-info">
       <h3 class="post-heading">
         {{> modules "postHeading"}}
       </h3>
-      {{#if body}}
-        {{> post_body}}
-      {{/if}}
       <div class="post-meta">
         {{> modules "postMeta"}}
       </div>
+      {{> modules "postThumbnail"}}
+      {{#if body}}
+        {{> post_body}}
+      {{/if}}
     </div>
 </template>
