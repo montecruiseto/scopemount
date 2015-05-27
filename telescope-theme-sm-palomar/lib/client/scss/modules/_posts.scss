@@ -56,37 +56,39 @@
 	}
 	svg {
 		box-shadow: 0px 1px 0px 0px rgba(129, 129, 129, 0.2);
+		border-radius: 4px 4px 0px 0px;
 	}
 	.post-upvote {
-		left: -45px;
-		top: 77px;
+		left: 643px;
+		top: 14px;
+		z-index: 2;
 		text-align: center;
 		font-size: 11px;
-		color: $main;
+		color: white;
 		font-weight: bold;
     .upvote-link {
-        transform: scale(1.3);
+        transform: scale(1.9);
         margin-bottom: 13px;
         .icon-circle {
-        	// border-radius: 0%;
         	padding: 3px;
         }
         .icon-upvote{
-        	border: 1px solid silver;
-        	color: silver;
-        	background-color: white;
+        	border: none;
+        	color: white;
+        	background-color: transparent;
         }
         &.voted {
         	i.icon-voted {
-        		border: 1px solid dimgray;
+        		border: none;
         		color: white;
-        		background-color: dimgray;
+        		background-color: transparent;
         	}
         }
     }
     .points {
     	display: flex;
     	flex-direction: column;
+    	font-size: 13px;
     }
 	}
 }
@@ -134,6 +136,9 @@
 		&:hover {
 			color: white;
 			text-decoration: underline;
+		}
+		&.post-author:after {
+		    content: " |";
 		}
 	}
 	.avatar {

@@ -1,8 +1,8 @@
 <template name="post_info_palomar">
   <div class="post-meta-item" aria-live="off">
 	  {{#if canEdit this}}
-	    | <a href="{{pathFor route='post_edit' _id=_id}}" class="edit-link goto-edit">{{_ "edit"}}</a>
+	    <a href="{{pathFor route='post_edit' _id=_id}}" class="edit-link goto-edit">{{_ "edit"}}</a> |
 	  {{/if}}
-    {{#if postedAt}}<span class="post-time"> Posted {{timeAgo postedAt}} by</span>{{/if}}
+    {{#if postedAt}}<span class="post-time"> {{timeAgo postedAt}} by</span>{{/if}}
   </div>
 </template>
