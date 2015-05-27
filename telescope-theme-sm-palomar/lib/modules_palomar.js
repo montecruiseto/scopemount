@@ -25,15 +25,15 @@ Telescope.modules.add("postHeading", [
 Telescope.modules.removeAll("postMeta");
 Telescope.modules.add("postMeta", [
   {
-    template: 'post_comments_link',
+    template: 'post_info',
     order: 10
   },
   {
-    template: 'post_info',
+    template: 'post_author',
     order: 20
   },
   {
-    template: 'post_author',
+    template: 'post_comments_link',
     order: 30
   },
   {
