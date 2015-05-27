@@ -48,7 +48,6 @@ Package.onUse(function (api) {
 
       // overrides
       'lib/client/templates/post_content_palomar.html',
-      'lib/client/templates/post_domain_palomar.html',
       'lib/client/templates/post_info_palomar.html',
       'lib/client/templates/post_upvote_palomar.html',
       'lib/client/templates/post_page_palomar.html',

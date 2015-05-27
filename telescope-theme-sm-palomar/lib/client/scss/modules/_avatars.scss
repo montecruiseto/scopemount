@@ -1,6 +1,6 @@
 .avatar {
   position: absolute;
-  left: -70px;
+  left: -60px;
   top: 0px;
   .avatar-initials{
     line-height: 46px;
@@ -9,6 +9,7 @@
     border: 1px solid;
     font-weight: bold;
     font-family: "Nunito";
+    text-shadow: none;
   }
 }
 .avatar-medium {

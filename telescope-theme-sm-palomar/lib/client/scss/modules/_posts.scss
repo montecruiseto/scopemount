@@ -54,8 +54,11 @@
 	    	border-radius: 4px;
 	    }
 	}
+	svg {
+		box-shadow: 0px 1px 0px 0px rgba(129, 129, 129, 0.2);
+	}
 	.post-upvote {
-		left: -55px;
+		left: -45px;
 		top: 77px;
 		text-align: center;
 		font-size: 11px;
@@ -164,9 +167,9 @@
     color: white !important;
     background: deepskyblue;
     text-transform: uppercase;
-    padding: 7px 32px 7px 15px;
+    padding: 7px 18px 7px 18px;
     position: absolute;
-    left: 0px;
+    left: -20px;
     top: 20px;
     &:hover {
         background: deepskyblue;

@@ -1,26 +1,25 @@
 <template name="post_content_palomar">
     <div class="post-info">
-      <h3 class="post-heading">
+        <h3 class="post-heading">
         {{> modules "postHeading"}}
       </h3>
-      <div class="post-meta">
-        {{> modules "postMeta"}}
-      </div>
-      <!-- {{#if body}}
+        <div class="post-meta">
+            {{> modules "postMeta"}}
+        </div>
+        <!-- {{#if body}}
         {{> post_body}}
-      {{/if}} -->
+        {{/if}} -->
     </div>
     {{> modules "postThumbnail"}}
-    <svg width="680" height="170" viewBox="0 0 680 170" style="position: absolute; left:0;top: 0;">
-      <defs>
-        <filter id="blur" x="0%"
-         y="0%" width="100%" height="100%">
-         <feGaussianBlur in="SourceGraphic" stdDeviation="6"/>
-          <feComponentTransfer>
-              <feFuncA type="discrete" tableValues="1 1"/>
-           </feComponentTransfer>
-        </filter>
-      </defs>
-      <image filter="url(#blur)" xlink:href="{{thumbnailUrl}}" x="0" y="0" height="350px" width="680px" />
-    </svg>
+        <svg width="680" height="170" viewBox="0 0 680 170" style="position: absolute; left:0;top: 0;">
+            <defs>
+                <filter id="blur" x="0%" y="0%" width="100%" height="100%">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="7" />
+                    <feComponentTransfer>
+                        <feFuncA type="discrete" tableValues="1 1" />
+                    </feComponentTransfer>
+                </filter>
+            </defs>
+            <image filter="url(#blur)" xlink:href="{{thumbnailUrl}}" x="0" y="0" height="350px" width="680px" />
+        </svg>
 </template>
