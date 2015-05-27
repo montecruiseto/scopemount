@@ -35,10 +35,56 @@
 		}
 		border-radius: 4px;
 		margin: 0 0 25px 0;
+		padding-bottom: 0px;
+		&:after {
+			border-bottom: none;
+		}
+	}
+	.post-content {
+		position: relative;
+	}
+	.post-info {
+		padding: 10px 25px;
+		position: absolute;
+		z-index: 1;
+		background: transparent;
 	}
 	.post-thumbnail {
-	    margin-left: -10px;
-	    margin-right: -10px;
+	    a {
+	    	border-radius: 4px;
+	    }
+	}
+	.post-upvote {
+		left: -55px;
+		top: 77px;
+		text-align: center;
+		font-size: 11px;
+		color: $main;
+		font-weight: bold;
+    .upvote-link {
+        transform: scale(1.3);
+        margin-bottom: 13px;
+        .icon-circle {
+        	// border-radius: 0%;
+        	padding: 3px;
+        }
+        .icon-upvote{
+        	border: 1px solid silver;
+        	color: silver;
+        	background-color: white;
+        }
+        &.voted {
+        	i.icon-voted {
+        		border: 1px solid dimgray;
+        		color: white;
+        		background-color: dimgray;
+        	}
+        }
+    }
+    .points {
+    	display: flex;
+    	flex-direction: column;
+    }
 	}
 }
 
@@ -46,9 +92,10 @@
 .post-heading {
 	margin-top: 50px;
 	.post-title {
-		color: $main;
+		color: white;
 		font-weight: 700;
 		font-size: 24px;
+		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.64);
 		@include medium-large {
 			font-size: 35px;
 			line-height: 1;
@@ -67,6 +114,7 @@
 	}
 }
 .post-meta {
+	margin-bottom: 20px;
 	@include small {
 	    font-size: 12px !important;
 	}
@@ -99,43 +147,13 @@
     padding: 15px 20px 3px 0px;
     .list & {
     	display: block;
+    	background: transparent;
     }
     p {
         line-height: 1.6;
     }
 }
-// -------------------------------- post modules --------------------------------- //
 
-.post-upvote {
-	text-align: center;
-	font-size: 11px;
-	color: $main;
-	font-weight: bold;
-    .upvote-link {
-        transform: scale(1.3);
-        margin-bottom: 13px;
-        .icon-circle {
-        	border-radius: 0%;
-        	padding: 3px;
-        }
-        .icon-upvote{
-        	border: 1px solid silver;
-        	color: silver;
-        	background-color: white;
-        }
-        &.voted {
-        	i.icon-voted {
-        		border: 1px solid dimgray;
-        		color: white;
-        		background-color: dimgray;
-        	}
-        }
-    }
-    .points {
-    	display: flex;
-    	flex-direction: column;
-    }
-}
 // -------------------------------- post tags --------------------------------- //
 .post-category {
     font-size: 11px;
