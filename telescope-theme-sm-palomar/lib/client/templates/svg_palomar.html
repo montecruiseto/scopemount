@@ -10,7 +10,7 @@
                 <!-- Invert the drop shadow to create an inner bevel -->
                 <feComposite operator='out' in='SourceGraphic' in2='offset-blur' result='inverse' />
                 <!-- Color & Opacity -->
-                <feFlood flood-color='rgba(255,255,255,0.6)' flood-opacity='1' result='color' />
+                <feFlood flood-color='rgba(255,255,255,0.5)' flood-opacity='1' result='color' />
                 <!-- Clip color inside bevel -->
                 <feComposite operator='in' in='color' in2='inverse' result='bevel' />
                 <!-- Put bevel over frosted object -->

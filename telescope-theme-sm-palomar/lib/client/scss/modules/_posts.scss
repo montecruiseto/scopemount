@@ -53,23 +53,23 @@
 		background: transparent;
 	}
 	.post-thumbnail {
-			border: 1px solid #BBB;
-			box-shadow: 0px 1px 1px 0px #999;
+			border: 1px solid rgba(171, 171, 171, 0.4);
+			// box-shadow: 0px 1px 1px 0px #999;
 			border-radius: 4px;
 	    a {
 	    	border-radius: 4px;
 	    }
 	}
 	svg {
-		box-shadow: 0px 1px 0px 0px rgba(129, 129, 129, 0.2);
+		// box-shadow: 0px -1px 3px 0px rgba(192, 192, 192, 0.3);
 		border-radius: 4px 4px 0px 0px;
 		position: absolute;
 		width: 280px;
 		height: 100px;
-		left: 0px;
+		left: 1px;
 		top: 1px;
 		@include large {
-			width: 680px;
+			width: 678px;
 			height: 170px;
 		}
 		> #panel {
@@ -104,6 +104,7 @@
         	i.icon-voted {
         		border: none;
         		color: white;
+        		text-shadow: 0px 0px 3px #FFF4C1;
         		background-color: transparent;
         	}
         }
@@ -213,15 +214,13 @@
 // -------------------------------- other --------------------------------- //
 
 .more-button {
-	margin-top: 20px;
-	background: white;
-	text-decoration: underline;
-	text-transform: uppercase;
-	font-size: 14px;
+	margin-bottom: 40px;
+	background: #F9F9F9;
+	font-size: 20px;
 	height: 50px;
 	line-height: 46px;
 	&:hover {
-		background: white;
+		background: #F9F9F9;
 	}
 	&:after {
 		font-size: 16px;
