@@ -1,11 +1,15 @@
 .avatar {
-  position: absolute;
-  left: -60px;
-  top: 0px;
+  display: none;
+  @include large {
+    display: block;
+    position: absolute;
+    left: -60px;
+    top: 0px;
+  }
   .avatar-initials{
     line-height: 46px;
     background-color: deepskyblue;
-    color: white;
+    color: transparent;
     border: none;
     font-weight: bold;
     font-family: "Nunito";

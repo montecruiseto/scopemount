@@ -1,5 +1,5 @@
 <template name="svg_palomar">
-    <svg width="680" height="170" viewBox="0 0 680 170" style="position: absolute; left:0;top:1;">
+    <svg>
         <defs>
             <filter id='glass'>
                 <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="frosted" />
@@ -21,6 +21,6 @@
                 </feComponentTransfer>
             </filter>
         </defs>
-        <image filter="url(#glass)" xlink:href="{{thumbnailUrl}}" x="0" y="0" height="350px" width="680px" />
+        <image id="panel" filter="url(#glass)" xlink:href="{{thumbnailUrl}}" x="0" y="0" />
     </svg>
 </template>
