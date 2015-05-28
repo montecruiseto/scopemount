@@ -50,7 +50,7 @@
 		background: transparent;
 	}
 	.post-thumbnail {
-			border: 1px solid #888;
+			border: 1px solid #BBB;
 			box-shadow: 0px 1px 1px 0px #999;
 			border-radius: 4px;
 	    a {
@@ -60,6 +60,12 @@
 	svg {
 		box-shadow: 0px 1px 0px 0px rgba(129, 129, 129, 0.2);
 		border-radius: 4px 4px 0px 0px;
+		// width: 680px;
+		// height: 170px;
+		// viewBox: 0 0 680 170;
+		// position: absolute;
+		// left: 0px;
+		// top: 1px;
 	}
 	.post-upvote {
 		left: 643px;
