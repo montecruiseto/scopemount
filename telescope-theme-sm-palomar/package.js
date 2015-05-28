@@ -53,6 +53,7 @@ Package.onUse(function (api) {
       'lib/client/templates/post_page_palomar.html',
 
       // customizations
+      'lib/client/templates/svg_palomar.html',
       'lib/client/scripts/icons_palomar.js',
       'lib/client/scripts/templates_palomar.js'
 

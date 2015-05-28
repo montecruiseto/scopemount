@@ -45,3 +45,8 @@ Telescope.modules.add("postMeta", [
     order: 50
   }
 ]);
+
+Telescope.modules.add("postThumbnail", {
+  template: 'svg_palomar',
+  order: 20
+});
