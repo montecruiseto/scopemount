@@ -34,7 +34,7 @@
 			max-width: 280px;
 		}
 		@include medium-large {
-			width: calc((100% - 20px));
+			width: calc((100%));
 		}
 		border-radius: 4px;
 		margin: 0 0 25px 0;
@@ -67,20 +67,20 @@
 		left: 1px;
 		top: 1px;
 		@include large {
-			width: 678px;
+			width: 698px;
 			height: 170px;
 		}
 		> #panel {
 			width: 280px;
 			height: 144px;
 			@include large {
-				width: 680px;
+				width: 700px;
 				height: 350px;
 			}
 		}
 	}
 	.post-upvote {
-		left: 643px;
+		left: 663px;
 		top: 14px;
 		z-index: 2;
 		text-align: center;
@@ -171,13 +171,13 @@
 	}
 }
 .post-body, .page-body {
-    font-size: 15px;
-    color: #57656d;
+    font-size: 13px;
+    color: darkslategrey;
     @include large {
-        font-size: 17px;
+        font-size: 15px;
     }
-    box-shadow: none;
-    padding: 15px 20px 3px 0px;
+    margin-top: -20px;
+    padding: 20px;
     .list & {
     	display: block;
     	background: transparent;

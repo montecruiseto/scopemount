@@ -2,14 +2,17 @@
   {{#if isPending}}
     <div class="grid">
       <div class="error pending-message module">
-        {{_ "thanks_your_answer_is_awaiting_approval"}}
+        {{_ "thanks_your_post_is_awaiting_approval"}}
       </div>
     </div>
   {{/if}}
   <div class="single-post grid">
-    <div class="posts posts-list">
+    <div class="posts posts-grid">
       {{> post_item}}
     </div>
+    {{#if body}}
+      {{> post_body}}
+    {{/if}}
     {{> comment_submit}}
     {{> comment_list}}
   </div>
