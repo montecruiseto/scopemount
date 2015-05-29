@@ -225,3 +225,16 @@
 		content: " »";
 	}
 }
+.post-thumbnail-container, .post-thumbnail-preview  {
+	width: 250px !important;
+	height: 125px !important;
+	@include medium {
+		width: 340px !important;
+		height: 170px !important;
+	}
+	@include large {
+		width: 470px !important;
+		height: 235px !important;
+	}
+}
+
