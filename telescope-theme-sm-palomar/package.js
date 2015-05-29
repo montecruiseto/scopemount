@@ -13,7 +13,9 @@ Package.onUse(function (api) {
       // core dependencies
       'telescope:core@0.20.4',
       'telescope:theme-base@0.20.4',
-      'telescope:theme-hubble@0.20.4'
+      'telescope:theme-hubble@0.20.4',
+      // plugin dependencies
+      'mrt:trunk8@0.0.1'
     ]);
 
   api.addFiles([
@@ -54,6 +56,7 @@ Package.onUse(function (api) {
 
       // customizations
       'lib/client/templates/svg_palomar.html',
+      'lib/client/scripts/post_title_palomar.js',
       'lib/client/scripts/icons_palomar.js',
       'lib/client/scripts/templates_palomar.js'
 

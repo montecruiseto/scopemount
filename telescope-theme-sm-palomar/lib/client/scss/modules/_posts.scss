@@ -54,14 +54,12 @@
 	}
 	.post-thumbnail {
 			border: 1px solid rgba(171, 171, 171, 0.4);
-			// box-shadow: 0px 1px 1px 0px #999;
 			border-radius: 4px;
 	    a {
 	    	border-radius: 4px;
 	    }
 	}
 	svg {
-		// box-shadow: 0px -1px 3px 0px rgba(192, 192, 192, 0.3);
 		border-radius: 4px 4px 0px 0px;
 		position: absolute;
 		width: 280px;
@@ -124,7 +122,7 @@
 		color: white;
 		font-weight: 700;
 		font-size: 24px;
-		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.64);
+		text-shadow: 1px 1px 1px rgba(21, 21, 21, 0.7);
 		@include medium-large {
 			font-size: 35px;
 			line-height: 1;
