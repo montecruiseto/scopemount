@@ -38,9 +38,17 @@ $medium-break: 900px;
   }
 }
 .grid{
-	width:100%;
 	margin-left: auto;
 	margin-right: auto;
+  @include small {
+    width: 280px;
+  }
+  @include medium {
+    width: 561px;
+  }
+  @include large {
+    width:100%;
+  }
 }
 .grid-small, .at-form{
   width: 100%;

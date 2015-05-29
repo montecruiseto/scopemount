@@ -6,7 +6,9 @@ body{
 .content-wrapper{
   max-width: 720px;
   padding: 0 20px;
+  text-align: center;
   @include large {
     padding: 0 10px;
+    text-align: left;
   }
 }

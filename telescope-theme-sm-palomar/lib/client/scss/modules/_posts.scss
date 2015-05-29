@@ -30,8 +30,11 @@
 
 .posts-grid {
 	.post {
-		@include small-medium {
+		@include small {
 			max-width: 280px;
+		}
+		@include medium {
+			max-width: 561px;
 		}
 		@include medium-large {
 			width: calc((100%));
@@ -45,9 +48,13 @@
 	}
 	.post-content {
 		position: relative;
+		text-align: left;
 	}
 	.post-info {
-		padding: 10px 25px;
+		padding: 10px 10px;
+		@include medium-large {
+			padding: 10px 25px;
+		}
 		position: absolute;
 		z-index: 1;
 		background: transparent;
@@ -66,6 +73,10 @@
 		height: 100px;
 		left: 1px;
 		top: 1px;
+		@include medium {
+			width: 559px;
+			height: 136px;
+		}
 		@include large {
 			width: 698px;
 			height: 170px;
@@ -73,6 +84,10 @@
 		> #panel {
 			width: 280px;
 			height: 144px;
+			@include medium {
+				width: 561px;
+				height: 280px;
+			}
 			@include large {
 				width: 700px;
 				height: 350px;
@@ -117,14 +132,25 @@
 
 // -------------------------------- post content --------------------------------- //
 .post-heading {
-	margin-top: 50px;
+	@include medium {
+		margin-top: 40px;
+	}
+	@include large {
+		margin-top: 50px;
+	}
 	.post-title {
 		color: white;
-		font-weight: 700;
-		font-size: 24px;
+		font-weight: 400;
+		font-size: 15px;
 		text-shadow: 1px 1px 1px rgba(21, 21, 21, 0.7);
-		@include medium-large {
+		@include medium {
+			font-size: 27px;
+		}
+		@include large {
 			font-size: 35px;
+		}
+		@include medium-large {
+			font-weight: 700;
 			line-height: 1;
 		}
 		&:visited {
@@ -190,6 +216,22 @@
 // -------------------------------- post tags --------------------------------- //
 .post-category {
 	display: none;
+	@include medium {
+	    display: block;
+	    font-size: 11px;
+	    font-weight: normal !important;
+	    color: white !important;
+	    background: deepskyblue;
+	    text-transform: uppercase;
+	    padding: 7px 18px 7px 18px;
+	    position: absolute;
+	    left: 1px;
+	    top: 15px;
+	    &:hover {
+	        background: deepskyblue;
+	        color: white;
+	    }
+	}
 	@include large {
 	    display: block;
 	    font-size: 11px;
