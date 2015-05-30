@@ -5,6 +5,9 @@
 .top-nav {
     .header {
         height: 100px;
+        @include small {
+            height: 60px;
+        }
         color: #4b4b4b;
         background-color: white;
         border-top: 2px solid turqouise;
@@ -45,6 +48,12 @@
             }
             a {
                 color: black;
+            }
+        }
+        .logo-image img {
+            @include small {
+                height: 80%;
+                width: 80%;
             }
         }
     }
