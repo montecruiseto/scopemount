@@ -96,13 +96,26 @@
 		}
 	}
 	.post-upvote {
-		left: 663px;
-		top: 14px;
 		z-index: 2;
 		text-align: center;
 		font-size: 11px;
 		color: white;
-		font-weight: bold;
+		left: 253px;
+		top: 99px;
+		bottom: 1px;
+    background: deepskyblue;
+    padding: 0 4px;
+		@include medium {
+			left: 533px;
+		}
+		@include large {
+			left: 663px;
+		}
+		@include medium-large {
+			top: 14px;
+			font-weight: bold;
+			background: none;
+		}
     .upvote-link {
         transform: scale(1.9);
         margin-bottom: 13px;

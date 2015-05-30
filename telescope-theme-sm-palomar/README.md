@@ -1,28 +1,29 @@
-# Telescope Galileo Theme
+# Telescope Palomar Theme
 
-*Update: Scopemount themes are up-to-date with Telescope v0.20.4.*
+*Note: Scopemount themes are up-to-date with Telescope v0.20.4.*
 
-Galileo is part of [Scopemount](http://scopemount.startrack.io), a set of free professional themes for [Telescope](http://www.telescopeapp.org/).
+Palomar is part of [Scopemount](http://scopemount.startrack.io), a set of free professional themes for [Telescope](http://www.telescopeapp.org/).
 
 [![Imgur](http://i.imgur.com/8yYLXiY.jpg)](http://scopemount.startrack.io)
 
 ## Install
 
 ```bash
-meteor add montecruiseto:telescope-theme-sm-galileo
+meteor add montecruiseto:telescope-theme-sm-palomar
 ```
 
 ### Look & Feel
 
-Galileo is a modern looking Q&A theme - [Demo](http://sm-galileo.meteor.com/)
+Palomar is a modern looking Q&A theme - [Demo](http://sm-palomar.meteor.com/) - [Blogpost](http://blog.startrack.io/scopemount-theme-palomar/)
 
-![Galileo](http://i.imgur.com/T3oKWbs.png)
+![Palomar](http://i.imgur.com/T3oKWbs.png)
 
-![Galileo](http://i.imgur.com/Jvk80Be.png)
+![Palomar](http://i.imgur.com/Jvk80Be.png)
 
 ### Thanks
 
 [Sacha Greif](https://github.com/SachaG) for building [Telescope](https://github.com/TelescopeJS/Telescope).
+[Mike King](https://github.com/micjamking) for [Succinct](http://mikeking.io/succinct/).
 
 ### License
 
