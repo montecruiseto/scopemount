@@ -14,8 +14,6 @@ Package.onUse(function (api) {
       'telescope:core@0.20.4',
       'telescope:theme-base@0.20.4',
       'telescope:theme-hubble@0.20.4',
-      // plugin dependencies
-      'mrt:trunk8@0.0.1'
     ]);
 
   api.addFiles([
@@ -49,6 +47,7 @@ Package.onUse(function (api) {
       'lib/client/scss/screen.scss',
 
       // overrides
+      'lib/client/templates/post_admin_palomar.html',
       'lib/client/templates/post_content_palomar.html',
       'lib/client/templates/post_info_palomar.html',
       'lib/client/templates/post_upvote_palomar.html',
@@ -58,7 +57,10 @@ Package.onUse(function (api) {
       'lib/client/templates/svg_palomar.html',
       'lib/client/scripts/post_title_palomar.js',
       'lib/client/scripts/icons_palomar.js',
-      'lib/client/scripts/templates_palomar.js'
+      'lib/client/scripts/templates_palomar.js',
+
+      //plugins
+      'lib/client/scripts/succinct.js'
 
     ], ['client']);
 

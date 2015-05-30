@@ -69,8 +69,8 @@
 	svg {
 		border-radius: 4px 4px 0px 0px;
 		position: absolute;
-		width: 280px;
-		height: 100px;
+		width: 278px;
+		height: 85px;
 		left: 1px;
 		top: 1px;
 		@include medium {
@@ -83,7 +83,7 @@
 		}
 		> #panel {
 			width: 280px;
-			height: 144px;
+			height: 140px;
 			@include medium {
 				width: 561px;
 				height: 280px;
@@ -132,6 +132,12 @@
 
 // -------------------------------- post content --------------------------------- //
 .post-heading {
+	margin-bottom: 0px;
+	line-height: 1.1;
+	@include medium-large {
+		margin-bottom: 3px;
+		line-height: 1.2;
+	}
 	@include medium {
 		margin-top: 40px;
 	}
@@ -157,14 +163,6 @@
 			color: white;
 		}
 	}
-	.post-domain {
-		@include small {
-			font-size: 12px;
-		}
-		@include medium-large {
-			font-size: 13px;
-		}
-	}
 }
 .post-meta {
 	margin-bottom: 20px;
@@ -172,6 +170,7 @@
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.64);
 	@include small {
 	    font-size: 12px !important;
+	    line-height: 1;
 	}
 	a {
 		text-transform: capitalize;
@@ -215,38 +214,31 @@
 
 // -------------------------------- post tags --------------------------------- //
 .post-category {
-	display: none;
-	@include medium {
-	    display: block;
-	    font-size: 11px;
-	    font-weight: normal !important;
-	    color: white !important;
+	display: block;
+	font-size: 9px;
+	font-weight: normal !important;
+	color: white !important;
+	background: deepskyblue;
+	text-transform: uppercase;
+	padding: 5px 10px 5px 10px;
+	position: absolute;
+	left: 1px;
+	top: 105px;
+	&:hover {
 	    background: deepskyblue;
-	    text-transform: uppercase;
+	    color: white;
+	}
+	@include medium {
+	    font-size: 11px;
 	    padding: 7px 18px 7px 18px;
-	    position: absolute;
 	    left: 1px;
 	    top: 15px;
-	    &:hover {
-	        background: deepskyblue;
-	        color: white;
-	    }
 	}
 	@include large {
-	    display: block;
-	    font-size: 11px;
-	    font-weight: normal !important;
-	    color: white !important;
-	    background: deepskyblue;
-	    text-transform: uppercase;
-	    padding: 7px 18px 7px 18px;
-	    position: absolute;
+			font-size: 11px;
+			padding: 7px 18px 7px 18px;
 	    left: -20px;
 	    top: 20px;
-	    &:hover {
-	        background: deepskyblue;
-	        color: white;
-	    }
 	}
 }
 
