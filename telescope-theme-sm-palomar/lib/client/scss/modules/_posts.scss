@@ -278,4 +278,19 @@
 		height: 235px !important;
 	}
 }
+.tablet-only{
+  @include small{
+    display: none !important;
+  }
+  @include large{
+    display: none !important;
+  }
+}
+.largescreen-only{
+  @include small-medium{
+    display: none !important;
+  }
+}
+
+
 
