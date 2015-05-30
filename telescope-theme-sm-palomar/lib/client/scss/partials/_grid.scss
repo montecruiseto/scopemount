@@ -58,3 +58,18 @@ $medium-break: 900px;
 	margin-left: auto;
   margin-right: auto;
 }
+.mobile-only{
+  @include small{
+    display: block !important;
+  }
+}
+.tablet-only{
+  @include medium{
+    display: block !important;
+  }
+}
+.largescreen-only{
+  @include large{
+    display: block !important;
+  }
+}

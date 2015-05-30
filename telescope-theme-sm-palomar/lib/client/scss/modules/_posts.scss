@@ -67,6 +67,7 @@
 	    }
 	}
 	svg {
+		display: none;
 		border-radius: 4px 4px 0px 0px;
 		position: absolute;
 		width: 278px;
@@ -277,19 +278,6 @@
 		width: 470px !important;
 		height: 235px !important;
 	}
-}
-.tablet-only{
-  @include small{
-    display: none !important;
-  }
-  @include large{
-    display: none !important;
-  }
-}
-.largescreen-only{
-  @include small-medium{
-    display: none !important;
-  }
 }
 
 
