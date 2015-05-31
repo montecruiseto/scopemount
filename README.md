@@ -1,7 +1,7 @@
 Scopemount
 =========
 
-*Update: Scopemount themes are up-to-date with Telescope v0.20.4.*
+*Note: Scopemount themes are up-to-date with Telescope v0.20.4.*
 
 Scopemount is a set of free professional themes for Telescope. [Telescope](http://www.telescopeapp.org/) is an open source Meteor app that makes it easy to launch communities.
 
@@ -30,18 +30,22 @@ All the themes use the base and hubble theme as a dependency.
 
 ##### 1 -  Galileo (a Q&A theme - [Demo](http://sm-galileo.meteor.com/) - [Blog](http://blog.startrack.io/scopemount-theme-galileo/))
 
-![Galileo](http://i.imgur.com/T3oKWbs.png)
+![Galileo](http://i.imgur.com/bTiJHHU.png)
 
-![Galileo](http://i.imgur.com/Jvk80Be.png)
+![Galileo](http://i.imgur.com/aJ1mKcE.png)
 
 ##### 2 -  Newton (a minimal tech news theme - [Demo](http://sm-newton.meteor.com/) - [Blog](http://blog.startrack.io/scopemount-theme-newton/))
 
-![newton](http://i.imgur.com/MTAnmx2.png)
-##### 3 - Gemini (a modern music theme - [Demo](http://sm-gemini.meteor.com/) - [Blog](http://blog.startrack.io/scopemount-theme-gemini/))
+![Newton](http://i.imgur.com/eaEWm5A.png)
 
-![gemini](http://i.imgur.com/9G6XYEi.jpg)
+##### 3 -  Palomar (a travel community - [Demo](http://sm-palomar.meteor.com/) - [Blog](http://blog.startrack.io/scopemount-theme-palomar/))
 
-##### 4 -  Hale (a medical community - coming soon)
+![Palomar](http://i.imgur.com/2vvI6kX.png)
+![Palomar](http://i.imgur.com/SMOZYSE.png)
+
+##### 4 - Gemini (a modern music theme - [Demo](http://sm-gemini.meteor.com/) - [Blog](http://blog.startrack.io/scopemount-theme-gemini/))
+
+![Gemini](http://i.imgur.com/My7M31n.png)
 
 ##### 5 -  Laval (a book club community - coming soon)
 
@@ -51,7 +55,7 @@ All the themes use the base and hubble theme as a dependency.
 
 ##### 8 -  Hooke (a modern intranet - coming soon)
 
-##### 9 -  Palomar (a travel community - coming soon)
+##### 9 -  Hale (a medical community - coming soon)
 
 ##### 10 -  Lemmon (a kids community - coming soon)
 

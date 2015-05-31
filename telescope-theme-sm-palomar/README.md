@@ -14,11 +14,11 @@ meteor add montecruiseto:telescope-theme-sm-palomar
 
 ### Look & Feel
 
-Palomar is a modern looking Q&A theme - [Demo](http://sm-palomar.meteor.com/) - [Blogpost](http://blog.startrack.io/scopemount-theme-palomar/)
+Palomar is a travel/photography style theme - [Demo](http://sm-palomar.meteor.com/) - [Blogpost](http://blog.startrack.io/scopemount-theme-palomar/)
 
-![Palomar](http://i.imgur.com/T3oKWbs.png)
+![Palomar](http://i.imgur.com/2vvI6kX.png)
 
-![Palomar](http://i.imgur.com/Jvk80Be.png)
+![Palomar](http://i.imgur.com/SMOZYSE.png)
 
 ### Thanks
 
