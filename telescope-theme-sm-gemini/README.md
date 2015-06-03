@@ -1,20 +1,18 @@
 # Telescope Gemini Theme
 
-*Update: Scopemount themes are up-to-date with Telescope v0.20.4.*
+*Note: Scopemount themes are up-to-date with Telescope v0.20.4.*
 
 Gemini is part of [Scopemount](http://scopemount.startrack.io), a set of free professional themes for [Telescope](http://www.telescopeapp.org/).
 
 [![Imgur](http://i.imgur.com/8yYLXiY.jpg)](http://scopemount.startrack.io)
 
-## Install
+## Install & Setup
 
-```bash
-meteor add montecruiseto:telescope-theme-sm-gemini
-```
+See [Blog Post](http://blog.startrack.io/scopemount-theme-gemini/)
 
 ### Look & Feel
 
-Gemini is a modern music theme - [Demo](http://sm-gemini.meteor.com/) - [Blog Post](http://blog.startrack.io/scopemount-theme-gemini/)
+Gemini is a modern music theme - [Demo](http://sm-gemini.meteor.com/)
 
 ![Gemini](http://i.imgur.com/My7M31n.png)
 

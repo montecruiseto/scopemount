@@ -6,15 +6,13 @@ Palomar is part of [Scopemount](http://scopemount.startrack.io), a set of free p
 
 [![Imgur](http://i.imgur.com/8yYLXiY.jpg)](http://scopemount.startrack.io)
 
-## Install
+## Install & Setup
 
-```bash
-meteor add montecruiseto:telescope-theme-sm-palomar
-```
+See [Blog Post](http://blog.startrack.io/scopemount-theme-palomar/)
 
 ### Look & Feel
 
-Palomar is a travel/photography style theme - [Demo](http://sm-palomar.meteor.com/) - [Blogpost](http://blog.startrack.io/scopemount-theme-palomar/)
+Palomar is a travel/photography style theme - [Demo](http://sm-palomar.meteor.com/)
 
 ![Palomar](http://i.imgur.com/2vvI6kX.png)
 

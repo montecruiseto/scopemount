@@ -6,15 +6,13 @@ Galileo is part of [Scopemount](http://scopemount.startrack.io), a set of free p
 
 [![Imgur](http://i.imgur.com/8yYLXiY.jpg)](http://scopemount.startrack.io)
 
-## Install
+## Install & Setup
 
-```bash
-meteor add montecruiseto:telescope-theme-sm-galileo
-```
+See [Blog Post](http://blog.startrack.io/scopemount-theme-galileo/)
 
 ### Look & Feel
 
-Galileo is a modern looking Q&A theme - [Demo](http://sm-galileo.meteor.com/) - [Blog](http://blog.startrack.io/scopemount-theme-galileo/)
+Galileo is a modern looking Q&A theme - [Demo](http://sm-galileo.meteor.com/)
 
 ![Galileo](http://i.imgur.com/bTiJHHU.png)
 

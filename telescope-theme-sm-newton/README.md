@@ -1,20 +1,18 @@
 # Telescope Newton Theme
 
-*Update: Scopemount themes are up-to-date with Telescope v0.20.4.*
+*Note: Scopemount themes are up-to-date with Telescope v0.20.4.*
 
 Newton is part of [Scopemount](http://scopemount.startrack.io), a set of free professional themes for [Telescope](http://www.telescopeapp.org/).
 
 [![Imgur](http://i.imgur.com/8yYLXiY.jpg)](http://scopemount.startrack.io)
 
-## Install
+## Install & Setup
 
-```bash
-meteor add montecruiseto:telescope-theme-sm-newton
-```
+See [Blog Post](http://blog.startrack.io/scopemount-theme-newton/)
 
 ### Look & Feel
 
-Newton is a minimal looking tech news theme - [Demo](http://sm-newton.meteor.com/) - [Blog](http://blog.startrack.io/scopemount-theme-newton/)
+Newton is a minimal looking tech news theme - [Demo](http://sm-newton.meteor.com/)
 
 ![newton](http://i.imgur.com/eaEWm5A.png)
 
