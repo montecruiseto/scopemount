@@ -9,13 +9,11 @@
         .primary-nav {
         	color: black;
             text-transform: capitalize;
-            letter-spacing: 0.8px;
-            font-size: 13px;
+            font-size: 14px;
         }
         .secondary-nav {
             text-transform: capitalize;
-            letter-spacing: 0.8px;
-            font-size: 13px;
+            font-size: 14px;
             .btn.btn-primary, .btn.submit {
                 background: transparent;
                 padding: 15px 0px;
@@ -34,9 +32,9 @@
         	}
     }
     .logo {
-        letter-spacing: 8px;
+        letter-spacing: 10px;
         @include medium-large {
-            font-size: 19px;
+            font-size: 21px;
         }
         a {
             color: black;

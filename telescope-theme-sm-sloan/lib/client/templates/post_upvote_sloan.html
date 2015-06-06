@@ -1,4 +1,5 @@
 <template name="post_upvote_sloan">
+<span class="points">{{baseScore}}</span>
   {{#if upvoted}}
     <span class="upvote-link voted action" title="{{_ "upvoted"}}">
       {{{icon "voted" "icon-circle"}}}
@@ -10,5 +11,4 @@
       <span class="sr-only">{{_ "upvote_"}}</span>
     </a>
   {{/if}}
-  <span class="points">{{baseScore}}</span>
 </template>

@@ -4,9 +4,8 @@ input[type="submit"], button, .button, .btn{
     background-color: whitesmoke;
     color: #808393;
     border: 1px solid #808393;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
-    text-transform: uppercase;
   }
 }
 
@@ -14,12 +13,6 @@ form textarea:focus {
   border-color: $main;
 }
 
-#submitPostForm {
-  .af-defaultFieldGroup {
-    .form-group {
-      &:nth-of-type(1), &:nth-of-type(4) {
-        display: none;
-      }
-    }
-  }
+form .form-group .controls {
+    text-align: left;
 }

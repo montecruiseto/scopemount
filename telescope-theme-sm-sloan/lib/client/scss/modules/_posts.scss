@@ -14,13 +14,13 @@
 	background: transparent;
 	color: white;
 	.menu-top-level{
-		font-size: 11px;
+		font-size: 13px;
 		margin-right: 20px;
 	}
 	.menu-item{
 		text-transform: uppercase;
 		a {
-			font-size: 11px;
+			font-size: 13px;
 			letter-spacing: 1px;
 			color: white;
 		}
@@ -135,22 +135,23 @@
 
 .categories-wrapper {
 	display: block;
+	margin-top: 10px;
 }
 .post-category {
     font-size: 13px;
     font-weight: normal !important;
     color: #808393 !important;
     background: whitesmoke;
-    text-transform: uppercase;
+    text-transform: lowercase !important;
     padding: 3px 5px 3px 5px;
+    background: transparent;
+    border: 1px solid #808393;
+    border-radius: 4%;
     &:hover {
-        background: #EFECEC;
+        background: transparent;
         color: black;
-        text-decoration: none;
+        text-decoration: none !important;
     }
-    // @include small {
-    //     display: none;
-    // }
 }
 
 
@@ -159,7 +160,6 @@
 .more-button {
 	margin-top: 20px;
 	background: white;
-	text-decoration: underline;
 	text-transform: uppercase;
 	font-size: 14px;
 	height: 50px;
