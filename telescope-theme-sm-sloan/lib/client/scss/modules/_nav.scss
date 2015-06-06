@@ -10,6 +10,9 @@
         	color: black;
             text-transform: capitalize;
             font-size: 14px;
+            a {
+                font-weight: normal;
+            }
         }
         .secondary-nav {
             text-transform: capitalize;
@@ -18,12 +21,13 @@
                 background: transparent;
                 padding: 15px 0px;
                 letter-spacing: 1px;
-                font-size: 13px;
+                font-size: 14px;
                 border: none;
+                font-weight: normal;
             }
         }
         .menu-item a {
-            font-size: 12px;
+            font-size: 13px;
         }
         	.header-submodule:nth-child(2) {
         	  	@include medium {
@@ -32,9 +36,9 @@
         	}
     }
     .logo {
-        letter-spacing: 10px;
+        letter-spacing: 2px;
         @include medium-large {
-            font-size: 21px;
+            font-size: 34px;
         }
         a {
             color: black;

@@ -1,13 +1,14 @@
 .search {
-	.search-field {
-	  font-size: 13px;
-	}
+  .search-field {
+    color: #444444;
+    font-size: 14px;
+  }
   &.empty {
     .search-field {
       background: white;
     }
   }
   input {
-  	color: lightgray;
+    color: lightgray;
   }
 }

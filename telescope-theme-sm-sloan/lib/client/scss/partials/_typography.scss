@@ -1,7 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Ruluko);
 
-body, textarea, input, button, input[type="submit"], input[type="button"]{
+body, .logo, .post-category {
 	font-family:"Ruluko", sans-serif;
+}
+textarea, input, .header, .post-meta, .mobile-menu, input[type="submit"], button, input[type="button"] {
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
 }
 
 

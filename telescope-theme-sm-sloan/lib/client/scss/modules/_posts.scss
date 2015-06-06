@@ -79,9 +79,6 @@
 			text-decoration: underline;
 		}
 	}
-	.avatar {
-		margin-top: 10px;
-	}
 	.post-commenters {
 		display: none;
 	}
@@ -89,11 +86,10 @@
 .post-body, .page-body {
     font-size: 15px;
     color: #57656d;
-    @include large {
+    @include medium-large {
         font-size: 17px;
     }
     box-shadow: none;
-    padding: 15px 20px 3px 0px;
     .list & {
     	display: block;
     }
@@ -135,10 +131,13 @@
 
 .categories-wrapper {
 	display: block;
-	margin-top: 10px;
+	margin-top: 3px;
+	@include medium-large {
+	    margin-top: 10px;
+	}
 }
 .post-category {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: normal !important;
     color: #808393 !important;
     background: whitesmoke;
@@ -151,6 +150,9 @@
         background: transparent;
         color: black;
         text-decoration: none !important;
+    }
+    @include medium-large {
+        font-size: 14px;
     }
 }
 
