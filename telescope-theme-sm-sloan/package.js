@@ -47,8 +47,8 @@ Package.onUse(function (api) {
       'lib/client/scss/screen.scss',
 
       // overrides
+      'lib/client/templates/post_categories_sloan.html',
       'lib/client/templates/post_content_sloan.html',
-      'lib/client/templates/post_domain_sloan.html',
       'lib/client/templates/post_info_sloan.html',
       'lib/client/templates/post_upvote_sloan.html',
       'lib/client/templates/post_page_sloan.html',

@@ -1,0 +1,6 @@
+<template name="post_categories_sloan">
+    <div class="categories-wrapper">
+        {{#each categoriesArray}}
+        <a href="{{categoryLink}}" class="post-category category-{{slug}}">{{name}}</a> {{/each}}
+    </div>
+</template>
