@@ -12,11 +12,9 @@ See [Blog Post](http://blog.startrack.io/scopemount-theme-sloan/)
 
 ### Look & Feel
 
-Sloan is a modern looking Q&A theme - [Demo](http://sm-sloan.meteor.com/)
+Sloan is a simple product-centered theme - [Demo](http://sm-sloan.meteor.com/)
 
-![Sloan]()
-
-![Sloan]()
+![Sloan](http://i.imgur.com/ubdDcBc.png)
 
 ### Thanks
 

@@ -4,10 +4,12 @@
 
 .top-nav {
     .header {
-        background-color: white;
-        color: black;
+        background-color: transparent;
+        color: white;
+        margin-bottom: 0px;
+
         .primary-nav {
-        	color: black;
+        	color: white;
             text-transform: capitalize;
             font-size: 14px;
             a {
@@ -29,23 +31,17 @@
         .menu-item a {
             font-size: 13px;
         }
-        	.header-submodule:nth-child(2) {
-        	  	@include medium {
-        	  	    display: none;
-        	  	}
-        	}
+    	.header-submodule:nth-child(2) {
+    	  	@include medium {
+    	  	    display: none;
+    	  	}
+    	}
     }
     .logo {
         letter-spacing: 2px;
-        @include medium-large {
-            font-size: 34px;
-        }
+        text-transform: uppercase;
         a {
-            color: black;
+            color: white;
         }
     }
 }
-
-
-
-

@@ -28,7 +28,6 @@ Package.onUse(function (api) {
       'lib/client/scss/global/_markdown.scss',
 
       // modules
-      'lib/client/scss/modules/_avatars.scss',
       'lib/client/scss/modules/_comments.scss',
       'lib/client/scss/modules/_layout.scss',
       'lib/client/scss/modules/_menu.scss',
