@@ -45,13 +45,13 @@ All the themes use the base and hubble theme as a dependency.
 ![Palomar](http://i.imgur.com/2vvI6kX.png)
 ![Palomar](http://i.imgur.com/SMOZYSE.png)
 
-##### 4 - Gemini (a modern music theme - [Demo](http://sm-gemini.meteor.com/) - [Blog](http://blog.startrack.io/scopemount-theme-gemini/))
-
-![Gemini](http://i.imgur.com/My7M31n.png)
-
-##### 5 -  Sloan (a simple product-centered theme - [Demo](http://sm-sloan.meteor.com/) - [Blog](http://blog.startrack.io/scopemount-theme-sloan/))
+##### 4 -  Sloan (a simple product-centered theme - [Demo](http://sm-sloan.meteor.com/) - [Blog Post](http://blog.startrack.io/scopemount-theme-sloan/))
 
 ![Sloan](http://i.imgur.com/ubdDcBc.png)
+
+##### 5 - Gemini (a modern music theme - [Demo](http://sm-gemini.meteor.com/) - [Blog Post](http://blog.startrack.io/scopemount-theme-gemini/))
+
+![Gemini](http://i.imgur.com/My7M31n.png)
 
 ##### 6 -  Laval (a book club community - coming soon)
 
