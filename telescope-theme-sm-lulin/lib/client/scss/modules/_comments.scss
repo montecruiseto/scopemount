@@ -1,0 +1,15 @@
+.comment-text {
+    &, p {
+        font-size: 14px;
+    }
+}
+.comment-actions {
+    a {
+        i {
+            color: $mainDark;
+        }
+    }
+}
+.comment-meta {
+	text-transform: capitalize;
+}

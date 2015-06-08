@@ -1,0 +1,38 @@
+// ------------------------------------ Side Nav Layout ------------------------------------ //
+
+$nav-width: 175px;
+
+.side-nav{
+	  .inner-wrapper{
+			@include medium-large{
+		      margin-left: $nav-width;
+	       }
+		}
+    .header{
+    	@include medium-large{
+    		width: $nav-width;
+    	}
+        background: white;
+        color: black;
+        .logo {
+            font-size: 28px;
+            a {
+                color: black;
+            }
+            @include medium-large {
+                margin-bottom: 40px;
+                margin-top: 40px;
+                font-size: 48px;
+            }
+        }
+        input[type="submit"], button, .button, .btn{
+          &.btn-primary, &.submit{
+            background: transparent;
+            text-transform: capitalize;
+            border: 2px solid black;
+            font-size: 13px;
+            letter-spacing: 1px;
+          }
+        }
+    }
+}
