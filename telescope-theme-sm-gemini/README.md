@@ -6,7 +6,7 @@ Gemini is part of [Scopemount](http://scopemount.startrack.io), a set of free pr
 
 [![Imgur](http://i.imgur.com/8yYLXiY.jpg)](http://scopemount.startrack.io)
 
-## Install & Setup
+### Install & Setup
 
 See [Blog Post](http://blog.startrack.io/scopemount-theme-gemini/)
 
