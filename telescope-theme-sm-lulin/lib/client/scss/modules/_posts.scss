@@ -30,20 +30,12 @@
 
 .posts-grid {
 	.post {
-		@include small {
-			max-width: 280px;
-		}
-		@include medium {
-			max-width: 561px;
-		}
-		@include medium-large {
-			width: calc((100%));
-		}
-		border-radius: 4px;
-		margin: 0 0 25px 0;
+		border-radius: 0px;
+		margin: 0 0 0 0;
 		padding-bottom: 0px;
+		border: 0px;
 		&:after {
-			border-bottom: none;
+			display: none;
 		}
 	}
 	.post-content {
@@ -51,48 +43,14 @@
 		text-align: left;
 	}
 	.post-info {
-		padding: 10px 10px;
-		@include medium-large {
-			padding: 10px 25px;
-		}
+		padding: 10px 20px;
+		bottom: 0px;
 		position: absolute;
 		z-index: 1;
-		background: transparent;
-	}
-	.post-thumbnail {
-			border: 1px solid rgba(171, 171, 171, 0.4);
-			border-radius: 4px;
-	    a {
-	    	border-radius: 4px;
-	    }
-	}
-	svg {
-		display: none;
-		border-radius: 4px 4px 0px 0px;
-		position: absolute;
-		width: 278px;
-		height: 75px;
-		left: 1px;
-		top: 1px;
-		@include medium {
-			width: 559px;
-			height: 136px;
-		}
-		@include large {
-			width: 698px;
-			height: 170px;
-		}
-		> #panel {
-			width: 280px;
-			height: 140px;
-			@include medium {
-				width: 561px;
-				height: 280px;
-			}
-			@include large {
-				width: 700px;
-				height: 350px;
-			}
+		background: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		@include medium-large {
+			padding: 10px 25px;
 		}
 	}
 	.post-upvote {
@@ -103,7 +61,6 @@
 		left: 253px;
 		top: 99px;
 		bottom: 1px;
-    background: deepskyblue;
     padding: 0 4px;
 		@include medium {
 			left: 533px;
@@ -160,9 +117,9 @@
 	}
 	.post-title {
 		color: white;
-		font-weight: 400;
-		font-size: 15px;
-		text-shadow: 1px 1px 1px rgba(21, 21, 21, 0.7);
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 17px;
 		@include medium {
 			font-size: 27px;
 		}
@@ -179,7 +136,6 @@
 	}
 }
 .post-meta {
-	margin-bottom: 20px;
 	color: white;
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.64);
 	@include small {
@@ -204,16 +160,6 @@
 	}
 	.post-commenters {
 		display: none;
-	}
-	.palomar-admin {
-		@include small {
-			    padding: 3px 10px 2px 10px;
-			    background-color: darkblue;
-			    position: absolute;
-			    display: block;
-			    left: 1px;
-			    top: 76px;
-		}
 	}
 }
 .post-body, .page-body {
