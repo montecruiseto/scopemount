@@ -51,6 +51,7 @@ Package.onUse(function (api) {
       'lib/client/scss/screen.scss',
 
       // overrides
+      'lib/client/templates/post_comments_link_lulin.html',
       'lib/client/templates/post_content_lulin.html',
       'lib/client/templates/post_info_lulin.html',
       'lib/client/templates/post_upvote_lulin.html',

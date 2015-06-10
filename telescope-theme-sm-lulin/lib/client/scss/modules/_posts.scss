@@ -56,47 +56,26 @@
 	.post-upvote {
 		z-index: 2;
 		text-align: center;
-		font-size: 11px;
 		color: white;
-		left: 253px;
-		top: 99px;
-		bottom: 1px;
-    padding: 0 4px;
-		@include medium {
-			left: 533px;
-		}
-		@include large {
-			left: 663px;
-		}
-		@include medium-large {
-			top: 14px;
-			font-weight: bold;
-			background: none;
-		}
+		left: 90%;
+		top: 8%;
     .upvote-link {
-        transform: scale(1.9);
-        margin-bottom: 13px;
+        transform: scale(1.6);
         .icon-circle {
-        	padding: 3px;
+        	padding: 5px;
         }
         .icon-upvote{
-        	border: none;
-        	color: white;
-        	background-color: transparent;
+        	border: 2px solid rgba(255, 255, 255, 0.6);
+        	color: rgba(255, 255, 255, 0.6);
+        	background-color: crimson;
         }
         &.voted {
         	i.icon-voted {
-        		border: none;
+        		border: 2px solid transparent;
         		color: white;
-        		text-shadow: 0px 0px 3px #FFF4C1;
-        		background-color: transparent;
+        		background-color: crimson;
         	}
         }
-    }
-    .points {
-    	display: flex;
-    	flex-direction: column;
-    	font-size: 13px;
     }
 	}
 }
@@ -121,10 +100,10 @@
 		font-weight: 600;
 		font-size: 17px;
 		@include medium {
-			font-size: 27px;
+			font-size: 20px;
 		}
 		@include large {
-			font-size: 35px;
+			font-size: 25px;
 		}
 		@include medium-large {
 			font-weight: 700;
@@ -155,7 +134,7 @@
 			text-decoration: underline;
 		}
 		&.post-author:after {
-		    content: " |";
+		    content: " •";
 		}
 	}
 	.post-commenters {
@@ -214,28 +193,16 @@
 
 .more-button {
 	margin-bottom: 40px;
-	background: #F9F9F9;
+	background: white;
 	font-size: 20px;
 	height: 50px;
 	line-height: 46px;
 	&:hover {
-		background: #F9F9F9;
+		background: white;
 	}
 	&:after {
 		font-size: 16px;
 		content: " »";
-	}
-}
-.post-thumbnail-container, .post-thumbnail-preview  {
-	width: 250px !important;
-	height: 125px !important;
-	@include medium {
-		width: 340px !important;
-		height: 170px !important;
-	}
-	@include large {
-		width: 470px !important;
-		height: 235px !important;
 	}
 }
 

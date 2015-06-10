@@ -1,8 +1,8 @@
 .avatar {
-  display: none;
+  position: absolute;
+  left: 60px;
+  top: 10px;
   @include large {
-    display: block;
-    position: absolute;
     left: -60px;
     top: 10px;
   }
@@ -12,7 +12,6 @@
     color: transparent;
     border: none;
     font-weight: bold;
-    font-family: "Nunito";
     text-shadow: none;
   }
 }
