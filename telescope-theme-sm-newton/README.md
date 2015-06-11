@@ -1,6 +1,6 @@
 # Telescope Newton Theme
 
-*Note: Scopemount themes are up-to-date with Telescope v0.20.4.*
+*Note: Newton is up-to-date with Telescope v0.20.5.*
 
 Newton is part of [Scopemount](http://scopemount.startrack.io), a set of free professional themes for [Telescope](http://www.telescopeapp.org/).
 
