@@ -1,7 +1,7 @@
 Package.describe({
   name: "montecruiseto:telescope-theme-sm-sloan",
   summary: "Telescope Scopemount: Sloan theme package",
-  version: "0.1.0",
+  version: "0.1.1",
   git: "https://github.com/montecruiseto/scopemount.git"
 });
 

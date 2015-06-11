@@ -1,6 +1,6 @@
 # Telescope Galileo Theme
 
-*Note: Scopemount themes are up-to-date with Telescope v0.20.4.*
+*Note: Galileo is up-to-date with Telescope v0.20.5*
 
 Galileo is part of [Scopemount](http://scopemount.startrack.io), a set of free professional themes for [Telescope](http://www.telescopeapp.org/).
 

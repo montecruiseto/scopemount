@@ -1,6 +1,6 @@
 # Telescope Palomar Theme
 
-*Note: Scopemount themes are up-to-date with Telescope v0.20.4.*
+*Note: Palomar is up-to-date with Telescope v0.20.5*
 
 Palomar is part of [Scopemount](http://scopemount.startrack.io), a set of free professional themes for [Telescope](http://www.telescopeapp.org/).
 
