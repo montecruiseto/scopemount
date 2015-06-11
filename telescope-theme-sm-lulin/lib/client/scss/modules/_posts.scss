@@ -38,8 +38,16 @@
 		&:after {
 			display: none;
 		}
-		@include medium-large {
+		@include medium {
 			width: calc((100%));
+		}
+		@include large {
+			width: calc((100% - 20px)*0.666666);
+			margin-right: 10px;
+			&:nth-of-type(4n), &:nth-of-type(4n+1) {
+				margin-right: 0;
+				width: calc((100% - 20px)/3);
+			}
 			margin: 0 0 30px 0;
 		}
 	}
@@ -103,18 +111,18 @@
 	.post-title {
 		color: white;
 		text-transform: uppercase;
-		font-weight: 600;
+		font-weight: 900;
 		font-size: 17px;
 		letter-spacing: 0.1px;
 		margin-bottom: 0px !important;
 		@include medium {
-			font-size: 20px;
+			font-size: 17px;
 		}
 		@include large {
-			font-size: 25px;
+			font-size: 17px;
 		}
 		@include medium-large {
-			font-weight: 700;
+			font-weight: 900;
 			line-height: 1;
 		}
 		&:visited {
@@ -140,6 +148,11 @@
 		&:hover {
 			color: #DFDFDF;
 			text-decoration: underline;
+	 }
+	}
+	.unit {
+		&:after {
+			content: "points ";
 		}
 	}
 	.post-commenters {
