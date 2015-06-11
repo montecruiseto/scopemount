@@ -42,13 +42,13 @@
 			width: calc((100%));
 		}
 		@include large {
-			width: calc((100% - 20px)*0.6);
+			width: calc((100% - 20px)*0.618);
 			margin-right: 10px;
 			&:nth-of-type(4n), &:nth-of-type(4n+1) {
 				margin-right: 0;
-				width: calc((100% - 20px)*0.4);
+				width: calc((100% - 20px)*0.382);
 				.post-thumbnail-image {
-					width: 150%;
+					width: 161.8%;
 				}
 			}
 			margin: 0 0 30px 0;
@@ -132,12 +132,12 @@
 			font-size: 17px;
 		}
 		@media screen and (min-width: 1024px){
-			font-size: 14px;
+			font-size: 13.6px;
 		}
-		@media screen and (min-width: 1152px){
+		@media screen and (min-width: 1195px){
 			font-size: 16px;
 		}
-		@media screen and (min-width: 1250px){
+		@media screen and (min-width: 1300px){
 			font-size: 18px;
 		}
 		&:visited {
