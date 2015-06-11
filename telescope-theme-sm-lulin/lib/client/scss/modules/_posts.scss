@@ -11,9 +11,10 @@
 
 // ------------------------------------ posts views nav ------------------------------------ //
 .posts-list-views{
-	background: #F9F9F9;
+	background: white;
+	text-align: left;
 	.menu-top-level{
-		font-size: 11px;
+		font-size: 12px;
 		margin-right: 20px;
 	}
 	.menu-item{
@@ -37,6 +38,10 @@
 		&:after {
 			display: none;
 		}
+		@include medium-large {
+			width: calc((100%));
+			margin: 0 0 30px 0;
+		}
 	}
 	.post-content {
 		position: relative;
@@ -47,7 +52,7 @@
 		bottom: 0px;
 		position: absolute;
 		z-index: 1;
-		background: rgba(0, 0, 0, 0.5);
+		background: rgba(0, 0, 0, 0.55);
 		width: 100%;
 		@include medium-large {
 			padding: 10px 25px;
@@ -65,7 +70,13 @@
         	border: 3px solid rgba(255, 255, 255, 0.6);
         	color: white;
         	background-color: rgba(255, 255, 255, 0.6);
-        	// text-shadow: 1px 0px 0px rgba(177, 175, 175, 0.34);
+        	transition: all 0.2s ease;
+        	text-shadow: 1px 0px 0px rgba(177, 175, 175, 0.3);
+        	&:hover {
+        		background-color: crimson;
+        		border-color: coral;
+        		color: coral;
+        	}
         }
         &.voted {
         	i.icon-voted {
@@ -86,17 +97,16 @@
 		margin-bottom: 3px;
 		line-height: 1.2;
 	}
-	@include medium {
-		margin-top: 40px;
-	}
-	@include large {
-		margin-top: 50px;
+	@include medium-large {
+		margin-top: 10px;
 	}
 	.post-title {
 		color: white;
 		text-transform: uppercase;
 		font-weight: 600;
 		font-size: 17px;
+		letter-spacing: 0.1px;
+		margin-bottom: 0px !important;
 		@include medium {
 			font-size: 20px;
 		}
@@ -113,10 +123,10 @@
 	}
 }
 .post-meta {
-	color: white;
+	color: #DFDFDF;
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.64);
+	font-size: 14px !important;
 	@include small {
-	    font-size: 12px !important;
 	    line-height: 1;
 	}
 	a {
@@ -125,14 +135,11 @@
 		&:visited,
 		&:active {
 			font-weight: normal;
-			color: white;
+			color: #DFDFDF;
 		}
 		&:hover {
-			color: white;
+			color: #DFDFDF;
 			text-decoration: underline;
-		}
-		&.post-author:after {
-		    content: " •";
 		}
 	}
 	.post-commenters {

@@ -29,15 +29,11 @@ Telescope.modules.add("postMeta", [
     order: 10
   },
   {
-    template: 'post_author',
+    template: 'post_comments_link',
     order: 20
   },
   {
-    template: 'post_comments_link',
-    order: 30
-  },
-  {
     template: 'post_admin',
-    order: 40
+    order: 30
   }
 ]);
