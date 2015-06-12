@@ -12,17 +12,28 @@ $nav-width: 220px;
     	@include medium-large{
     		width: $nav-width;
     	}
+        margin-bottom: 0px;
         background: white;
         color: black;
         .logo {
-            font-size: 28px;
+            padding: 0 40px;
             a {
+                font-size: 28px;
                 color: black;
             }
             @include medium-large {
                 margin-bottom: 40px;
                 margin-top: 40px;
-                font-size: 48px;
+                padding: 0 0px;
+                a {
+                    font-size: 48px;
+                }
+            }
+        }
+        .primary-nav, .secondary-nav {
+            font-size: 15px !important;
+            a {
+                font-size: 15px !important;
             }
         }
         input[type="submit"], button, .button, .btn{
@@ -30,7 +41,7 @@ $nav-width: 220px;
             background: transparent;
             text-transform: capitalize;
             border: 2px solid black;
-            font-size: 13px;
+            font-size: 15px;
             letter-spacing: 1px;
           }
         }

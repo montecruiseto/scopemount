@@ -1,18 +1,7 @@
 .avatar {
-  position: absolute;
-  left: 60px;
-  top: 10px;
-  @include large {
-    left: -60px;
-    top: 10px;
-  }
+  display: none;
   .avatar-initials{
-    line-height: 46px;
-    background-color: deepskyblue;
-    color: transparent;
-    border: none;
-    font-weight: bold;
-    text-shadow: none;
+    display: none;
   }
 }
 .avatar-medium {

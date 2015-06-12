@@ -4,12 +4,25 @@ input[type="submit"], button, .button, .btn{
     background-color: whitesmoke;
     color: #808393;
     border: 1px solid #808393;
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 700;
     letter-spacing: 1px;
+    text-transform: uppercase;
   }
 }
 
-form textarea:focus {
-  border-color: $main;
+form textarea {
+    font-size: 16px;
+    &:focus {
+        border-color: $main;
+    }
+}
+
+form .at-input {
+	font-size: 15px;
+}
+
+form input[type="text"], form input[type="password"], form input[type="number"], form input[type="email"], form textarea, form .login-form input, .accounts-dialog input[type="text"], .accounts-dialog input[type="password"], .accounts-dialog input[type="number"], .accounts-dialog input[type="email"], .accounts-dialog textarea, .accounts-dialog .login-form input {
+  font-size: 16px;
 }
 

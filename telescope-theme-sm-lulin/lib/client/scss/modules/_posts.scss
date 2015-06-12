@@ -13,6 +13,7 @@
 .posts-list-views{
 	background: white;
 	text-align: left;
+	margin-bottom: 0px;
 	.menu-top-level{
 		font-size: 12px;
 		margin-right: 20px;
@@ -39,7 +40,7 @@
 			display: none;
 		}
 		@include medium {
-			width: calc((100%));
+			width: 100%;
 		}
 		@include large {
 			width: calc((100% - 20px)*0.618);
@@ -59,15 +60,15 @@
 		text-align: left;
 	}
 	.post-info {
-		padding: 10px 20px;
+		padding: 10px 10px;
 		bottom: 0px;
 		position: absolute;
 		z-index: 1;
 		background: rgba(0, 0, 0, 0.55);
 		width: 100%;
-		// @include medium-large {
-		// 	padding: 10px 25px;
-		// }
+		@media screen and (min-width: 375px){
+			padding: 10px 20px;
+		}
 		@media screen and (min-width: 1024px){
 			padding: 10px 15px;
 		}
@@ -79,10 +80,13 @@
 		z-index: 2;
 		text-align: center;
 		color: white;
-		left: 90%;
+		left: 87%;
 		top: 8%;
+		@media screen and (min-width: 375px){
+			left: 90%;
+		}
 		@include large {
-			left: 25px;;
+			left: 25px;
 		}
     .upvote-link {
         transform: scale(1.3);
@@ -109,22 +113,41 @@
 	}
 }
 
+// -------------------------------- single post --------------------------------- //
+
+.single-post {
+  &.grid {
+      @include large {
+          width: 50%;
+      }
+  }
+  .posts-grid {
+      .post {
+          @include large {
+              margin: 20px auto;
+              width: 95%;
+              .post-thumbnail-image {
+                  width: 100%;
+              }
+          }
+      }
+  }
+}
+
+
 // -------------------------------- post content --------------------------------- //
 .post-heading {
 	margin-bottom: 0px;
 	line-height: 1.1;
-	@include medium-large {
-		margin-bottom: 3px;
-		line-height: 1.2;
-	}
-	@include medium-large {
+	margin-top: 7px;
+	@media screen and (min-width: 1300px){
 		margin-top: 10px;
 	}
 	.post-title {
 		color: white;
 		text-transform: uppercase;
 		font-weight: 900;
-		font-size: 17px;
+		font-size: 15px;
 		letter-spacing: 0.1px;
 		margin-bottom: 0px !important;
 		transition: all 0.2s ease;
@@ -175,19 +198,18 @@
 	}
 }
 .post-body, .page-body {
-    font-size: 13px;
+    font-size: 15px;
     color: darkslategrey;
-    @include large {
-        font-size: 15px;
+    @include medium-large {
+        font-size: 18px;
     }
-    margin-top: -20px;
     padding: 20px;
     .list & {
     	display: block;
     	background: transparent;
     }
     p {
-        line-height: 1.6;
+        line-height: 1.4;
     }
 }
 
@@ -221,10 +243,10 @@
 	}
 }
 
-
 // -------------------------------- other --------------------------------- //
 
 .more-button {
+	margin-top: 15px;
 	margin-bottom: 40px;
 	background: white;
 	font-size: 20px;
@@ -238,6 +260,3 @@
 		content: " »";
 	}
 }
-
-
-
