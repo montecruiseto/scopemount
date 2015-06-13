@@ -215,32 +215,7 @@
 
 // -------------------------------- post tags --------------------------------- //
 .post-category {
-	display: block;
-	font-size: 9px;
-	font-weight: normal !important;
-	color: white !important;
-	background: deepskyblue;
-	text-transform: uppercase;
-	padding: 5px 10px 5px 10px;
-	position: absolute;
-	left: 1px;
-	top: 105px;
-	&:hover {
-	    background: deepskyblue;
-	    color: white;
-	}
-	@include medium {
-	    font-size: 11px;
-	    padding: 7px 18px 7px 18px;
-	    left: 1px;
-	    top: 15px;
-	}
-	@include large {
-			font-size: 11px;
-			padding: 7px 18px 7px 18px;
-	    left: -20px;
-	    top: 20px;
-	}
+	display: none;
 }
 
 // -------------------------------- other --------------------------------- //

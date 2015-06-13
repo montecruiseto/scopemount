@@ -53,7 +53,13 @@ All the themes use the base and hubble theme as a dependency.
 
 ![Gemini](http://i.imgur.com/My7M31n.png)
 
-##### 6 -  Laval (a book club community - coming soon)
+##### 6 -  Lulin (a community for foodies - [Demo](http://sm-lulin.meteor.com/) - [Blog Post](http://blog.startrack.io/scopemount-theme-lulin/))
+
+![Lulin](http://i.imgur.com/fRq7a1f.png)
+
+![Lulin](http://i.imgur.com/1fWUKhJ.png)
+
+![Lulin](http://i.imgur.com/Mz99E5y.png)
 
 ##### 7 -  Starfire (a gaming community - coming soon)
 
@@ -79,7 +85,7 @@ All the themes use the base and hubble theme as a dependency.
 
 ##### 18 -  Kitt (mass media consumption - coming soon)
 
-##### 19 -  Lulin (a foodie community - coming soon)
+##### 19 -  Laval (a book club community - coming soon)
 
 ##### 20 -  Magellan (tech whitepages - coming soon)
 
