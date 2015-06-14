@@ -14,9 +14,9 @@ See [Blog Post](http://blog.startrack.io/scopemount-theme-lulin/)
 
 Lulin is a foodie community theme - [Demo](http://sm-lulin.meteor.com/)
 
-![Lulin](http://i.imgur.com/fRq7a1f.png)
+![Lulin](http://i.imgur.com/KlL7XVn.png)
 
-![Lulin](http://i.imgur.com/1fWUKhJ.png)
+![Lulin](http://i.imgur.com/xtWPgWg.png)
 
 ![Lulin](http://i.imgur.com/Mz99E5y.png)
 

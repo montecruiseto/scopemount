@@ -55,10 +55,8 @@ All the themes use the base and hubble theme as a dependency.
 
 ##### 6 -  Lulin (a community for foodies - [Demo](http://sm-lulin.meteor.com/) - [Blog Post](http://blog.startrack.io/scopemount-theme-lulin/))
 
-![Lulin](http://i.imgur.com/fRq7a1f.png)
-
-![Lulin](http://i.imgur.com/1fWUKhJ.png)
-
+![Lulin](http://i.imgur.com/KlL7XVn.png)
+![Lulin](http://i.imgur.com/xtWPgWg.png)
 ![Lulin](http://i.imgur.com/Mz99E5y.png)
 
 ##### 7 -  Starfire (a gaming community - coming soon)
