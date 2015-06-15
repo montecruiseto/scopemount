@@ -11,7 +11,8 @@ Package.onUse(function (api) {
       // core dependencies
       'telescope:core@0.20.5',
       'telescope:theme-base@0.20.5',
-      'telescope:theme-hubble@0.20.5'
+      'telescope:theme-hubble@0.20.5',
+      'jeremy:telescope-plugin-hero@0.2.5'
     ]);
 
   api.addFiles([
@@ -42,6 +43,7 @@ Package.onUse(function (api) {
       'lib/client/scss/screen.scss',
 
       // overrides
+      'lib/client/templates/starfire.html',
       'lib/client/templates/post_content_starfire.html',
       'lib/client/templates/post_info_starfire.html',
       'lib/client/templates/post_upvote_starfire.html',

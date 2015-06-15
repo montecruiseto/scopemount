@@ -35,5 +35,9 @@ Telescope.modules.add("postMeta", [
   {
     template: 'post_admin',
     order: 40
+  },
+  {
+    template: 'starfire',
+    order: 50
   }
 ]);
