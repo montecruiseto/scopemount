@@ -1,0 +1,142 @@
+// ------------------------------------ post ------------------------------------ //
+.post {
+	padding: 11px 0px 11px 10px;
+	@include small {
+		padding: 11px 10px 11px 0px;
+	}
+}
+.post-list-title, .page-title{
+    display: none;
+}
+
+// ------------------------------------ posts views nav ------------------------------------ //
+.posts-list-views{
+	.menu-top-level{
+		font-size: 11px;
+		margin-right: 20px;
+	}
+	.menu-item{
+		text-transform: uppercase;
+		a {
+			font-size: 11px;
+			letter-spacing: 1px;
+			color: $main;
+		}
+	}
+}
+
+// ------------------------------ posts-list layout ------------------------------ //
+.posts-list {
+	.post-upvote {
+		@include small {
+			display: block;
+		}
+	}
+	.post-rank {
+		order: 7;
+		span {
+			right: 0px;
+			height: 25px;
+			line-height: 25px;
+			width: 30px;
+			text-align: right;
+			font-size: 12px;
+			font-weight: bold;
+		}
+	}
+}
+
+// -------------------------------- post content --------------------------------- //
+.post-heading {
+	.post-title {
+		font-weight: 600;
+		@include small {
+			font-size: 14px;
+		}
+		@include medium-large {
+			font-size: 16px;
+		}
+		&:visited {
+			color: black;
+		}
+	}
+	.post-domain {
+		@include small {
+			font-size: 12px;
+		}
+		@include medium-large {
+			font-size: 13px;
+		}
+	}
+}
+.post-meta {
+	a {
+		text-transform: capitalize;
+		&:link,
+		&:visited,
+		&:active {
+			font-weight: normal;
+		}
+		&:hover {
+			color: gray;
+			text-decoration: underline;
+		}
+	}
+}
+.post-body, .page-body {
+    font-size: 13px;
+    @include large {
+        font-size: 14px;
+    }
+}
+// -------------------------------- post modules --------------------------------- //
+
+.post-upvote {
+	text-align: center;
+	font-size: 11px;
+	color: $main;
+	font-weight: bold;
+    .upvote-link {
+        transform: scale(1.5);
+        .icon-upvote{
+        	border: none;
+        }
+        &.voted {
+        	i.icon-voted {
+        		border: none;
+        		color: black;
+        	}
+        }
+    }
+    .points {
+    	display: flex;
+    	flex-direction: column;
+    }
+}
+
+// -------------------------------- embedly thumbs --------------------------------- //
+.post-thumbnail-link {
+    width: 72px;
+}
+
+// -------------------------------- other --------------------------------- //
+
+.more-button {
+	margin: 20px 0 0 auto;
+	background: white;
+	border-radius: 3px 3px 3px 3px;
+	text-transform: uppercase;
+	font-size: 14px;
+	height: 50px;
+	line-height: 46px;
+	&:hover {
+		background: white;
+	}
+	@include large {
+	    width: 12%;
+	}
+	&:after {
+		font-size: 16px;
+		content: " »";
+	}
+}

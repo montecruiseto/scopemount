@@ -1,0 +1,11 @@
+input[type="submit"], button, .button, .btn{
+  &.btn-primary, &.submit{
+    background: gray;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+}
+
+form textarea:focus {
+  border-color: $main;
+}
