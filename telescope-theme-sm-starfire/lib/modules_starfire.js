@@ -7,14 +7,6 @@ Telescope.modules.add("postComponents", [
   {
     template: 'post_content',
     order: 20
-  },
-  {
-    template: 'post_discuss',
-    order: 30
-  },
-  {
-    template: 'post_actions',
-    order: 40
   }
 ]);
 
@@ -40,12 +32,13 @@ Telescope.modules.add("postMeta", [
     template: 'post_author',
     order: 30
   },
+  // {
+  //   template: 'starfire',
+  //   order: 40
+  // },
   {
     template: 'post_admin',
-    order: 40
-  },
-  {
-    template: 'starfire',
     order: 50
   }
+
 ]);

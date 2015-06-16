@@ -21,6 +21,7 @@ Package.onUse(function (api) {
 
   api.addFiles(
     [
+
       // globals
       'lib/client/scss/global/_forms.scss',
       'lib/client/scss/global/_links.scss',

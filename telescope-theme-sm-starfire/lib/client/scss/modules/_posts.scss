@@ -70,6 +70,7 @@
 	}
 }
 .post-meta {
+  vertical-align: top;
 	a {
 		text-transform: capitalize;
 		&:link,
@@ -158,6 +159,7 @@ $open-distance:105px;
 $opening-angle:$pi*2;
 
 %goo{
+  -webkit-filter:url('#shadowed-goo');
   filter:url('#shadowed-goo');
   // debug
   // background:rgba(255,0,0,0.2);
