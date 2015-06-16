@@ -148,7 +148,7 @@
 // -------------------------------- Gooey Buttons --------------------------------- //
 
 //vars
-$fg:silver;
+$fg:#00bcd4;
 $bg:#673ab7;
 $pi:3.14;
 
@@ -222,11 +222,15 @@ $hamburger-spacing:8px;
   $width:650px;
   $height:150px;
   position:absolute;
+  left:50%;
+  margin-left:-80px;
+  padding-top:20px;
   padding-left:80px;
   width:$width;
   height:$height;
   box-sizing:border-box;
   font-size:20px;
+  text-align:left;
   a, a:link {
     color: white;
   }
