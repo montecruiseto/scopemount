@@ -4,8 +4,12 @@
       <h3 class="post-heading">
         {{> modules "postHeading"}}
       </h3>
+      {{#if body}}
+        {{> post_body}}
+      {{/if}}
       <div class="post-meta">
         {{> modules "postMeta"}}
       </div>
+      {{> modules "starfireButtons"}}
     </div>
 </template>

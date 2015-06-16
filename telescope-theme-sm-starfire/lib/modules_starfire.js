@@ -1,9 +1,9 @@
 Telescope.modules.removeAll("postComponents");
 Telescope.modules.add("postComponents", [
-  {
-    template: 'post_upvote',
-    order: 10
-  },
+  // {
+  //   template: 'post_upvote',
+  //   order: 10
+  // },
   {
     template: 'post_content',
     order: 20
@@ -32,13 +32,15 @@ Telescope.modules.add("postMeta", [
     template: 'post_author',
     order: 30
   },
-  // {
-  //   template: 'starfire',
-  //   order: 40
-  // },
   {
     template: 'post_admin',
-    order: 50
+    order: 40
   }
+]);
 
+Telescope.modules.add("starfireButtons", [
+  {
+    template: 'starfire',
+    order: 30
+  }
 ]);
