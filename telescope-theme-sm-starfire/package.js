@@ -26,6 +26,7 @@ Package.onUse(function (api) {
       'lib/client/scss/global/_links.scss',
 
       // modules
+      'lib/client/scss/modules/_admin.scss',
       'lib/client/scss/modules/_comments.scss',
       'lib/client/scss/modules/_layout.scss',
       'lib/client/scss/modules/_nav.scss',
@@ -50,10 +51,14 @@ Package.onUse(function (api) {
       'lib/client/templates/post_info_starfire.html',
       'lib/client/templates/post_title_starfire.html',
       'lib/client/templates/post_upvote_starfire.html',
+      'lib/client/templates/posts_list_starfire.html',
 
       // customizations
       'lib/client/scripts/icons_starfire.js',
-      'lib/client/scripts/templates_starfire.js'
+      'lib/client/scripts/templates_starfire.js',
+
+      // images
+      'img/starfire.jpg'
 
     ], ['client']);
 

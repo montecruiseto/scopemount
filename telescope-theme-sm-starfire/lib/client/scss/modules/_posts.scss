@@ -28,12 +28,16 @@
 	}
 }
 
-// ------------------------------ posts-list layout ------------------------------ //
-.posts-list {
-  .post-content {
-    align-items: flex-start;
+// ------------------------------ posts-grid layout ------------------------------ //
+
+.posts-grid {
+  .post {
+    @include medium-large {
+      width: calc((100% - 20px)/2);
+    }
   }
 }
+
 
 // -------------------------------- post content --------------------------------- //
 .post-heading {
