@@ -1,6 +1,7 @@
 // ------------------------------------ post ------------------------------------ //
 .post {
-	padding: 11px 0px 11px 10px;
+  background: transparent;
+	padding: 25px 20px;
 	@include small {
 		padding: 11px 10px 11px 0px;
 	}
@@ -11,45 +12,34 @@
 
 // ------------------------------------ posts views nav ------------------------------------ //
 .posts-list-views{
+  background: transparent;
 	.menu-top-level{
 		font-size: 11px;
 		margin-right: 20px;
+    color: white;
 	}
 	.menu-item{
 		text-transform: uppercase;
 		a {
 			font-size: 11px;
 			letter-spacing: 1px;
-			color: $main;
+			color: white;
 		}
 	}
 }
 
 // ------------------------------ posts-list layout ------------------------------ //
 .posts-list {
-	.post-upvote {
-		@include small {
-			display: block;
-		}
-	}
-	.post-rank {
-		order: 7;
-		span {
-			right: 0px;
-			height: 25px;
-			line-height: 25px;
-			width: 30px;
-			text-align: right;
-			font-size: 12px;
-			font-weight: bold;
-		}
-	}
+  .post-content {
+    align-items: flex-start;
+  }
 }
 
 // -------------------------------- post content --------------------------------- //
 .post-heading {
 	.post-title {
 		font-weight: 600;
+    color: white;
 		@include small {
 			font-size: 14px;
 		}
@@ -57,15 +47,7 @@
 			font-size: 22px;
 		}
 		&:visited {
-			color: black;
-		}
-	}
-	.post-domain {
-		@include small {
-			font-size: 12px;
-		}
-		@include medium-large {
-			font-size: 13px;
+			color: white;
 		}
 	}
 }
@@ -91,7 +73,8 @@
 }
 .post-body, .page-body {
     font-size: 12px;
-    color: #57656d;
+    color: white;
+    background: transparent;
     @include large {
         font-size: 13px;
     }
@@ -103,34 +86,6 @@
     p {
         line-height: 1.6;
     }
-}
-
-// -------------------------------- post modules --------------------------------- //
-
-.post-upvote {
-	text-align: center;
-	font-size: 11px;
-	color: $main;
-	font-weight: bold;
-    .upvote-link {
-        transform: scale(1.5);
-        .icon-upvote{
-        	border: none;
-        }
-        &.voted {
-        	i.icon-voted {
-        		border: none;
-        		color: black;
-        	}
-        }
-    }
-    .points {
-    	display: flex;
-    	flex-direction: column;
-    }
-}
-.post-actions {
-  display: block;
 }
 
 // -------------------------------- embedly thumbs --------------------------------- //
@@ -165,10 +120,11 @@
 
 .starfire-container {
   position: relative;
+  max-height: 110px;
 }
 
 //vars
-$fg:#00bcd4;
+$fg: deeppink;
 $bg:#673ab7;
 $pi:3.14;
 

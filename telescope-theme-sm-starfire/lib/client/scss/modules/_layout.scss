@@ -1,4 +1,22 @@
 
 body{
-  background: white;
+	  background-image: url('http://p1.pichost.me/i/12/1351573.jpg');
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-size: cover;
+	  background-position: 50% 0%;
+	}
+
+.content-wrapper {
+  max-width: 660px;
 }
+
+
+// .hero {
+//     margin-top: -70px;
+//     box-shadow: none;
+
+// }
+// .hero .hero-inner {
+//     min-height: 300px;
+// }
