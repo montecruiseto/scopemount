@@ -1,9 +1,5 @@
 Telescope.modules.removeAll("postComponents");
 Telescope.modules.add("postComponents", [
-  // {
-  //   template: 'post_upvote',
-  //   order: 10
-  // },
   {
     template: 'post_content',
     order: 20
@@ -20,10 +16,6 @@ Telescope.modules.add("postHeading", [
 
 Telescope.modules.removeAll("postMeta");
 Telescope.modules.add("postMeta", [
-  {
-    template: 'post_comments_link',
-    order: 10
-  },
   {
     template: 'post_info',
     order: 20

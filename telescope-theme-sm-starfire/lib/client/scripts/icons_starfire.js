@@ -1,6 +1,6 @@
 // override icons
 
-Telescope.utils.icons.upvote = "angle-double-up";
-Telescope.utils.icons.voted = "angle-double-up";
-Telescope.utils.icons.downvote = "angle-double-down";
+Telescope.utils.icons.upvote = "heart";
+Telescope.utils.icons.downvote = "heart-o";
+Telescope.utils.icons.voted = "heart";
 

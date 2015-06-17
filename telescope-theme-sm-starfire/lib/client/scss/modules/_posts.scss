@@ -83,6 +83,11 @@
 			text-decoration: underline;
 		}
 	}
+  .unit {
+    &:after {
+      content: "points ";
+    }
+  }
 }
 .post-body, .page-body {
     font-size: 12px;

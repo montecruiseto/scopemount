@@ -43,10 +43,13 @@ Package.onUse(function (api) {
       // screen
       'lib/client/scss/screen.scss',
 
-      // overrides
+      // templates
       'lib/client/templates/starfire.html',
+      'lib/client/templates/starfire.js',
+      'lib/client/templates/post_author_starfire.html',
       'lib/client/templates/post_content_starfire.html',
       'lib/client/templates/post_info_starfire.html',
+      'lib/client/templates/post_title_starfire.html',
       'lib/client/templates/post_upvote_starfire.html',
 
       // customizations
