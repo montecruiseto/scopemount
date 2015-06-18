@@ -5,10 +5,14 @@
     .header {
         background-color: transparent;
         color: #444;
+        @media screen and (min-width: 600px) and (max-width: 1360px)  {
+            margin-bottom: 20px;
+        }
         .primary-nav {
             position: fixed;
-            top: 50px;
+            top: 70px;
             .logo {
+                font-size: 34px;
                 display: none;
                 @media screen and (min-width: 1360px) {
                     display: block;
@@ -39,8 +43,10 @@
             letter-spacing: 8px;
             text-transform: uppercase;
             transition: all 0.2s ease;
-            @include medium-large {
-                top: 40px !important;
+            @media screen and (min-width: 600px) and (max-width: 1360px)  {
+                top: 52px !important;
+                font-size: 44px;
+                left: -360px;
             }
             @media screen and (min-width: 1360px) {
                 display: none;

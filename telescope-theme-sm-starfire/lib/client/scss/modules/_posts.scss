@@ -5,6 +5,8 @@
 	@include small {
 		padding: 11px 10px 11px 0px;
 	}
+	border-top: 4px solid #e7eff2;
+	border-bottom: none;
 }
 .post-list-title, .page-title{
     display: none;
@@ -34,6 +36,12 @@
   .post {
     @include medium-large {
       width: calc((100% - 20px)/2);
+    }
+    &:nth-of-type(3n) {
+    	margin-right: 10px;
+    }
+    &:after {
+    	border-bottom: none;
     }
   }
 }
