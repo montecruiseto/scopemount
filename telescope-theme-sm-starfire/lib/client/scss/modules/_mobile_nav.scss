@@ -12,7 +12,8 @@
     font-size: 12px;
   }
   .btn.btn-primary, .btn.submit {
-    background: $main;
+    background: transparent;
+    border: 2px solid white;
     text-transform: uppercase;
   }
 }

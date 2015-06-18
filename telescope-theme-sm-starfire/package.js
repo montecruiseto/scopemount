@@ -21,21 +21,21 @@ Package.onUse(function (api) {
   api.addFiles(
     [
 
-      // globals
+      // global styles
       'lib/client/scss/global/_forms.scss',
       'lib/client/scss/global/_links.scss',
 
-      // modules
+      // module styles
       'lib/client/scss/modules/_admin.scss',
       'lib/client/scss/modules/_comments.scss',
       'lib/client/scss/modules/_layout.scss',
       'lib/client/scss/modules/_nav.scss',
       'lib/client/scss/modules/_mobile_nav.scss',
       'lib/client/scss/modules/_posts.scss',
-      'lib/client/scss/modules/_search.scss',
+      'lib/client/scss/modules/_starfire_buttons.scss',
       'lib/client/scss/modules/_errors.scss',
 
-      // partials
+      // partials styles
       'lib/client/scss/partials/_typography.scss',
       'lib/client/scss/partials/_grid.scss',
       'lib/client/scss/partials/_colors.scss',

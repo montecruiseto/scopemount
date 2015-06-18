@@ -6,9 +6,14 @@
         background-color: transparent;
         color: #444;
         .primary-nav {
-            text-transform: capitalize;
-            letter-spacing: 0.8px;
-            font-size: 13px;
+            position: fixed;
+            top: 50px;
+            .logo {
+                display: none;
+                @media screen and (min-width: 1360px) {
+                    display: block;
+                }
+            }
         }
         .secondary-nav {
             text-transform: capitalize;
@@ -33,14 +38,20 @@
         .logo {
             letter-spacing: 8px;
             text-transform: uppercase;
+            transition: all 0.2s ease;
             @include medium-large {
-                font-size: 25px;
-                top: 33px;
+                top: 40px !important;
+            }
+            @media screen and (min-width: 1360px) {
+                display: none;
             }
             a {
-                border-top: 2px dotted white;
-                border-bottom: 2px dotted white;
+                border-top: 2px solid white;
+                border-bottom: 2px solid white;
             }
+        }
+        .mobile-menu-button {
+          color: white !important;
         }
     }
 }

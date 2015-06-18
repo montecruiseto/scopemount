@@ -36,3 +36,11 @@ Telescope.modules.add("starfireButtons", [
     order: 30
   }
 ]);
+
+Telescope.modules.removeAll("primaryNav");
+Telescope.modules.add("primaryNav", [
+  {
+    template: 'logo',
+    order: 10
+  }
+]);
