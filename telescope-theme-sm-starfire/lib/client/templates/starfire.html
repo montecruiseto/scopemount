@@ -13,12 +13,11 @@
         </label>
 
         <!-- "Go to Post" button -->
-        <a class="goo-menu-item" href="/posts/{{_id}}">{{{icon "comment"}}}
-    <span class="action-count">{{commentCount}}</span>
-    <span class="sr-only"> {{_ "comments"}}</span></a>
+        <a class="goo-menu-item" href="/posts/{{_id}}"><i class="fa fa-comments"></i>
+        <span class="sr-only"> {{_ "comments"}}</span></a>
 
         <!-- "Go to Link" button -->
-        <a class="goo-menu-item" href="{{postLink}}" target="{{postTarget}}"><i class="fa fa-external-link"></i></a>
+        <a class="goo-menu-item" href="{{postLink}}" target="{{postTarget}}"><i class="fa fa-external-link-square"></i></a>
 
         <!-- "Tweet" button -->
         <a class="goo-menu-item" href="//twitter.com/intent/tweet?text={{title}}&url={{sourceLink}}&{{viaTwitter}}" target="_blank"> <i class="fa fa-twitter"></i></a>

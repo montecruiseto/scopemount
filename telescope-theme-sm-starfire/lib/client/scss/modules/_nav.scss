@@ -5,6 +5,7 @@
     .header {
         background-color: transparent;
         color: #444;
+        height: 20px;
         @media screen and (min-width: 600px) and (max-width: 1360px)  {
             margin-bottom: 20px;
         }
@@ -23,6 +24,7 @@
             text-transform: capitalize;
             letter-spacing: 0.8px;
             font-size: 13px;
+            margin-top: 13px;
             .btn.btn-primary, .btn.submit {
                 background: transparent;
                 padding: 15px 0px;

@@ -53,7 +53,7 @@
 		font-weight: 600;
     color: white;
 		@include small {
-			font-size: 14px;
+			font-size: 20px;
 		}
 		@include medium-large {
 			font-size: 22px;
@@ -66,6 +66,9 @@
 .post-meta {
   vertical-align: top;
   color: $accent;
+  .post .post-content & {
+  	font-size: 12px;
+  }
 	a {
 		text-transform: capitalize;
 		&:link,
@@ -85,12 +88,9 @@
   }
 }
 .post-body, .page-body {
-    font-size: 12px;
+    font-size: 13px;
     color: gainsboro;
     background: transparent;
-    @include large {
-        font-size: 13px;
-    }
     box-shadow: none;
     padding: 15px 20px 3px 0px;
     .list & {
