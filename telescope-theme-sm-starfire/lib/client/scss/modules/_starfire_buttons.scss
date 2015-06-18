@@ -3,7 +3,7 @@
 
 .starfire-container {
   position: relative;
-  max-height: 110px;
+  max-height: 80px;
 }
 
 //vars
@@ -94,7 +94,7 @@ $hamburger-spacing:6px; //
 }
 
 .goo-menu-item{
-  &:hover{
+  &:hover, &:hover > *{
     background:white;
     color:$main !important;
   }
@@ -118,8 +118,8 @@ $hamburger-spacing:6px; //
 }
 .goo-menu-open:checked+.goo-menu-open-button{
   transition-timing-function:linear;
-  transition-duration:200ms;
-  transform:scale(0.8,0.8) translate3d(0,0,0);
+  transition-duration:150ms;
+  transform:scale(0.85,0.85) translate3d(0,0,0);
 }
 
 .goo-menu-open:checked~.goo-menu-item{

@@ -5,16 +5,23 @@
 	@include small {
 		padding: 11px 10px 11px 0px;
 	}
-	border-top: 4px solid #e7eff2;
+	border-top: 3px solid #e7eff2;
 	border-bottom: none;
 }
 .post-list-title, .page-title{
     display: none;
 }
+.posts-wrapper {
+  clear: right;
+}
 
 // ------------------------------------ posts views nav ------------------------------------ //
 .posts-list-views{
   background: transparent;
+  transition: all 0.2s ease;
+  @media screen and (min-width: 600px) and (max-width: 1360px)  {
+      float: right;
+  }
 	.menu-top-level{
 		font-size: 11px;
 		margin-right: 20px;
@@ -34,10 +41,14 @@
 
 .posts-grid {
   .post {
+  	padding-bottom: 0px;
     @include medium-large {
-      width: calc((100% - 20px)/2);
+      width: calc((100% - 10px)/2);
     }
-    &:nth-of-type(3n) {
+    &:nth-of-type(2n) {
+    	margin-right: 0px;
+    }
+    &:nth-of-type(2n+1) {
     	margin-right: 10px;
     }
     &:after {
@@ -116,6 +127,10 @@
 	font-size: 14px;
 	height: 50px;
 	line-height: 46px;
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 29%;
+	margin: 0 auto;
 	&:hover {
 		background: transparent;
 	}

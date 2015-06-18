@@ -8,10 +8,14 @@ body{
 	}
 
 .content-wrapper {
-  max-width: 660px;
+  max-width: 680px;
   // @media screen and (min-width: 1360px) {
   //     margin-top: -50px;
   // }
+  padding: 0px;
+  @media screen and (min-width: 680px) {
+  	padding: 0 10px;
+  }
 }
 
 .grid-module, .at-form{
