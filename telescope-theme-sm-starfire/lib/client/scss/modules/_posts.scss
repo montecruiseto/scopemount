@@ -57,6 +57,7 @@
 }
 .post-meta {
   vertical-align: top;
+  color: rgb(0, 236, 255);
 	a {
 		text-transform: capitalize;
 		&:link,
@@ -77,7 +78,7 @@
 }
 .post-body, .page-body {
     font-size: 12px;
-    color: white;
+    color: gainsboro;
     background: transparent;
     @include large {
         font-size: 13px;
@@ -128,7 +129,7 @@
 }
 
 //vars
-$fg: deeppink;
+$fg: rgb(239, 0, 109);
 $bg:#673ab7;
 $pi:3.14;
 

@@ -33,9 +33,13 @@
         .logo {
             letter-spacing: 8px;
             text-transform: uppercase;
-            text-shadow: -1px -1px rgba(0, 0, 0, 0.33);
             @include medium-large {
-                font-size: 45px;
+                font-size: 25px;
+                top: 33px;
+            }
+            a {
+                border-top: 2px dotted white;
+                border-bottom: 2px dotted white;
             }
         }
     }

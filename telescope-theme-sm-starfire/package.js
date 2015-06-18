@@ -51,7 +51,6 @@ Package.onUse(function (api) {
       'lib/client/templates/post_info_starfire.html',
       'lib/client/templates/post_title_starfire.html',
       'lib/client/templates/post_upvote_starfire.html',
-      'lib/client/templates/posts_list_starfire.html',
 
       // customizations
       'lib/client/scripts/icons_starfire.js',
