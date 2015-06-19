@@ -9,17 +9,6 @@
         @media screen and (min-width: 600px) and (max-width: 1360px)  {
             margin-bottom: 20px;
         }
-        .primary-nav {
-            position: fixed;
-            top: 70px;
-            .logo {
-                font-size: 34px;
-                display: none;
-                @media screen and (min-width: 1360px) {
-                    display: block;
-                }
-            }
-        }
         .secondary-nav {
             text-transform: capitalize;
             letter-spacing: 0.8px;
@@ -32,30 +21,42 @@
                 font-size: 13px;
                 border: none;
             }
+            .sign-in {
+                @media screen and (min-width: 600px) and (max-width: 1000px) {
+                    color: white;
+                }
+            }
+            .sign-up {
+                @media screen and (min-width: 600px) and (max-width: 870px) {
+                    color: white;
+                }
+            }
         }
         .menu-item a {
             font-size: 12px;
         }
+        .header-submodule:nth-child(1) {
+            @media screen and (min-width: 600px) and (max-width: 1000px) {
+                color: white;
+            }
+        }
     	.header-submodule:nth-child(2) {
-    	  	@include medium {
     	  	    display: none;
-    	  	}
     	}
+        .header-submodule:nth-child(3) {
+            @media screen and (min-width: 600px) and (max-width: 820px) {
+                color: white;
+            }
+        }
         .logo {
             letter-spacing: 8px;
             text-transform: uppercase;
             transition: all 0.2s ease;
-            @media screen and (min-width: 600px) and (max-width: 1360px)  {
-                top: 52px !important;
-                font-size: 44px;
-                left: -360px;
-            }
-            @media screen and (min-width: 1360px) {
-                display: none;
-            }
-            a {
-                border-top: 2px solid white;
-                border-bottom: 2px solid white;
+            @include medium-large {
+              letter-spacing: 41px;
+              font-size: 100px;
+              margin-top: 70px;
+              left: 16px;
             }
         }
         .mobile-menu-button {

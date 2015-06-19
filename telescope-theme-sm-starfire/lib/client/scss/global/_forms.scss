@@ -1,8 +1,11 @@
 input[type="submit"], button, .button, .btn{
   &.btn-primary, &.submit{
-    background: gray;
+    background: transparent;
     font-size: 13px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
   }
 }
 

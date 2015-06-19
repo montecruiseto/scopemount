@@ -128,7 +128,7 @@ $hamburger-spacing:6px; //
 
     &:nth-child(#{$i+2}){
       transition-duration:50ms+(65ms*$i); //
-      transform:translate3d(63px*$i,0,0); //
+      transform:translate3d(64px*$i,0,0); //
     }
   }
 }

@@ -19,9 +19,9 @@
 .posts-list-views{
   background: transparent;
   transition: all 0.2s ease;
-  @media screen and (min-width: 600px) and (max-width: 1360px)  {
-      float: right;
-  }
+  // @media screen and (min-width: 600px) and (max-width: 1360px)  {
+  //     float: right;
+  // }
 	.menu-top-level{
 		font-size: 11px;
 		margin-right: 20px;
@@ -121,16 +121,16 @@
 
 .more-button {
 	color: white !important;
-	margin-top: 20px;
 	background: transparent;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 15px;
 	height: 50px;
 	line-height: 46px;
-	border: 1px solid white;
+	border: 2px solid white;
 	border-radius: 5px;
-	width: 29%;
-	margin: 0 auto;
+	width: 40%;
+	margin: 30px auto;
+	letter-spacing: 2px;
 	&:hover {
 		background: transparent;
 	}
