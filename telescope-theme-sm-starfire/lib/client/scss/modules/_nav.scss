@@ -9,6 +9,9 @@
         @media screen and (min-width: 600px) and (max-width: 1360px)  {
             margin-bottom: 20px;
         }
+        @include small {
+            margin-top: 20px;
+        }
         .secondary-nav {
             text-transform: capitalize;
             letter-spacing: 0.8px;
@@ -52,6 +55,7 @@
             letter-spacing: 8px;
             text-transform: uppercase;
             transition: all 0.2s ease;
+            font-size: 24px;
             @include medium-large {
               letter-spacing: 41px;
               font-size: 100px;
