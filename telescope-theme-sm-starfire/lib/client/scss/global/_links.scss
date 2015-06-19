@@ -1,5 +1,3 @@
-a{
-  &:hover{
-    color: black;
-  }
+a, a:link, a:visited, a:active, a:hover {
+  color: $accent;
 }

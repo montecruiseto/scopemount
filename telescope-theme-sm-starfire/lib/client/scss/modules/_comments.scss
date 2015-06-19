@@ -12,12 +12,15 @@
 }
 .module {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 10px auto;
   color: white;
 }
 .grid-block, .comment-content, .comment-new, .error, .at-error {
   background: rgba(255, 255, 255, 0.16);
   border: 1px solid rgba(169, 169, 169, 0.13);
+}
+.grid-block {
+  color: grey;
 }
 .comment-actions a {
   background: rgba(255, 255, 255, 0.25);
@@ -37,4 +40,10 @@
   a, a:link, a:visited, a:active {
     color: $accent !important;
   }
+}
+.comment-page .comment-new {
+  background: rgba(255, 255, 255, 0.16);
+}
+.cannot-comment-message {
+  color: gainsboro;
 }

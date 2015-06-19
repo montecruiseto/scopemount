@@ -8,11 +8,15 @@ input[type="submit"], button, .button, .btn{
     border-radius: 5px;
   }
 }
-
+form textarea, .accounts-dialog textarea, form input[type="text"], form input[type="password"], form input[type="number"], form .login-form input, .accounts-dialog input[type="text"], .accounts-dialog input[type="password"], .accounts-dialog input[type="number"], .accounts-dialog .login-form input {
+  background-color: transparent;
+  color: white;
+}
 form textarea:focus {
   border-color: $main;
 }
-form textarea, .accounts-dialog textarea {
-  background-color: transparent;
-  color: white;
+#submitPostForm {
+  a, a:link, a:visited, a:active {
+    color: gray;
+  }
 }
