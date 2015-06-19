@@ -10,3 +10,31 @@
         }
     }
 }
+.module {
+  max-width: 600px;
+  margin: 0 auto;
+  color: white;
+}
+.grid-block, .comment-content, .comment-new, .error, .at-error {
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(169, 169, 169, 0.13);
+}
+.comment-actions a {
+  background: rgba(255, 255, 255, 0.25);
+}
+.comment-meta {
+	a, a:link, a:visited, a:active, a:hover {
+	  color: $accent;
+	}
+	.comment-permalink, span {
+	  color: gainsboro;
+	}
+}
+.comment-text, .comment-text p {
+  color: gainsboro;
+}
+.comment-main, .post-subscribe {
+  a, a:link, a:visited, a:active {
+    color: $accent !important;
+  }
+}

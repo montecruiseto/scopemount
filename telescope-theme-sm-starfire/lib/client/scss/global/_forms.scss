@@ -12,3 +12,7 @@ input[type="submit"], button, .button, .btn{
 form textarea:focus {
   border-color: $main;
 }
+form textarea, .accounts-dialog textarea {
+  background-color: transparent;
+  color: white;
+}

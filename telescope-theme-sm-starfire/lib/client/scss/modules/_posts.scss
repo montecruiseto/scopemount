@@ -19,9 +19,6 @@
 .posts-list-views{
   background: transparent;
   transition: all 0.2s ease;
-  // @media screen and (min-width: 600px) and (max-width: 1360px)  {
-  //     float: right;
-  // }
 	.menu-top-level{
 		font-size: 11px;
 		margin-right: 20px;
@@ -111,6 +108,30 @@
         line-height: 1.6;
     }
 }
+
+// -------------------------------- single post --------------------------------- //
+
+.single-post {
+    .posts-list {
+        .post {
+            border-top: 0px;
+        }
+        .post-content {
+            display: block;
+            max-width: 360px;
+            margin: 0 auto;
+        }
+        .post-thumbnail-link {
+            margin: 20px 0;
+        }
+        .post-body, .page-body {
+          font-size: 14px;
+        }
+    }
+}
+
+
+
 
 // -------------------------------- embedly thumbs --------------------------------- //
 .post-thumbnail-link {

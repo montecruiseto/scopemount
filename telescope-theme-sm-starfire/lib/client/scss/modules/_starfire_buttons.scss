@@ -127,7 +127,7 @@ $hamburger-spacing:6px; //
   @for $i from 1 through $menu-items{
 
     &:nth-child(#{$i+2}){
-      transition-duration:50ms+(65ms*$i); //
+      transition-duration:56ms+(66ms*$i); //
       transform:translate3d(64px*$i,0,0); //
     }
   }

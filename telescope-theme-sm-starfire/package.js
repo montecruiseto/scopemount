@@ -34,6 +34,7 @@ Package.onUse(function (api) {
       'lib/client/scss/modules/_posts.scss',
       'lib/client/scss/modules/_starfire_buttons.scss',
       'lib/client/scss/modules/_errors.scss',
+      'lib/client/scss/modules/_users.scss',
 
       // partials styles
       'lib/client/scss/partials/_typography.scss',
@@ -49,8 +50,10 @@ Package.onUse(function (api) {
       'lib/client/templates/post_author_starfire.html',
       'lib/client/templates/post_content_starfire.html',
       'lib/client/templates/post_info_starfire.html',
+      'lib/client/templates/post_page_starfire.html',
       'lib/client/templates/post_title_starfire.html',
       'lib/client/templates/post_upvote_starfire.html',
+      'lib/client/templates/post_thumbnail_starfire.html',
 
       // customizations
       'lib/client/scripts/icons_starfire.js',
