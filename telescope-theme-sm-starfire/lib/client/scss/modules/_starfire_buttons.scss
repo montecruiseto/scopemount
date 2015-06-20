@@ -4,6 +4,9 @@
 .starfire-container {
   position: relative;
   max-height: 80px;
+  .fa {
+    text-rendering: optimizeLegibility;
+  }
 }
 
 //vars
