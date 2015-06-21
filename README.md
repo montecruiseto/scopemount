@@ -1,7 +1,7 @@
 Scopemount
 =========
 
-*Note: Scopemount themes are up-to-date with Telescope v0.20.5*
+*Note: Scopemount themes are up-to-date with Telescope v0.20.6*
 
 Scopemount is a set of free professional themes for Telescope. [Telescope](http://www.telescopeapp.org/) is an open source Meteor app that makes it easy to launch communities.
 
@@ -59,7 +59,11 @@ All the themes use the base and hubble theme as a dependency.
 ![Lulin](http://i.imgur.com/xtWPgWg.png)
 ![Lulin](http://i.imgur.com/Mz99E5y.png)
 
-##### 7 -  Starfire (a gaming community - coming soon)
+##### 7 -  Starfire (a gaming community - [Demo](http://sm-starfire.meteor.com/) - [Blog Post](http://blog.startrack.io/scopemount-theme-starfire/))
+
+
+![Starfire](http://i.imgur.com/v8cgZJH.png)
+![Starfire](http://i.imgur.com/DPJa5YT.gifv)
 
 ##### 8 -  Hooke (a modern intranet - coming soon)
 
