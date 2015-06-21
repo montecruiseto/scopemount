@@ -12,7 +12,7 @@ See [Blog Post](http://blog.startrack.io/scopemount-theme-starfire/)
 
 ### Look & Feel
 
-With Starfire, you have a base to create your very own gaming news site in no time. Go head-on with sites [Polygon](http://www.polygon.com/), [Metro](http://metro.co.uk/entertainment/gaming/) and [GamesRadar](http://www.gamesradar.com/news/). - [Demo](http://sm-starfire.meteor.com/)
+With Starfire ([Demo](http://sm-starfire.meteor.com/)), you have a base to create your very own gaming news site in no time. Go head-on with sites [Polygon](http://www.polygon.com/), [Metro](http://metro.co.uk/entertainment/gaming/) and [GamesRadar](http://www.gamesradar.com/news/).
 
 ![Starfire](http://i.imgur.com/v8cgZJH.png)
 
