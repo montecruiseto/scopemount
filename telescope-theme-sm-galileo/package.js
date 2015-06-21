@@ -1,7 +1,7 @@
 Package.describe({
   name: "montecruiseto:telescope-theme-sm-galileo",
   summary: "Telescope Scopemount: Galileo theme package",
-  version: "0.1.6",
+  version: "0.1.7",
   git: "https://github.com/montecruiseto/scopemount.git"
 });
 
@@ -11,9 +11,9 @@ Package.onUse(function (api) {
 
   api.use([
       // core dependencies
-      'telescope:core@0.20.5',
-      'telescope:theme-base@0.20.5',
-      'telescope:theme-hubble@0.20.5'
+      'telescope:core@0.20.6',
+      'telescope:theme-base@0.20.6',
+      'telescope:theme-hubble@0.20.6'
     ]);
 
   // i18n config (must come first)
