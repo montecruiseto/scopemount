@@ -16,12 +16,10 @@ With Starfire, you have a base to create your very own gaming news site in no ti
 
 ![Starfire](http://i.imgur.com/v8cgZJH.png)
 
-![Starfire](http://i.imgur.com/DPJa5YT.gifv)
-
 ### Thanks
 
 [Sacha Greif](https://github.com/SachaG) for building [Telescope](https://github.com/TelescopeJS/Telescope).
-[Lucas Bebber](https://twitter.com/lucasbebber) for the [gooey button effect](https://css-tricks.com/gooey-effect/)
+[Lucas Bebber](https://twitter.com/lucasbebber) for the [gooey button effect](https://css-tricks.com/gooey-effect/).
 
 ### License
 
