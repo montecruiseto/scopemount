@@ -56,6 +56,7 @@
             text-transform: uppercase;
             transition: all 0.2s ease;
             font-size: 24px;
+            font-weight: normal;
             @include medium-large {
               letter-spacing: 41px;
               font-size: 100px;

@@ -60,7 +60,7 @@ Package.onUse(function (api) {
       'lib/client/scripts/templates_starfire.js',
 
       // images
-      'img/starfire.jpg'
+      'img/starfire2.png'
 
     ], ['client']);
 

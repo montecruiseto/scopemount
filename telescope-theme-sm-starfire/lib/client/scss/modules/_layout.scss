@@ -1,8 +1,11 @@
 
 body{
-	  background: url('../../../img/starfire.jpg') no-repeat;
+	  background-image: url('../../../img/starfire2.png');
+    background-repeat: no-repeat;
 	  background-attachment: fixed;
 	  background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
 	  background-position: 50% 0%;
 	  background-color: black;
 	}
