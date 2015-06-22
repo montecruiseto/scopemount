@@ -77,17 +77,17 @@ All the themes use the base and hubble theme as a dependency.
 
 ##### 14 -  Cassini (a journalism community - coming soon)
 
-##### 15 -  Colossus (an exclusive member community - coming soon)
+##### 15 -  Magellan (an exclusive member community - coming soon)
 
 ##### 16 -  Copernico (a hacker news style skin - coming soon)
 
 ##### 17 -  Chara (pure alchemy - coming soon)
 
-##### 18 -  Kitt (mass media consumption - coming soon)
+##### 18 -  Colossus (mass media consumption - coming soon)
 
 ##### 19 -  Laval (a book club community - coming soon)
 
-##### 20 -  Magellan (tech whitepages - coming soon)
+##### 20 -  Kitt (tech whitepages - coming soon)
 
 ##### 21 -  Jacobus (a mindfulness community - coming soon)
 
