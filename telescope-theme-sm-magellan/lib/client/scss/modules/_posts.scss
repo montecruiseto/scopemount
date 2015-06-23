@@ -1,0 +1,177 @@
+// ------------------------------------ post ------------------------------------ //
+.post {
+	padding: 40px 0px 30px 10px;
+	&:nth-of-type(1) {
+		padding-top: 20px;
+	}
+	@include small {
+		padding: 11px 10px 11px 0px;
+	}
+}
+.post-list-title, .page-title{
+    display: none;
+}
+
+// ------------------------------------ posts views nav ------------------------------------ //
+.posts-list-views{
+	.menu-top-level{
+		font-size: 11px;
+		margin-right: 20px;
+	}
+	.menu-item{
+		text-transform: uppercase;
+		a {
+			font-size: 11px;
+			letter-spacing: 1px;
+			color: $main;
+		}
+	}
+}
+
+// ------------------------------ posts-list layout ------------------------------ //
+.posts-list {
+	.post-upvote {
+		order: 3;
+	}
+	.post-rank {
+		order: 7;
+		span {
+			right: 0px;
+			height: 25px;
+			line-height: 25px;
+			width: 30px;
+			text-align: right;
+			font-size: 12px;
+			font-weight: bold;
+		}
+	}
+}
+
+// -------------------------------- post content --------------------------------- //
+.post-heading {
+	.post-title {
+		color: $main;
+		font-weight: 700;
+		font-size: 24px;
+		@include medium-large {
+			font-size: 26px;
+		}
+		&:visited {
+			color: $main;
+		}
+	}
+	.post-domain {
+		@include small {
+			font-size: 12px;
+		}
+		@include medium-large {
+			font-size: 13px;
+		}
+	}
+}
+.post-meta {
+	@include small {
+	    font-size: 12px !important;
+	}
+	a {
+		text-transform: capitalize;
+		&:link,
+		&:visited,
+		&:active {
+			font-weight: normal;
+		}
+		&:hover {
+			color: gray;
+			text-decoration: underline;
+		}
+	}
+	.avatar {
+		margin-top: 10px;
+	}
+	.post-commenters {
+		display: none;
+	}
+}
+.post-body, .page-body {
+    font-size: 15px;
+    color: #57656d;
+    @include large {
+        font-size: 17px;
+    }
+    box-shadow: none;
+    padding: 15px 20px 3px 0px;
+    .list & {
+    	display: block;
+    }
+    p {
+        line-height: 1.6;
+    }
+}
+// -------------------------------- post modules --------------------------------- //
+
+.post-upvote {
+	text-align: center;
+	font-size: 11px;
+	color: $main;
+	font-weight: bold;
+    .upvote-link {
+        transform: scale(1.3);
+        margin-bottom: 13px;
+        .icon-circle {
+        	border-radius: 0%;
+        	padding: 3px;
+        }
+        .icon-upvote{
+        	border: 1px solid silver;
+        	color: silver;
+        	background-color: white;
+        }
+        &.voted {
+        	i.icon-voted {
+        		border: 1px solid dimgray;
+        		color: white;
+        		background-color: dimgray;
+        	}
+        }
+    }
+    .points {
+    	display: flex;
+    	flex-direction: column;
+    }
+}
+// -------------------------------- post tags --------------------------------- //
+.post-category {
+    font-size: 13px;
+    font-weight: normal !important;
+    color: #808393 !important;
+    background: whitesmoke;
+    text-transform: capitalize;
+    padding: 3px 5px 3px 5px;
+    &:hover {
+        background: #EFECEC;
+        color: black;
+    }
+    @include small {
+        display: none;
+    }
+}
+
+
+// -------------------------------- other --------------------------------- //
+
+.more-button {
+	margin-top: 20px;
+	background: white;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 14px;
+	height: 50px;
+	line-height: 46px;
+	&:hover {
+		background: white;
+	}
+	&:after {
+		font-size: 16px;
+		content: " »";
+	}
+}
