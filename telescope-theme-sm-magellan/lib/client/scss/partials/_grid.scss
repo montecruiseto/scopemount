@@ -3,8 +3,9 @@ $grid-margin:10px;
 $grid-padding:15px;
 $break-small:500px;
 
-$small-break: 600px;
-$medium-break: 800px;
+$small-break: 30em;
+$medium-break: 50em;
+$large-break: 90em;
 
 @mixin small(){
   @media screen and (max-width: $small-break) {
@@ -32,21 +33,15 @@ $medium-break: 800px;
   }
 }
 
-.content-wrapper{
-  @include small{
-    overflow-x: hidden;
+// ----------------------------------- custom ------------------------------------ //
+
+@mixin mid-section(){
+  @media screen and (min-width: $medium-break) and (max-width: $large-break) {
+    @content;
   }
 }
-.grid{
-	width:100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-.grid-small, .at-form{
-  width: 100%;
-  @include medium-large{
-	 max-width:500px;
+@mixin top-section(){
+  @media screen and (min-width: $large-break) {
+    @content;
   }
-	margin-left: auto;
-  margin-right: auto;
 }

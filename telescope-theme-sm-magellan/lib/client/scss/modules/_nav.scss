@@ -1,45 +1,58 @@
-// ------------------------------------ Side Nav Layout ------------------------------------ //
 
-$nav-width: 175px;
 
-.side-nav{
-	  .inner-wrapper{
-			@include medium-large{
-		      margin-left: $nav-width;
-	       }
-		}
-    .header{
-    	@include medium-large{
-    		width: $nav-width;
-    	}
-        background: -webkit-linear-gradient(90deg, $top 10%, $bottom 90%); /* Chrome 10+, Saf5.1+ */
-        background:    -moz-linear-gradient(90deg, $top 10%, $bottom 90%); /* FF3.6+ */
-        background:     -ms-linear-gradient(90deg, $top 10%, $bottom 90%); /* IE10 */
-        background:      -o-linear-gradient(90deg, $top 10%, $bottom 90%); /* Opera 11.10+ */
-        background:         linear-gradient(90deg, $top 10%, $bottom 90%); /* W3C */
-        @include medium-large {
-            background: -webkit-linear-gradient($top 10%, $bottom 90%); /* Chrome 10+, Saf5.1+ */
-            background:    -moz-linear-gradient($top 10%, $bottom 90%); /* FF3.6+ */
-            background:     -ms-linear-gradient($top 10%, $bottom 90%); /* IE10 */
-            background:      -o-linear-gradient($top 10%, $bottom 90%); /* Opera 11.10+ */
-            background:         linear-gradient($top 10%, $bottom 90%); /* W3C */
+// ------------------------------------ Top Nav Layout ------------------------------------ //
+
+.top-nav {
+    .header {
+        height: 100px;
+        @include small {
+            height: 60px;
         }
-        .logo {
-            font-size: 28px;
-            @include medium-large {
-                margin-bottom: 40px;
-                margin-top: 40px;
-                font-size: 48px;
+        color: #4b4b4b;
+        background-color: white;
+        border-top: 2px solid turqouise;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        background-color: #fff;
+        margin-bottom: 12px;
+        .primary-nav {
+            text-transform: capitalize;
+            letter-spacing: 0.8px;
+            font-size: 13px;
+        }
+        .secondary-nav {
+            text-transform: capitalize;
+            letter-spacing: 0.8px;
+            font-size: 13px;
+            .btn.btn-primary, .btn.submit {
+                background: transparent;
+                padding: 15px 0px;
+                letter-spacing: 1px;
+                font-size: 13px;
+                border: none;
             }
         }
-        input[type="submit"], button, .button, .btn{
-          &.btn-primary, &.submit{
-            background: transparent;
-            text-transform: capitalize;
-            border: 2px solid white;
-            font-size: 13px;
-            letter-spacing: 1px;
-          }
+        .menu-item a {
+            font-size: 12px;
+        }
+        .header-submodule:nth-child(2) {
+            @include medium {
+                display: none;
+            }
+        }
+        .logo {
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            text-shadow: -1px -1px rgba(0, 0, 0, 0.33);
+            @include medium-large {
+                font-size: 19px;
+            }
+            a {
+                color: black;
+            }
         }
     }
 }
+
+
+
+

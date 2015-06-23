@@ -53,7 +53,6 @@ Package.onUse(function (api) {
       'lib/client/templates/post_domain_magellan.html',
       'lib/client/templates/post_info_magellan.html',
       'lib/client/templates/post_upvote_magellan.html',
-      'lib/client/templates/post_page_magellan.html',
 
       // customizations
       'lib/client/scripts/icons_magellan.js',

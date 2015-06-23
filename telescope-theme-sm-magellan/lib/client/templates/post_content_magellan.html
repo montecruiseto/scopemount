@@ -1,13 +1,11 @@
 <template name="post_content_magellan">
+    {{> modules "postThumbnail"}}
     <div class="post-info">
-      <h3 class="post-heading">
+        <h3 class="post-heading">
         {{> modules "postHeading"}}
-      </h3>
-      {{#if body}}
-        {{> post_body}}
-      {{/if}}
-      <div class="post-meta">
-        {{> modules "postMeta"}}
-      </div>
+      </h3> {{#if body}} {{> post_body}} {{/if}}
+        <div class="post-meta">
+            {{> modules "postMeta"}}
+        </div>
     </div>
 </template>

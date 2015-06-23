@@ -39,9 +39,5 @@ Telescope.modules.add("postMeta", [
   {
     template: 'post_admin',
     order: 40
-  },
-  {
-    template: 'post_avatars',
-    order: 50
   }
 ]);
