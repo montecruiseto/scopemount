@@ -1,11 +1,12 @@
-<template name="post_content_magellan">
-    {{> modules "postThumbnail"}}
+<template name="post_content_colossus">
     <div class="post-info">
         <h3 class="post-heading">
         {{> modules "postHeading"}}
-      </h3> {{#if body}} {{> post_body}} {{/if}}
+      </h3>
+      {{#if body}} {{> post_body}} {{/if}}
         <div class="post-meta">
             {{> modules "postMeta"}}
         </div>
     </div>
+    {{> modules "postThumbnail"}}
 </template>

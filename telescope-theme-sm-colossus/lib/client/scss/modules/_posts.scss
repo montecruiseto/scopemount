@@ -1,14 +1,13 @@
 // ------------------------------------ post ------------------------------------ //
-.post {
-    padding: 0px 0px 0px 0px;
-    border-bottom: 0px;
-    border-top: 0px;
-    margin-bottom: 20px;
-    &:first-child {
-        border-radius: 0px 0px 0px 0px;
+.colossus-post {
+    background: white;
+    &:nth-of-type(2n) {
+        background: #fafafa;
     }
-    &:last-child {
-        border-radius: 0px 0px 0px 0px;
+    .post {
+        margin: 30px auto;
+        max-width: 980px;
+        text-align: center;
     }
 }
 .post-list-title, .page-title{
@@ -17,6 +16,7 @@
 // ------------------------------------ posts views nav ------------------------------------ //
 .posts-list-views{
     background: none;
+    display: none;
     .menu-item{
         text-transform: uppercase;
     }
@@ -34,11 +34,6 @@
     .post-upvote {
         order: 2;
     }
-}
-// -------------------------------- post modules --------------------------------- //
-
-.post-module.post-rank {
-    margin: 0;
 }
 
 // -------------------------------- post content --------------------------------- //
@@ -154,14 +149,12 @@
 .post-thumbnail-link {
     width: 100px;
     @include medium-large {
-        width: 400px;
+        width: 580px;
     }
 }
 .posts-list .post-thumbnail {
-    margin-right: 0px;
-    @include medium-large {
-        margin-right: 20px;
-    }
+    margin: 0 auto;
+    max-width: 580px;
 }
 
 // ----------------------------------- other ------------------------------------ //

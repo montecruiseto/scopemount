@@ -1,6 +1,6 @@
 Package.describe({
-  name: "montecruiseto:telescope-theme-sm-magellan",
-  summary: "Telescope Scopemount: Magellan theme package",
+  name: "montecruiseto:telescope-theme-sm-colossus",
+  summary: "Telescope Scopemount: Colossus theme package",
   version: "0.1.0",
   git: "https://github.com/montecruiseto/scopemount.git"
 });
@@ -12,14 +12,11 @@ Package.onUse(function (api) {
   api.use([
       // core dependencies
       'telescope:core@0.20.6',
-      'telescope:theme-base@0.20.6',
-      'telescope:theme-hubble@0.20.6'
+      'telescope:theme-base@0.20.6'
     ]);
 
-  // i18n config (must come first)
-
   api.addFiles([
-      'lib/modules_magellan.js'
+      'lib/modules_colossus.js'
   ], ['client', 'server']);
 
   api.addFiles([
@@ -49,14 +46,15 @@ Package.onUse(function (api) {
       'lib/client/scss/screen.scss',
 
       // overrides
-      'lib/client/templates/post_content_magellan.html',
-      'lib/client/templates/post_domain_magellan.html',
-      'lib/client/templates/post_info_magellan.html',
-      'lib/client/templates/post_upvote_magellan.html',
+      'lib/client/templates/post_content_colossus.html',
+      'lib/client/templates/post_domain_colossus.html',
+      'lib/client/templates/post_info_colossus.html',
+      'lib/client/templates/post_upvote_colossus.html',
+      'lib/client/templates/post_item_colossus.html',
 
       // customizations
-      'lib/client/scripts/icons_magellan.js',
-      'lib/client/scripts/templates_magellan.js'
+      'lib/client/scripts/icons_colossus.js',
+      'lib/client/scripts/templates_colossus.js'
 
     ], ['client']);
 
