@@ -1,11 +1,11 @@
 Telescope.modules.removeAll("postComponents");
 Telescope.modules.add("postComponents", [
   {
-    template: 'post_content',
+    template: 'post_upvote',
     order: 10
   },
   {
-    template: 'post_upvote',
+    template: 'post_content',
     order: 20
   }
 ]);

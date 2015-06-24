@@ -13,13 +13,3 @@ input[type="submit"], button, .button, .btn{
 form textarea:focus {
   border-color: $main;
 }
-
-#submitPostForm {
-  .af-defaultFieldGroup {
-    .form-group {
-      &:nth-of-type(1), &:nth-of-type(4) {
-        display: none;
-      }
-    }
-  }
-}

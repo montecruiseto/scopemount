@@ -1,18 +1,28 @@
 // ------------------------------------ post ------------------------------------ //
 .colossus-post {
     background: white;
-    &:nth-of-type(2n) {
-        background: #fafafa;
-    }
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
     .post {
-        margin: 30px auto;
-        max-width: 980px;
+        margin: 120px auto 0px;
+        max-width: 730px;
         text-align: center;
     }
+}
+.colossus-gradient {
+    position: absolute;
+    bottom: -890px;
+    width: 100%;
+    z-index: 10;
+    height: 1000px;
+    background-image: -webkit-linear-gradient(top, transparent 0%, #424242 220%);
+    background-image: linear-gradient(top, transparent 0%, #424242 220%);
 }
 .post-list-title, .page-title{
     display: none;
 }
+
 // ------------------------------------ posts views nav ------------------------------------ //
 .posts-list-views{
     background: none;
@@ -24,40 +34,31 @@
 
 // ------------------------------ posts-list layout ------------------------------ //
 .posts-list {
-    .post-module {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .post-content {
-        align-items: flex-start;
-    }
     .post-upvote {
-        order: 2;
+        display: none;
+    }
+}
+.template-posts_list_controller {
+    .content-wrapper {
+      max-width: none;
+      padding: 0px;
     }
 }
 
 // -------------------------------- post content --------------------------------- //
 .post-heading {
-    margin-top: 10px;
-    @include medium-large {
-        margin-top: 25px;
-    }
+    margin-bottom: 30px;
     .post-title {
         display: block;
         font-weight:bold;
-        text-transform: uppercase;
+        letter-spacing: -1.8px;
+        line-height: 1.1;
         font-size: 14px;
         &:visited {
             color: $text;
         }
-        @include medium {
-            font-size: 21px;
-        }
-        @include mid-section {
-            font-size: 27px;
-        }
-        @include top-section {
-            font-size: 30px;
+        @include medium-large {
+            font-size: 49px;
         }
     }
     .post-domain {
@@ -74,46 +75,19 @@
     font-size: 11px;
     font-weight: normal;
     color: $light-text;
+    margin-right: 5px;
     @include medium-large {
         font-size: 13px;
     }
-    &:nth-of-type(3) {
-        display: none;
-        @include top-section {
-            display: block;
-        }
-    }
 }
 .post-meta {
-    display: flex;
-    flex-direction: row;
-    margin-top: 5px;
-    @include top-section {
-        margin-top: 10px;
-    }
+    display: inline-flex;
+    margin: 15px auto 50px;
     a:link, a:visited, a:active {
         color: $grey;
     }
     a:hover {
         color: $crimson;
-    }
-    .discuss-link {
-        position: absolute;
-        right: 10px;
-        bottom: 0px;
-        display: none;
-        @media screen and (min-width: 38em) {
-          display: block;
-        }
-        .icon {
-            font-size: 40px;
-            @include large {
-                font-size: 50px;
-            }
-        }
-        .action-count {
-          font-size: 14px;
-      }
     }
 }
 .post-commenters {
@@ -122,6 +96,7 @@
 
 .post-body, .page-body {
     font-size: 13px;
+    color: $light-text;
     @include medium {
         font-size: 15px;
     }
@@ -130,7 +105,7 @@
     }
 }
 .post.sticky {
-    background: lightyellow;
+    background: white;
 }
 
 // -------------------------------- post tags --------------------------------- //
@@ -159,8 +134,9 @@
 
 // ----------------------------------- other ------------------------------------ //
 .more-button {
-    margin-top: 15px;
+    margin-top: 35px;
     margin-bottom: 40px;
+    text-align: center;
     background: white;
     font-size: 20px;
     height: 50px;
