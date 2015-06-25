@@ -21,6 +21,7 @@ Magellan is a modern looking Q&A theme - [Demo](http://sm-magellan.meteor.com/)
 ### Thanks
 
 [Sacha Greif](https://github.com/SachaG) for building [Telescope](https://github.com/TelescopeJS/Telescope).
+[Mike King](https://github.com/micjamking) for [Succinct](http://mikeking.io/succinct/).
 
 ### License
 

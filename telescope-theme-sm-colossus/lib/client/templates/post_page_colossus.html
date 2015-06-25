@@ -1,0 +1,16 @@
+<template name="post_page_colossus">
+  {{#if isPending}}
+    <div class="grid">
+      <div class="error pending-message module">
+        {{_ "thanks_your_post_is_awaiting_approval"}}
+      </div>
+    </div>
+  {{/if}}
+  <div class="single-post grid">
+    <div class="posts posts-list">
+      {{> post_item}}
+    </div>
+    {{> comment_submit}}
+    {{> comment_list}}
+  </div>
+</template>

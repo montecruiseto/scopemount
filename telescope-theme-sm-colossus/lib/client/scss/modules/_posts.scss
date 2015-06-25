@@ -5,9 +5,12 @@
     position: relative;
     z-index: 1;
     .post {
-        margin: 120px auto 0px;
+        margin: 120px auto -7px;
         max-width: 730px;
         text-align: center;
+        &:first-child {
+            margin-top: 60px;
+        }
     }
 }
 .colossus-gradient {
@@ -25,11 +28,7 @@
 
 // ------------------------------------ posts views nav ------------------------------------ //
 .posts-list-views{
-    background: none;
     display: none;
-    .menu-item{
-        text-transform: uppercase;
-    }
 }
 
 // ------------------------------ posts-list layout ------------------------------ //
@@ -49,25 +48,17 @@
 .post-heading {
     margin-bottom: 30px;
     .post-title {
+        transition: all 0.2s ease;
         display: block;
-        font-weight:bold;
+        font-weight: 700;
         letter-spacing: -1.8px;
         line-height: 1.1;
-        font-size: 14px;
+        font-size: 24px;
         &:visited {
             color: $text;
         }
         @include medium-large {
-            font-size: 49px;
-        }
-    }
-    .post-domain {
-        color: black;
-        font-weight: bold;
-        text-transform: uppercase;
-        font-size: 13px;
-        @include small-medium {
-            display: none !important;
+            font-size: 59px;
         }
     }
 }
@@ -82,12 +73,13 @@
 }
 .post-meta {
     display: inline-flex;
-    margin: 15px auto 50px;
+    margin: 15px auto 80px;
+    font-weight: 400;
     a:link, a:visited, a:active {
         color: $grey;
     }
     a:hover {
-        color: $crimson;
+        color: $grey;
     }
 }
 .post-commenters {
@@ -95,13 +87,12 @@
 }
 
 .post-body, .page-body {
-    font-size: 13px;
-    color: $light-text;
-    @include medium {
-        font-size: 15px;
-    }
-    @include large {
-        font-size: 16px;
+    transition: all 0.2s ease;
+    font-size: 15px;
+    color: dimgray;
+    margin-bottom: 10px;
+    @include medium-large {
+        font-size: 22px;
     }
 }
 .post.sticky {
@@ -128,8 +119,15 @@
     }
 }
 .posts-list .post-thumbnail {
+    transition: all 0.2s ease;
     margin: 0 auto;
     max-width: 580px;
+}
+.post-thumbnail-image {
+    transition: all 0.2s ease;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 8px solid black;
 }
 
 // ----------------------------------- other ------------------------------------ //

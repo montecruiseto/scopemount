@@ -46,15 +46,19 @@ Package.onUse(function (api) {
       'lib/client/scss/screen.scss',
 
       // overrides
+      'lib/client/templates/post_page_colossus.html',
       'lib/client/templates/post_content_colossus.html',
-      'lib/client/templates/post_domain_colossus.html',
       'lib/client/templates/post_info_colossus.html',
       'lib/client/templates/post_upvote_colossus.html',
       'lib/client/templates/post_item_colossus.html',
 
       // customizations
+      'lib/client/scripts/post_body_colossus.js',
       'lib/client/scripts/icons_colossus.js',
-      'lib/client/scripts/templates_colossus.js'
+      'lib/client/scripts/templates_colossus.js',
+
+      //plugins
+      'lib/client/scripts/succinct.js'
 
     ], ['client']);
 

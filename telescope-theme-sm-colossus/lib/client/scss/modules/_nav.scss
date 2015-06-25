@@ -10,14 +10,11 @@
         }
         color: #4b4b4b;
         background-color: white;
-        border-top: 2px solid turqouise;
         box-shadow: 0 1px 1px rgba(0,0,0,0.1);
         background-color: #fff;
         margin-bottom: 12px;
         .primary-nav {
-            text-transform: capitalize;
-            letter-spacing: 0.8px;
-            font-size: 13px;
+            display: none;
         }
         .secondary-nav {
             text-transform: capitalize;
