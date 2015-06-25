@@ -23,37 +23,43 @@
             z-index: 20;
             position: relative;
             float:right;
+            font-weight: 700;
             .btn.btn-primary, .btn.submit {
-                background: transparent;
-                padding: 15px 0px;
-                letter-spacing: 1px;
-                font-size: 13px;
+                background: #bd9f86;
+                color: white;
+                text-transform: capitalize;
+                border-radius: 45px;
+                padding: 21px 56px 23px;
+                font-size: 21px;
+                text-decoration: none;
+                font-weight: 700;
+                cursor: pointer;
                 border: none;
             }
         }
         .header-submodule {
             display: inline-block;
-            margin-right: 20px;
+            margin-right: 30px;
+            font-size: 15px;
             &:last-child {
                 margin-right: 0px;
             }
         }
         .menu-item a {
-            font-size: 12px;
+            font-size: 15px;
         }
         .header-submodule:nth-child(2) {
-            @include medium {
                 display: none;
-            }
         }
         .logo {
             float:left;
             z-index: 20;
             position: relative;
-            letter-spacing: 8px;
+            letter-spacing: 7px;
             text-transform: uppercase;
             @include medium-large {
-                font-size: 19px;
+                padding: 20px;
+                font-size: 18px;
             }
             a {
                 color: black;

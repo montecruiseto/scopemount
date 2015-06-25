@@ -3,9 +3,8 @@ $grid-margin:10px;
 $grid-padding:15px;
 $break-small:500px;
 
-$small-break: 30em;
-$medium-break: 50em;
-$large-break: 90em;
+$small-break: 600px;
+$medium-break: 800px;
 
 @mixin small(){
   @media screen and (max-width: $small-break) {
@@ -33,15 +32,17 @@ $large-break: 90em;
   }
 }
 
-// ----------------------------------- custom ------------------------------------ //
 
-@mixin mid-section(){
-  @media screen and (min-width: $medium-break) and (max-width: $large-break) {
-    @content;
+
+.grid-small, .at-form{
+  width: 100%;
+  text-align: center;
+  @include medium-large{
+   max-width:500px;
   }
-}
-@mixin top-section(){
-  @media screen and (min-width: $large-break) {
-    @content;
+  margin-left: auto;
+  margin-right: auto;
+  button.submit {
+    margin: 10px auto;
   }
 }

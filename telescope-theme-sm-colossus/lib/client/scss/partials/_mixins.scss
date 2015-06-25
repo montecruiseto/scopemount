@@ -1,0 +1,32 @@
+
+/*================ FLEXBOX =================*/
+@mixin flex(){
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+}
+@mixin align-items($i){
+  align-items: $i;
+  -webkit-align-items: $i;
+  -moz-align-items: $i;
+}
+@mixin justify-content($i){
+  justify-content: $i;
+  -webkit-justify-content: $i;
+  -moz-justify-content: $i;
+}
+@mixin order($order){
+  order: $order;
+  -webkit-order: $order;
+  -moz-order: $order;
+}
+@mixin flex-grow($i){
+  flex-grow: $i;
+  -webkit-flex-grow: $i;
+  -moz-flex-grow: $i;
+}
+@mixin flex-shrink($i){
+  flex-shrink: $i;
+  -webkit-flex-shrink: $i;
+  -moz-flex-shrink: $i;
+}

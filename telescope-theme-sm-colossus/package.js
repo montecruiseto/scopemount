@@ -20,6 +20,13 @@ Package.onUse(function (api) {
   ], ['client', 'server']);
 
   api.addFiles([
+
+      // partials
+      'lib/client/scss/partials/_mixins.scss',
+      'lib/client/scss/partials/_typography.scss',
+      'lib/client/scss/partials/_grid.scss',
+      'lib/client/scss/partials/_colors.scss',
+
       // globals
       'lib/client/scss/global/_forms.scss',
       'lib/client/scss/global/_links.scss',
@@ -36,11 +43,6 @@ Package.onUse(function (api) {
       'lib/client/scss/modules/_posts.scss',
       'lib/client/scss/modules/_search.scss',
       'lib/client/scss/modules/_errors.scss',
-
-      // partials
-      'lib/client/scss/partials/_typography.scss',
-      'lib/client/scss/partials/_grid.scss',
-      'lib/client/scss/partials/_colors.scss',
 
       // screen
       'lib/client/scss/screen.scss',
