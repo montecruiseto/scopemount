@@ -20,12 +20,22 @@
             text-transform: capitalize;
             letter-spacing: 0.8px;
             font-size: 13px;
+            z-index: 20;
+            position: relative;
+            float:right;
             .btn.btn-primary, .btn.submit {
                 background: transparent;
                 padding: 15px 0px;
                 letter-spacing: 1px;
                 font-size: 13px;
                 border: none;
+            }
+        }
+        .header-submodule {
+            display: inline-block;
+            margin-right: 20px;
+            &:last-child {
+                margin-right: 0px;
             }
         }
         .menu-item a {
@@ -37,6 +47,9 @@
             }
         }
         .logo {
+            float:left;
+            z-index: 20;
+            position: relative;
             letter-spacing: 8px;
             text-transform: uppercase;
             @include medium-large {

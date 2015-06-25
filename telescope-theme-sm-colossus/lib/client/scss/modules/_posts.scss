@@ -8,7 +8,9 @@
         margin: 120px auto -7px;
         max-width: 730px;
         text-align: center;
-        &:first-child {
+    }
+    &:first-child {
+        .post {
             margin-top: 60px;
         }
     }
@@ -46,7 +48,7 @@
 
 // -------------------------------- post content --------------------------------- //
 .post-heading {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     .post-title {
         transition: all 0.2s ease;
         display: block;
@@ -73,6 +75,7 @@
 }
 .post-meta {
     display: inline-flex;
+    align-items: baseline;
     margin: 15px auto 80px;
     font-weight: 400;
     a:link, a:visited, a:active {

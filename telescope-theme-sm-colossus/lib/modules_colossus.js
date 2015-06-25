@@ -1,23 +1,19 @@
 Telescope.modules.removeAll("postComponents");
 Telescope.modules.add("postComponents", [
   {
-    template: 'post_upvote',
-    order: 10
-  },
-  {
     template: 'post_content',
-    order: 20
+    order: 10
   }
 ]);
 
 Telescope.modules.removeAll("postHeading");
 Telescope.modules.add("postHeading", [
   {
-    template: 'post_title',
+    template: 'post_avatars',
     order: 10
   },
   {
-    template: 'post_categories',
+    template: 'post_title',
     order: 20
   }
 ]);
