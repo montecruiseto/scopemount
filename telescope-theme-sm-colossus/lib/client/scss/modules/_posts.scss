@@ -7,6 +7,7 @@
     .post {
         margin: 120px auto -7px;
         max-width: 730px;
+        width: 83.3333333%;
         text-align: center;
     }
     &:first-child {
@@ -54,49 +55,58 @@
         display: block;
         font-weight: 700;
         letter-spacing: -1.8px;
-        line-height: 1.1;
-        font-size: 24px;
+        line-height: 1.2;
+        font-size: 32px;
         &:visited {
             color: $text;
         }
         @include medium-large {
             font-size: 59px;
+            line-height: 1.1;
+        }
+    }
+}
+.post-body, .page-body {
+    transition: all 0.2s ease;
+    font-size: 19px;
+    line-height: 1.1;
+    color: dimgray;
+    margin-bottom: 10px;
+    p {
+        line-height: 1.5;
+    }
+    @include medium-large {
+        font-size: 22px;
+        p {
+            line-height: 1.7;
         }
     }
 }
 .post-meta-item {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: normal;
     color: $light-text;
     margin-right: 5px;
-    @include medium-large {
-        font-size: 13px;
-    }
 }
 .post-meta {
+    transition: all 0.2s ease;
     display: inline-flex;
     align-items: baseline;
-    margin: 15px auto 80px;
+    margin: 15px auto 50px;
     font-weight: 400;
+    font-size: 13px;
     a:link, a:visited, a:active {
-        color: $grey;
+        color: silver;
     }
     a:hover {
-        color: $grey;
+        color: silver;
+    }
+    @include medium-large {
+        margin: 15px auto 80px;
     }
 }
 .post-commenters {
     display: none;
-}
-
-.post-body, .page-body {
-    transition: all 0.2s ease;
-    font-size: 15px;
-    color: dimgray;
-    margin-bottom: 10px;
-    @include medium-large {
-        font-size: 22px;
-    }
 }
 .post.sticky {
     background: white;
@@ -116,10 +126,8 @@
 
 // -------------------------------- embedly thumbs --------------------------------- //
 .post-thumbnail-link {
-    width: 100px;
-    @include medium-large {
-        width: 580px;
-    }
+    width: 100%;
+    max-width: 580px;
 }
 .posts-list .post-thumbnail {
     transition: all 0.2s ease;
@@ -131,6 +139,9 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border: 8px solid black;
+    @include small {
+        border-bottom: 0px;
+    }
 }
 
 // ----------------------------------- other ------------------------------------ //
