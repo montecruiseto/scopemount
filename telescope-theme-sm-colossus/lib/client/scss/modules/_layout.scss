@@ -3,6 +3,10 @@ body{
   background: white;
 }
 
+.content-wrapper {
+	max-width: 770px;
+}
+
 .grid-module, .at-form{
   padding: 0px;
 }
@@ -15,3 +19,4 @@ body{
 		margin-bottom: 10px;
 	}
 }
+

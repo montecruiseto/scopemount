@@ -32,7 +32,16 @@ $medium-break: 800px;
   }
 }
 
-
+.content-wrapper{
+  @include small{
+    overflow-x: hidden;
+  }
+}
+.grid{
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .grid-small, .at-form{
   width: 100%;

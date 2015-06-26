@@ -5,10 +5,15 @@
     position: relative;
     z-index: 1;
     .post {
-        margin: 120px auto -7px;
+        margin: 80px auto -7px;
         max-width: 730px;
         width: 83.3333333%;
         text-align: center;
+    }
+    @include medium-large {
+       .post {
+           margin: 120px auto -7px;
+       }
     }
     &:first-child {
         .post {
@@ -27,6 +32,19 @@
 }
 .post-list-title, .page-title{
     display: none;
+}
+.single-post {
+    .posts-list {
+        margin-bottom: 30px;
+    }
+    .colossus-gradient {
+        display: none;
+    }
+    .colossus-post {
+        .post {
+            margin: 120px auto 0px;
+        }
+    }
 }
 
 // ------------------------------------ posts views nav ------------------------------------ //
@@ -82,16 +100,8 @@
         }
     }
 }
-.post-meta-item {
-    font-size: 13px;
-    font-weight: normal;
-    color: $light-text;
-    margin-right: 5px;
-}
 .post-meta {
     transition: all 0.2s ease;
-    display: inline-flex;
-    align-items: baseline;
     margin: 15px auto 50px;
     font-weight: 400;
     font-size: 13px;
@@ -105,11 +115,14 @@
         margin: 15px auto 80px;
     }
 }
+.post-meta-item {
+    font-size: 13px;
+    font-weight: normal;
+    color: $light-text;
+    display: inline-block;
+}
 .post-commenters {
     display: none;
-}
-.post.sticky {
-    background: white;
 }
 
 // -------------------------------- post tags --------------------------------- //

@@ -22,9 +22,9 @@ Package.onUse(function (api) {
   api.addFiles([
 
       // partials
-      'lib/client/scss/partials/_mixins.scss',
       'lib/client/scss/partials/_typography.scss',
       'lib/client/scss/partials/_grid.scss',
+      'lib/client/scss/partials/_mixins.scss',
       'lib/client/scss/partials/_colors.scss',
 
       // globals
