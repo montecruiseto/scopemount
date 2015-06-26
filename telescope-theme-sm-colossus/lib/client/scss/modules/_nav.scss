@@ -21,12 +21,15 @@
             position: relative;
             float: right;
             font-weight: 700;
+            .sign-up, .sign-in {
+                padding: 21px;
+            }
             .btn.btn-primary, .btn.submit {
                 background: transparent;
                 color: white;
                 text-transform: capitalize;
                 border-radius: 30px;
-                padding: 21px 51px 21px;
+                padding: 21px 51px;
                 font-size: 17px;
                 text-decoration: none;
                 font-weight: 700;

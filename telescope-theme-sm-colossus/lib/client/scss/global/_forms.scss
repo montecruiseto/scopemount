@@ -1,15 +1,50 @@
-input[type="submit"], button, .button, .btn{
-  &.btn-primary, &.submit{
-    border: 2px solid black;
-    background-color: whitesmoke;
-    color: #808393;
-    border: 1px solid #808393;
-    font-size: 12px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
-}
+.inner-wrapper {
+    input[type="submit"], button, .button, .btn {
+        &.btn-primary, &.submit {
+            z-index: 1;
+            background: transparent;
+            color: white;
+            text-transform: capitalize;
+            border-radius: 30px;
+            padding: 21px 51px;
+            font-size: 17px;
+            text-decoration: none;
+            font-weight: 700;
+            cursor: pointer;
+            border: none;
+            -webkit-transition: color 0.3s;
+            transition: color 0.3s;
+            position: relative;
+            /** Button effect
+         * Thanks http://tympanus.net/codrops/2015/02/26/inspiration-button-styles-effects/
+         **/
 
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: inherit;
+                z-index: -1;
+                box-shadow: inset 0 0 0 35px #bd9f86;
+                -webkit-transform: scale3d(0.9, 0.9, 1);
+                transform: scale3d(0.9, 0.9, 1);
+                -webkit-transition: box-shadow 0.3s, -webkit-transform 0.3;
+                transition: box-shadow 0.3s, transform 0.3s;
+            }
+            &:hover {
+                color: #bd9f86;
+            }
+            &:hover::before {
+                box-shadow: inset 0 0 0 2px #bd9f86;
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1);
+            }
+        }
+    }
+}
 form textarea:focus {
-  border-color: $main;
+    border-color: $main;
 }

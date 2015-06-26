@@ -78,7 +78,7 @@
     @include medium-large {
         font-size: 22px;
         p {
-            line-height: 1.7;
+            line-height: 1.6;
         }
     }
 }
@@ -96,10 +96,10 @@
     font-weight: 400;
     font-size: 13px;
     a:link, a:visited, a:active {
-        color: silver;
+        color: $light-text;
     }
     a:hover {
-        color: silver;
+        color: $light-text;
     }
     @include medium-large {
         margin: 15px auto 80px;
