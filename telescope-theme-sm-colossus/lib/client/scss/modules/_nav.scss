@@ -10,13 +10,14 @@
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
         background-color: #fff;
         margin-bottom: 12px;
+        padding: 24px;
         .primary-nav {
             display: none;
         }
         .secondary-nav {
             text-transform: capitalize;
             letter-spacing: 0.8px;
-            font-size: 13px;
+            font-size: 15px;
             z-index: 20;
             position: relative;
             float: right;
@@ -88,8 +89,8 @@
             text-transform: uppercase;
             transition: all 0.2s ease;
             @include medium-large {
-                padding: 20px;
-                font-size: 18px;
+                padding: 14px 20px;
+                font-size: 20px;
             }
             a {
                 color: black;

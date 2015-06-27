@@ -5,7 +5,7 @@
     position: relative;
     z-index: 1;
     .post {
-        margin: 80px auto -7px;
+        margin: 80px auto -8px;
         max-width: 730px;
         width: 83.3333333%;
         text-align: center;
@@ -74,19 +74,19 @@
         font-weight: 700;
         letter-spacing: -1.8px;
         line-height: 1.2;
-        font-size: 32px;
+        font-size: 34px;
         &:visited {
             color: $text;
         }
         @include medium-large {
-            font-size: 59px;
+            font-size: 61px;
             line-height: 1.1;
         }
     }
 }
 .post-body, .page-body {
     transition: all 0.2s ease;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 1.1;
     color: dimgray;
     margin-bottom: 10px;
@@ -94,7 +94,7 @@
         line-height: 1.5;
     }
     @include medium-large {
-        font-size: 22px;
+        font-size: 23px;
         p {
             line-height: 1.6;
         }
@@ -104,7 +104,7 @@
     transition: all 0.2s ease;
     margin: 15px auto 50px;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     a:link, a:visited, a:active {
         color: $light-text;
     }
@@ -116,7 +116,7 @@
     }
 }
 .post-meta-item {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: normal;
     color: $light-text;
     display: inline-block;

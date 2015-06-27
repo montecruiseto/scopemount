@@ -1,3 +1,7 @@
-.error, .at-error {
-  background: dimgray;
+.error, .at-error{
+	@extend .grid-block;
+	margin-bottom:$grid-margin;
+	text-align:center;
+	background:dimgray;
+	color:white;
 }
