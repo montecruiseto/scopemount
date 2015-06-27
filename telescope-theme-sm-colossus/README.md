@@ -1,22 +1,20 @@
-# Telescope Magellan Theme
+# Telescope Colossus Theme
 
-*Note: Magellan is up-to-date with Telescope v0.20.6*
+*Note: Colossus is up-to-date with Telescope v0.20.6*
 
-Magellan is part of [Scopemount](http://scopemount.startrack.io), a suite of 21 beautiful themes for [Telescope](http://www.telescopeapp.org/).
+Colossus is part of [Scopemount](http://scopemount.startrack.io), a suite of 21 beautiful themes for [Telescope](http://www.telescopeapp.org/).
 
 [![Imgur](http://i.imgur.com/8yYLXiY.jpg)](http://scopemount.startrack.io)
 
 ### Install & Setup
 
-See [Blog Post](http://blog.startrack.io/scopemount-theme-magellan/)
+See [Blog Post](http://blog.startrack.io/scopemount-theme-colossus/)
 
 ### Look & Feel
 
-Magellan is a modern looking Q&A theme - [Demo](http://sm-magellan.meteor.com/)
+Colossus is a modern looking Q&A theme - [Demo](http://sm-colossus.meteor.com/)
 
-![Magellan]()
-
-![Magellan]()
+![Colossus](http://i.imgur.com/NuPyYAN.png)
 
 ### Thanks
 

@@ -63,7 +63,9 @@ All the themes use the base and hubble theme as a dependency.
 
 ![Starfire](http://i.imgur.com/v8cgZJH.png)
 
-##### 8 -  Hooke (a modern intranet - coming soon)
+##### 8 -  Colossus (a big & bold luxury theme [Demo](http://sm-colossus.meteor.com/) - [Blog Post](http://blog.startrack.io/scopemount-theme-colossus/))
+
+![Colossus](http://i.imgur.com/NuPyYAN.png)
 
 ##### 9 -  Hale (a medical community - coming soon)
 
@@ -77,13 +79,13 @@ All the themes use the base and hubble theme as a dependency.
 
 ##### 14 -  Cassini (a journalism community - coming soon)
 
-##### 15 -  Magellan (an exclusive member community - coming soon)
+##### 15 -  Magellan (mass media consumption - coming soon)
 
 ##### 16 -  Copernico (a hacker news style skin - coming soon)
 
 ##### 17 -  Chara (pure alchemy - coming soon)
 
-##### 18 -  Colossus (mass media consumption - coming soon)
+##### 18 -  Hooke (a modern intranet - coming soon)
 
 ##### 19 -  Laval (a book club community - coming soon)
 
