@@ -14,7 +14,7 @@ See [Blog Post](http://blog.startrack.io/scopemount-theme-colossus/)
 
 Colossus is a modern looking Q&A theme - [Demo](http://sm-colossus.meteor.com/)
 
-![Colossus](http://i.imgur.com/NuPyYAN.png)
+![Colossus](http://i.imgur.com/gJJSvXG.png)
 
 ### Thanks
 

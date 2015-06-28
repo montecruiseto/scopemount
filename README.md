@@ -65,7 +65,7 @@ All the themes use the base and hubble theme as a dependency.
 
 ##### 8 -  Colossus (a big & bold luxury theme [Demo](http://sm-colossus.meteor.com/) - [Blog Post](http://blog.startrack.io/scopemount-theme-colossus/))
 
-![Colossus](http://i.imgur.com/NuPyYAN.png)
+![Colossus](http://i.imgur.com/gJJSvXG.png)
 
 ##### 9 -  Hale (a medical community - coming soon)
 
