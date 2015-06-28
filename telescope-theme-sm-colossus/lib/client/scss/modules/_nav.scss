@@ -51,17 +51,17 @@
                     height: 100%;
                     border-radius: inherit;
                     z-index: -1;
-                    box-shadow: inset 0 0 0 35px #bd9f86;
+                    box-shadow: inset 0 0 0 35px $button;
                     -webkit-transform: scale3d(0.9, 0.9, 1);
                     transform: scale3d(0.9, 0.9, 1);
                     -webkit-transition: box-shadow 0.3s, -webkit-transform 0.3;
                     transition: box-shadow 0.3s, transform 0.3s;
                 }
                 &:hover {
-                    color: #bd9f86;
+                    color: $button;
                 }
                 &:hover::before {
-                    box-shadow: inset 0 0 0 2px #bd9f86;
+                    box-shadow: inset 0 0 0 2px $button;
                     -webkit-transform: scale3d(1, 1, 1);
                     transform: scale3d(1, 1, 1);
                 }
