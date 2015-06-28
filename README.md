@@ -3,7 +3,7 @@ Scopemount
 
 *Note: Scopemount themes are up-to-date with Telescope v0.20.6*
 
-Scopemount is a suite of 21 beautiful themes for Telescope. [Telescope](http://www.telescopeapp.org/) is an open source Meteor app that makes it easy to launch communities.
+Scopemount is a suite of 21 beautiful themes for [Telescope](http://www.telescopeapp.org/), an open source Meteor app that makes it easy to launch communities.
 
 [![Imgur](http://i.imgur.com/8yYLXiY.jpg)](http://scopemount.startrack.io)
 
