@@ -1,0 +1,22 @@
+.comment{
+	.comment-reply{
+		@include small {
+		    font-size: 13px;
+		}
+	}
+}
+.comment-content {
+	@include small {
+	    padding-left: 30px;
+	}
+}
+.comment-meta{
+	@include small {
+	    padding-left: 5px;
+	}
+	.user-avatar{
+		@include small {
+		    display: none;
+		}
+	}
+}

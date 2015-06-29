@@ -1,0 +1,11 @@
+input[type="submit"], button, .button, .btn{
+  border-radius: 0px;
+  padding:12px 30px;
+  &.btn-primary, &.submit{
+    background:$green;
+    text-transform: uppercase;
+    @include small {
+        font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.avatar-small {
+  .avatar-initials{
+    line-height: 30px;
+    @include mid-section {
+        font-size: 12px;
+    }
+  }
+}
+.avatar-medium {
+  .avatar-initials{
+    font-size: 0px;
+  }
+}
+.avatar-large {
+  .avatar-initials{
+    font-size: 0px;
+  }
+}
+

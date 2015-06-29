@@ -1,0 +1,13 @@
+a{
+  text-decoration: none;
+  &, &:link, &:visited, &:active{
+    color: $text;
+    font-weight: bold;
+  }
+  &.post-author {
+  	font-size: 13px;
+  	text-transform: uppercase;
+  }
+  &.comments-link {
+  }
+}
