@@ -1,80 +1,45 @@
 
 // ------------------------------------ Top Nav Layout ------------------------------------ //
 
-.top-nav{
-	.header{
-		background-color: transparent;
-		background: url('../../../img/header-bg.jpg') no-repeat;
-		background-position-y: -111px;
-		background-position-x: -390px;
-		height: 105px;
-		border-bottom: 15px rgb(35, 204, 199) solid;
-		box-shadow: 0px 1px 0px rgba(20, 120, 117, 0.6); // optional extra bottom border
-		margin-bottom: 15px;
-		@include large {
-		    margin-bottom: 25px;
-		    background-position-x: 0px;
-		}
-		.mobile-menu-button {
-			font-size: 32px;
-			margin-top: -43px;
-			@include large {
-			    font-size: 27px;
-			    margin-top: -25px;
-			}
-		}
-		.logo{
-			text-transform: uppercase;
-			text-align: left;
-			padding: 0 76px;
-			font-size: 43px;
-			@include medium{
-				padding: 0 83px;
-			}
-			@include medium-large{
-				&:after {
-					content: '/scopemount';
-					font-weight: bold;
-					font-size: 21px;
-				}
-			}
-			@include large{
-				font-size:80px;
-				&:after {
-					font-size: 27px;
-				}
-			}
-		}
-		.secondary-nav {
-			top: 90%;
-	  	color:white;
-	  	>a, >.btn {
-	  			font-size:18px;
-	  			font-weight:normal;
-	  		  font-style: italic;
-	  		  text-shadow: 0px -1px rgba(0, 0, 0, 0.5);
-	  	}
-	  	@include top-section {
-	  		top: 142%;
-	  	}
-		}
-		.header-submodule{
-	  	display: none;
-		  &:last-child{
-		  	display: inline-block;
-		  	border-bottom: 7px dotted #147875;
-	  	}
-		}
-		a.sign-in,
-		a.sign-up {
-		  color: white;
-		  text-transform: uppercase;
-		  text-shadow: none;
-		  @include top-section {
-		  	color: $text;
-		  }
-		}
-
-	}
+.top-nav {
+    .header {
+        background-color: $crimson;
+        .primary-nav {
+            text-transform: capitalize;
+            letter-spacing: 0.8px;
+            font-size: 13px;
+        }
+        .secondary-nav {
+            text-transform: capitalize;
+            letter-spacing: 0.8px;
+            font-size: 13px;
+            .btn.btn-primary, .btn.submit {
+                background: transparent;
+                padding: 15px 0px;
+                letter-spacing: 1px;
+                font-size: 13px;
+                border: none;
+            }
+        }
+        .menu-item a {
+            font-size: 12px;
+        }
+        	.header-submodule:nth-child(2) {
+        	  	@include medium {
+        	  	    display: none;
+        	  	}
+        	}
+    }
+    .logo {
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        text-shadow: -1px -1px rgba(0, 0, 0, 0.33);
+        @include medium-large {
+            font-size: 19px;
+        }
+    }
 }
+
+
+
 

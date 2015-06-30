@@ -1,0 +1,26 @@
+<template name="layout_magellan">
+  {{> css}}
+  <div class="outer-wrapper {{currentPage}} {{navLayout}}">
+    {{> mobile_nav}}
+    <div class="inner-wrapper template-{{pageName}}">
+      {{> nav}}
+      <div class="content-wrapper">
+      <div class="left-column">
+        {{> messages}}
+        {{> modules "hero"}}
+        {{> yield "adminMenu"}}
+        {{> yield "postsListTop"}}
+        {{> yield}}
+        {{> footer}}
+      </div>
+      <div class="right-column">
+        TURN DOWN FOR WHAT. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue ex est, at venenatis tellus sollicitudin id. Vestibulum non diam a leo scelerisque convallis placerat sed dolor. Nullam ut tincidunt sapien, non dictum massa. Suspendisse potenti. Donec in urna ornare nulla auctor efficitur. Morbi condimentum rhoncus elit nec facilisis. Sed vel quam nisi. In in elit in diam pharetra imperdiet eget vel neque. Nulla sit amet nibh in sem hendrerit efficitur ut at nulla. Nulla elementum lorem eu mollis feugiat. Praesent ac nibh est. Aliquam luctus libero vitae libero egestas, eget pulvinar quam egestas.
+
+        Phasellus eget bibendum quam. Proin nec condimentum nibh, id dignissim tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam accumsan aliquet eleifend. Proin rhoncus metus et nisi blandit, et vehicula enim auctor. Duis hendrerit rhoncus nibh quis tincidunt. Praesent at purus ut nisl porta consectetur eu id ex. Integer id leo mattis, porttitor enim sed, placerat augue. In hac habitasse platea dictumst. Mauris varius lectus purus, vel auctor quam bibendum vitae. Vestibulum at diam in lorem faucibus hendrerit. In sapien velit, varius quis nulla a, bibendum faucibus tellus. Aliquam viverra congue odio, ac facilisis urna sodales eget. Suspendisse aliquam interdum nulla, ut volutpat dolor.
+      </div>
+      </div>
+      <div class="overlay hidden"></div>
+    </div>
+    {{{extraCode}}}
+  </div>
+</template>

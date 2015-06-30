@@ -46,6 +46,7 @@ Package.onUse(function (api) {
 
       // overrides
       'lib/client/templates/post_info_magellan.html',
+      'lib/client/templates/layout_magellan.html',
 
       // customizations
       'lib/client/scripts/icons_magellan.js',

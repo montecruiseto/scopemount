@@ -5,8 +5,12 @@ Telescope.modules.add("postComponents", [
     order: 10
   },
   {
-    template: 'post_content',
+    template: 'post_discuss',
     order: 20
+  },
+  {
+    template: 'post_content',
+    order: 30
   }
 ]);
 
@@ -18,20 +22,12 @@ Telescope.modules.add("postHeading", [
     order: 10
   },
   {
-    template: 'post_domain',
-    order: 20
-  },
-  {
     template: 'post_info',
     order: 30
   },
   {
     template: 'post_comments_link',
     order: 40
-  },
-  {
-    template: 'post_categories',
-    order: 50
   },
   {
     template: 'post_admin',
@@ -41,15 +37,3 @@ Telescope.modules.add("postHeading", [
 ]);
 
 Telescope.modules.removeAll("postMeta");
-Telescope.modules.add("postMeta", [
-
-  {
-    template: 'post_avatars',
-    order: 10
-  },
-  {
-    template: 'post_discuss',
-    order: 20
-  }
-
-]);

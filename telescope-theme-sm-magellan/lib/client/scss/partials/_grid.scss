@@ -3,9 +3,8 @@ $grid-margin:10px;
 $grid-padding:15px;
 $break-small:500px;
 
-$small-break: 30em;
-$medium-break: 50em;
-$large-break: 90em;
+$small-break: 600px;
+$medium-break: 1000px;
 
 @mixin small(){
   @media screen and (max-width: $small-break) {
@@ -35,13 +34,24 @@ $large-break: 90em;
 
 // ----------------------------------- custom ------------------------------------ //
 
-@mixin mid-section(){
-  @media screen and (min-width: $medium-break) and (max-width: $large-break) {
-    @content;
+.left-column, .right-column {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  @include large {
+    float: left;
   }
 }
-@mixin top-section(){
-  @media screen and (min-width: $large-break) {
-    @content;
+.left-column {
+  @include large {
+    width: 66.66666667%;
   }
 }
+.right-column {
+  margin-top: 60px;
+  @include large {
+    width: 33.33333333%;
+  }
+}
+

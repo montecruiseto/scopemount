@@ -1,7 +1,7 @@
 .avatar-small {
   .avatar-initials{
     line-height: 30px;
-    @include mid-section {
+    @include medium {
         font-size: 12px;
     }
   }

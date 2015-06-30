@@ -61,6 +61,7 @@
         margin-top: 25px;
     }
     .post-title {
+        transition: all 0.2s ease;
         display: block;
         font-weight:bold;
         font-size: 14px;
@@ -70,24 +71,8 @@
         @include medium {
             font-size: 21px;
         }
-        @include mid-section {
-            font-size: 28px;
-        }
-        @include top-section {
-            font-size: 30px;
-            width: 920px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-    }
-    .post-domain {
-        color: black;
-        font-weight: bold;
-        text-transform: uppercase;
-        font-size: 13px;
-        @include small-medium {
-            display: none !important;
+        @include large {
+            font-size: 25px;
         }
     }
 }
@@ -100,16 +85,17 @@
     }
     &:nth-of-type(3) {
         display: none;
-        @include top-section {
+        @include large {
             display: block;
         }
     }
 }
 .post-meta {
+    transition: all 0.2s ease;
     display: flex;
     flex-direction: row;
     margin-top: 5px;
-    @include top-section {
+    @include large {
         margin-top: 10px;
     }
     a:link, a:visited, a:active {
@@ -127,9 +113,9 @@
           display: block;
         }
         .icon {
-            font-size: 40px;
+            font-size: 30px;
             @include large {
-                font-size: 50px;
+                font-size: 30px;
             }
         }
         .action-count {
@@ -142,6 +128,7 @@
 }
 
 .post-body, .page-body {
+    transition: all 0.2s ease;
     font-size: 13px;
     @include medium {
         font-size: 15px;
@@ -180,65 +167,21 @@
     }
 }
 
-// ----------------------------------- avatars ------------------------------------ //
-.avatar {
-    display: none;
-    height: 25px;
-    width: 25px;
-    @include medium-large {
-        display: block;
-    }
-    @media screen and (min-width: 38em) {
-      height: 45px;
-      width: 45px;
-    }
-    @include top-section {
-        height: 50px;
-        width: 50px;
-    }
-}
-.avatar.avatar-circle {
-    border: 5px black;
-    @media screen and (min-width: 38em) {
-      border-width: 8px
-    }
-    border-radius: 50px;
-    border-style: ridge;
-    border-right-color: rgb(35, 204, 199);
-}
-.avatar .avatar-initials {
-    background-color: $green;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-    font-weight: bold;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-    @media screen and (max-width: 38em) {
-      font-size: 0px;
-    }
-}
-
 // ----------------------------------- other ------------------------------------ //
 .more-button {
-    margin: 0 auto;
-    width: 50%;
-    height: 63px;
-    border-bottom: 7px dotted #147875;
-    background: $green;
-    color: white!important;
-    line-height: 57px;
-    font-size: 18px;
-    border-radius: 0px 0px 3px 3px;
-    text-shadow: 0px -1px rgba(0, 0, 0, 0.5);
-    padding: 0px;
-    text-transform: uppercase;
-    font-style: italic;
-    border-radius: 0px;
+    transition: all 0.2s ease;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    text-align: center;
+    background: transparent;
+    font-size: 20px;
+    height: 50px;
+    line-height: 46px;
     &:hover {
-        background: $green;
+        background: transparent;
     }
-    @include small {
+    &:after {
         font-size: 16px;
-    }
-    @include large {
-        width: 20%;
+        content: " »";
     }
 }

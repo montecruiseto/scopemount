@@ -1,5 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700|EB+Garamond);
 
-body, textarea, input, button, input[type="submit"], input[type="button"]{
-	font-family:"Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+body, textarea, input, button, input[type="submit"], input[type="button"], .avatar-initials {
+	font-family:"Quicksand", "Helvetica Neue", Helvetica, sans-serif;
 }
+
+// .post-body, .page-body {
+// 	font-family: "EB Garamond", serif;
+// }
