@@ -1,16 +1,14 @@
 // ------------------------------------ post ------------------------------------ //
 .post {
     padding: 0px 0px 0px 0px;
-    box-shadow: -2px 0px 0px rgba(0, 0, 0, .1);
+    box-shadow: 1px 0px 0px rgba(0, 0, 0, .1);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-right: 1px solid rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
-    &:first-child {
-        border-radius: 0px 0px 0px 0px;
-    }
-    &:last-child {
-        border-radius: 0px 0px 0px 0px;
+    border-radius: 4px;
+    &:first-child, &:last-child {
+        border-radius: 4px;
     }
 }
 .post-list-title, .page-title{
@@ -18,10 +16,7 @@
 }
 // ------------------------------------ posts views nav ------------------------------------ //
 .posts-list-views{
-    background: none;
-    .menu-item{
-        text-transform: uppercase;
-    }
+    display: none;
 }
 
 // ------------------------------ posts-list layout ------------------------------ //
@@ -168,9 +163,25 @@
 }
 
 // ----------------------------------- other ------------------------------------ //
+.magellan-header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    &::after {
+        position: absolute;
+        top: 45%;
+        width: 99%;
+        margin-left: 5px;
+        border-top: 2px solid $crimson;
+        content: "";
+    }
+}
 .more-button {
     transition: all 0.2s ease;
-    margin-top: 35px;
+    margin-top: 5px;
     margin-bottom: 40px;
     text-align: center;
     background: transparent;

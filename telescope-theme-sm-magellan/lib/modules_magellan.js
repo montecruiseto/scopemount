@@ -37,3 +37,18 @@ Telescope.modules.add("postHeading", [
 ]);
 
 Telescope.modules.removeAll("postMeta");
+
+Telescope.modules.add("magellanSidebar", [
+  {
+    template: 'categories_magellan',
+    order: 10
+  },
+  {
+    template: 'featured_posts_magellan',
+    order: 20
+  },
+  {
+    template: 'sponsor_magellan',
+    order: 30
+  }
+]);

@@ -34,6 +34,9 @@ $medium-break: 1000px;
 
 // ----------------------------------- custom ------------------------------------ //
 
+.posts-wrapper, .single-post {
+  padding-top: 15px;
+}
 .left-column, .right-column {
   position: relative;
   min-height: 1px;
@@ -49,7 +52,6 @@ $medium-break: 1000px;
   }
 }
 .right-column {
-  margin-top: 60px;
   @include large {
     width: 33.33333333%;
   }
