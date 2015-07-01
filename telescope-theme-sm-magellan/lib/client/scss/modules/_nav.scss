@@ -24,18 +24,22 @@
         .menu-item a {
             font-size: 12px;
         }
-        	.header-submodule:nth-child(2) {
-        	  	@include medium {
-        	  	    display: none;
-        	  	}
-        	}
-    }
-    .logo {
-        letter-spacing: 8px;
-        text-transform: uppercase;
-        text-shadow: -1px -1px rgba(0, 0, 0, 0.33);
-        @include medium-large {
-            font-size: 19px;
+    	.header-submodule:nth-child(2) {
+    	  	@include medium {
+    	  	    display: none;
+    	  	}
+    	}
+        .logo {
+            float: left;
+            margin-right: 20px;
+            margin-left: 20px;
+            position: relative;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            text-shadow: -1px -1px rgba(0, 0, 0, 0.33);
+            @include medium-large {
+                font-size: 21px;
+            }
         }
     }
 }

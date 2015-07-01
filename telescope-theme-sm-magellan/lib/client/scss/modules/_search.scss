@@ -1,13 +1,15 @@
 .search {
 	.search-field {
-	  font-size: 13px;
+	  font-size: 14px;
 	}
   &.empty {
     .search-field {
-      background: white;
+      background: transparent;
+      border: 1px solid white;
+      border-radius: 4px;
     }
   }
   input {
-  	color: dimgray !important;
+  	color: white !important;
   }
 }

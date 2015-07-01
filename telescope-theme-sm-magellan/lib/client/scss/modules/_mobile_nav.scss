@@ -1,34 +1,19 @@
 
 .mobile-nav{
-  background: #333;
-  box-shadow: inset -1px -2px 3px rgba(169, 169, 169, 1);
-  max-width: 300px;
   .menu-top-level{
     text-transform: capitalize;
+    font-size: 13px;
   }
 }
 
 .mobile-menu{
-  a{
-    text-transform: uppercase;
+  .menu-item a {
     font-weight: normal;
-    font-size: 15px;
+    font-size: 12px;
   }
-  .menu-menu{
-    background: black;
-  }
-}
-
-.mobile-menu-button {
-  top: 60%;
-}
-
-.mobile-nav-open{
-  .outer-wrapper{
-    .inner-wrapper{
-      left: 160px;
-      transform: translateX(100px);
-
-    }
+  .btn.btn-primary, .btn.submit {
+    background: transparent;
+    border: 2px solid white;
+    text-transform: uppercase;
   }
 }

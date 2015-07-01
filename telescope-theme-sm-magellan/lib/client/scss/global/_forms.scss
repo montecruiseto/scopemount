@@ -1,11 +1,18 @@
 input[type="submit"], button, .button, .btn{
-  border-radius: 0px;
-  padding:12px 30px;
   &.btn-primary, &.submit{
-    background:$green;
-    text-transform: uppercase;
-    @include small {
-        font-size: 14px;
-    }
+    border: 2px solid black;
+    background-color: whitesmoke;
+    color: #808393;
+    border: 1px solid #808393;
+    font-size: 14px;
+    letter-spacing: 1px;
   }
+}
+
+form textarea:focus {
+  border-color: $crimson;
+}
+
+form .form-group .controls {
+    text-align: left;
 }

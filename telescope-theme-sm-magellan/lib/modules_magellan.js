@@ -38,17 +38,28 @@ Telescope.modules.add("postHeading", [
 
 Telescope.modules.removeAll("postMeta");
 
+Telescope.modules.removeAll("primaryNav");
+Telescope.modules.add("primaryNav", {
+  template: 'search',
+  order: 100
+});
+
+
 Telescope.modules.add("magellanSidebar", [
   {
     template: 'categories_magellan',
     order: 10
   },
   {
-    template: 'featured_posts_magellan',
+    template: 'post_categories',
     order: 20
   },
   {
-    template: 'sponsor_magellan',
+    template: 'featured_posts_magellan',
     order: 30
+  },
+  {
+    template: 'sponsor_magellan',
+    order: 40
   }
 ]);
