@@ -22,14 +22,17 @@
 // ------------------------------ posts-list layout ------------------------------ //
 .posts-list {
     .post-module {
-        margin-left: 10px;
+        margin-left: 0px;
         margin-right: 0px;
-    }
-    .post-rank {
-        // display: none;
     }
     .post-content {
         align-items: flex-start;
+    }
+    .post-discuss {
+        -webkit-box-ordinal-group: 3;
+        -webkit-order: 2;
+        -ms-flex-order: 2;
+        order: 2;
     }
 }
 .posts-list, .right-column {
@@ -39,11 +42,9 @@
 }
 
 // -------------------------------- post modules --------------------------------- //
-
-.post-module.post-rank {
-    margin: 0;
-}
 .post-upvote {
+    position: absolute;
+    z-index: 2;
     .upvote-link {
         color: $light-text;
         transform: scale(1.2);
@@ -55,12 +56,15 @@
         }
     }
 }
+.post-discuss .action {
+    position: absolute;
+    z-index: 2;
+}
+
 // -------------------------------- post content --------------------------------- //
 .post-heading {
     margin-top: 10px;
-    @include medium-large {
-        margin-top: 25px;
-    }
+    padding-right: 15px;
     .post-title {
         transition: all 0.2s ease;
         display: block;
@@ -69,11 +73,8 @@
         &:visited {
             color: $text;
         }
-        @include medium {
-            font-size: 21px;
-        }
-        @include large {
-            font-size: 25px;
+        @include medium-large {
+            font-size: 20px;
         }
     }
 }
@@ -158,14 +159,18 @@
 .post-thumbnail-link {
     width: 100px;
     @include medium-large {
-        width: 180px;
+        width: 200px;
     }
 }
 .posts-list .post-thumbnail {
     margin-right: 0px;
     @include medium-large {
-        margin-right: 20px;
+        margin-right: 15px;
     }
+}
+.post-thumbnail-image {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 // ----------------------------------- other ------------------------------------ //

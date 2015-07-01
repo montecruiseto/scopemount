@@ -63,8 +63,11 @@ Package.onUse(function (api) {
       'lib/client/templates/sponsor_magellan.html',
       'lib/client/scripts/icons_magellan.js',
       'lib/client/scripts/templates_magellan.js',
-      'lib/client/scripts/views_magellan.js'
+      'lib/client/scripts/views_magellan.js',
+      'lib/client/scripts/post_title_magellan.js',
 
+      //plugins
+      'lib/client/scripts/succinct.js'
     ],
     'client'
   );
