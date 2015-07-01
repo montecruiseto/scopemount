@@ -1,4 +1,8 @@
 <template name="featured_posts_magellan">
     <div class="magellan-header">FEATURED POSTS</div>
-    <p>eget bibendum quam. Proin nec condimentum nibh, id dignissim tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam accumsan aliquet eleifend. Proin rhoncus metus et nisi blandit, et vehicula enim auctor. Duis hendrerit rhoncus nibh quis tincidunt. Praesent at purus ut nisl porta consectetur eu id ex. Integer id leo mattis, porttitor enim sed, placerat augue.</p>
+    {{#each featured}}
+    <div class="post {{#if sticky}}sticky{{/if}} {{inactiveClass}} {{postClass}}" id="{{_id}}">
+      {{> modules zone="postComponents" moduleClass="post-module"}}
+    </div>
+    {{/each}}
 </template>

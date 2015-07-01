@@ -51,10 +51,6 @@ Telescope.modules.add("magellanSidebar", [
     order: 10
   },
   {
-    template: 'post_categories',
-    order: 20
-  },
-  {
     template: 'featured_posts_magellan',
     order: 30
   },

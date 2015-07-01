@@ -32,6 +32,12 @@
         align-items: flex-start;
     }
 }
+.posts-list, .right-column {
+    .post.sticky {
+          background: white;
+    }
+}
+
 // -------------------------------- post modules --------------------------------- //
 
 .post-module.post-rank {
@@ -44,7 +50,7 @@
         &.voted {
             i.icon-voted {
                 border: 1px solid $light-text;
-                color: $crimson;
+                color: $main;
             }
         }
     }
@@ -97,7 +103,7 @@
         color: $grey;
     }
     a:hover {
-        color: $crimson;
+        color: $main;
     }
     .discuss-link {
         position: absolute;
@@ -138,13 +144,13 @@
 
 // -------------------------------- post tags --------------------------------- //
 .post-category {
-    background: orange;
+    background: dimgray;
     color: white !important;
+    margin-bottom: 4px;
+    transition: all 0.2s ease;
+    font-weight: 700;
     &:hover {
-        background: orange;
-    }
-    @include small {
-        display: none;
+        background: $main;
     }
 }
 
@@ -175,7 +181,7 @@
         top: 45%;
         width: 99%;
         margin-left: 5px;
-        border-top: 2px solid $crimson;
+        border-top: 2px solid $main;
         content: "";
     }
 }

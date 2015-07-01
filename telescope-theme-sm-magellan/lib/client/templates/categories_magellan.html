@@ -1,4 +1,6 @@
 <template name="categories_magellan">
     <div class="magellan-header">CATEGORIES</div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue ex est, at venenatis tellus sollicitudin id. Vestibulum non diam a leo scelerisque convallis placerat sed dolor. Nullam ut tincidunt sapien, non dictum massa. Suspendisse potenti.</p>
+    {{#each categories}}
+      <a href="{{categoryLink}}" class="post-category category-{{slug}}">{{name}}</a>
+    {{/each}}
 </template>

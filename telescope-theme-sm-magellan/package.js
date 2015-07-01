@@ -14,6 +14,13 @@ Package.onUse(function (api) {
       'telescope:theme-hubble@0.20.6'
     ]);
 
+  // i18n config (must come first)
+
+  api.addFiles([
+    'package-tap.i18n'
+  ], ['client', 'server']);
+
+
   api.addFiles([
       'lib/modules_magellan.js'
   ], ['client', 'server']);
@@ -50,13 +57,23 @@ Package.onUse(function (api) {
 
       // customizations
       'lib/client/templates/categories_magellan.html',
+      'lib/client/templates/categories_magellan.js',
       'lib/client/templates/featured_posts_magellan.html',
+      'lib/client/templates/featured_posts_magellan.js',
       'lib/client/templates/sponsor_magellan.html',
       'lib/client/scripts/icons_magellan.js',
-      'lib/client/scripts/templates_magellan.js'
+      'lib/client/scripts/templates_magellan.js',
+      'lib/client/scripts/views_magellan.js'
 
     ],
     'client'
   );
+
+  // i18n languages (must come last)
+
+  api.addFiles([
+    'i18n/en.i18n.json'
+  ], ['client', 'server']);
+
 
 });
