@@ -32,6 +32,25 @@ $medium-break: 1000px;
   }
 }
 
+.content-wrapper{
+  @include small{
+    overflow-x: hidden;
+  }
+}
+.grid{
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid-small, .at-form{
+  width: 100%;
+  @include medium-large{
+   max-width:500px;
+  }
+  margin-left: auto;
+  margin-right: auto;
+}
+
 // ----------------------------------- custom ------------------------------------ //
 
 .posts-wrapper, .single-post {
@@ -57,3 +76,15 @@ $medium-break: 1000px;
   }
 }
 
+.template-post_page, .template-post_edit {
+  .left-column {
+    @include large {
+      width: 83%;
+      float: none;
+      margin: 0 auto;
+    }
+  }
+  .right-column {
+    display: none;
+  }
+}
