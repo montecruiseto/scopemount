@@ -61,6 +61,7 @@ Package.onUse(function (api) {
       'lib/client/templates/categories_magellan.js',
       'lib/client/templates/featured_posts_magellan.html',
       'lib/client/templates/featured_posts_magellan.js',
+      'lib/client/templates/post_title_magellan.html',
       'lib/client/templates/sponsor_magellan.html',
       'lib/client/scripts/icons_magellan.js',
       'lib/client/scripts/templates_magellan.js',
