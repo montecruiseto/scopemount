@@ -14,6 +14,10 @@
 .post-list-title, .page-title{
     display: none;
 }
+.single-post {
+    max-width: 660px;
+}
+
 // ------------------------------------ posts views nav ------------------------------------ //
 .posts-list-views{
     display: none;
@@ -21,6 +25,12 @@
 
 // ------------------------------ posts-list layout ------------------------------ //
 .posts-list {
+    .post-info {
+        margin-left: 15px;
+        @include medium-large {
+            margin-left: 0px;
+        }
+    }
     .post-module {
         margin-left: 0px;
         margin-right: 0px;
@@ -42,26 +52,29 @@
 }
 
 // -------------------------------- post modules --------------------------------- //
-.post-upvote {
+.post-vote {
     position: absolute;
-    z-index: 2;
-    .icon-circle {
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    .vote-actions {
       border: 0px;
+      width: 35px;
+      background-color: oldlace;
+      border-radius: 4px;
+      text-align: center;
+      margin: 0px 15px;
     }
     .upvote-link {
-        color: $light-text;
+        color: $main;
         transform: scale(1.2);
         &.voted {
             i.icon-voted {
-                border: 1px solid $light-text;
-                color: $main;
+                border: 0px;
+                color: darkgrey;
             }
         }
     }
-}
-.post-discuss .action {
-    position: absolute;
-    z-index: 2;
 }
 
 // -------------------------------- post content --------------------------------- //
@@ -69,6 +82,7 @@
     margin-top: 10px;
     padding-right: 15px;
     .post-title {
+        margin-bottom: 0px !important;
         transition: all 0.2s ease;
         display: block;
         font-weight:bold;
@@ -109,24 +123,6 @@
     a:hover {
         color: $main;
     }
-    .discuss-link {
-        position: absolute;
-        right: 10px;
-        bottom: 0px;
-        display: none;
-        @media screen and (min-width: 38em) {
-          display: block;
-        }
-        .icon {
-            font-size: 30px;
-            @include large {
-                font-size: 30px;
-            }
-        }
-        .action-count {
-          font-size: 14px;
-      }
-    }
 }
 .post-commenters {
     display: none;
@@ -134,16 +130,13 @@
 
 .post-body, .page-body {
     transition: all 0.2s ease;
-    font-size: 13px;
-    @include medium {
-        font-size: 15px;
+    font-size: 14px;
+    @include medium-large {
+        font-size: 18px;
     }
-    @include large {
-        font-size: 16px;
+    a:link, a:visited, a:active {
+      overflow-wrap: break-word;
     }
-}
-.post.sticky {
-    background: lightyellow;
 }
 
 // -------------------------------- post tags --------------------------------- //
@@ -172,8 +165,13 @@
     }
 }
 .post-thumbnail-image {
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    @include medium-large {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
 }
 
 // ----------------------------------- other ------------------------------------ //
@@ -192,6 +190,9 @@
         border-top: 2px solid $main;
         content: "";
     }
+}
+img.magellan-ad {
+      max-width: 100%;
 }
 .more-button {
     transition: all 0.2s ease;

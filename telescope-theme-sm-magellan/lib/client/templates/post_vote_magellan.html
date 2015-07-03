@@ -1,0 +1,15 @@
+<template name="post_vote_magellan">
+  <div class="vote-actions {{actionsClass}}">
+    <a class="vote-action upvote-link" href="#" title="{{_ "upvote_"}}">
+      {{{icon "upvote"}}}
+      <span class="sr-only">{{_ "upvote_"}}</span>
+    </a>
+    <span class="points">{{baseScore}}</span>
+    {{#if enableDownvotes}}
+      <a class="vote-action downvote-link" href="#" title="{{_ "downvote_"}}">
+        {{{icon "downvote"}}}
+        <span class="sr-only">{{_ "downvote_"}}</span>
+      </a>
+    {{/if}}
+  </div>
+</template>

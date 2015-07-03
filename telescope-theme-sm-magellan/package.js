@@ -9,9 +9,9 @@ Package.onUse(function (api) {
 
   api.use([
       // core dependencies
-      'telescope:core@0.20.6',
-      'telescope:theme-base@0.20.6',
-      'telescope:theme-hubble@0.20.6'
+      'telescope:core@0.21.1',
+      'telescope:theme-base@0.21.1',
+      'telescope:theme-hubble@0.21.1'
     ]);
 
   // i18n config (must come first)
@@ -53,6 +53,7 @@ Package.onUse(function (api) {
 
       // overrides
       'lib/client/templates/post_info_magellan.html',
+      'lib/client/templates/post_vote_magellan.html',
       'lib/client/templates/layout_magellan.html',
 
       // customizations

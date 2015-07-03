@@ -3,4 +3,7 @@ Template.post_title.onRendered(function() {
     $('.post-title').succinct({
            size: 75
        });
+    $('.right-column .post-title').succinct({
+           size: 55
+       });
 });

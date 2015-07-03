@@ -31,7 +31,6 @@ $medium-break: 1000px;
     @content;
   }
 }
-
 .content-wrapper{
   @include small{
     overflow-x: hidden;
@@ -51,7 +50,7 @@ $medium-break: 1000px;
   margin-right: auto;
 }
 
-// ----------------------------------- custom ------------------------------------ //
+// ----------------------------------- 2 Column Layout ------------------------------------ //
 
 .posts-wrapper, .single-post {
   padding-top: 15px;
@@ -74,9 +73,54 @@ $medium-break: 1000px;
   @include large {
     width: 33.33333333%;
   }
+  .post {
+    box-shadow: -1px 0px 0px rgba(0, 0, 0, .1);
+  }
+  .post-thumbnail {
+    margin: 0 0 0 10px;
+    float: right;
+  }
+  .post-thumbnail-link {
+    width: 120px;
+  }
+  .post-thumbnail-image {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 165%;
+    margin-left: -45px;
+  }
+  .post-heading .post-title {
+    font-size: 19px;
+    font-weight: 700;
+  }
+  .post-meta-item {
+    font-size: 12px;
+  }
+  .post-info {
+    flex-grow: 1;
+    margin-left: 12px;
+  }
+  .post-module {
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+  .post-content {
+    order: 2;
+    width: 100%;
+    flex-shrink: 1;
+    align-items: center;
+  }
+  .post-vote {
+    display: none;
+  }
 }
-
-.template-post_page, .template-post_edit {
+.template-post_page,
+.template-post_edit,
+.template-admin_wrapper,
+.template-fullPageAtForm,
+.template-sign_out {
   .left-column {
     @include large {
       width: 83%;
