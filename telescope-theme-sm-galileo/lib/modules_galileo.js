@@ -5,7 +5,7 @@ Telescope.modules.add("postComponents", [
     order: 10
   },
   {
-    template: 'post_upvote',
+    template: 'post_vote',
     order: 20
   }
 ]);

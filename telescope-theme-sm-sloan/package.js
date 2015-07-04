@@ -1,7 +1,7 @@
 Package.describe({
   name: "montecruiseto:telescope-theme-sm-sloan",
   summary: "Telescope Scopemount: Sloan theme package",
-  version: "0.1.4",
+  version: "0.1.5",
   git: "https://github.com/montecruiseto/scopemount.git"
 });
 
@@ -11,9 +11,9 @@ Package.onUse(function (api) {
 
   api.use([
       // core dependencies
-      'telescope:core@0.20.6',
-      'telescope:theme-base@0.20.6',
-      'telescope:theme-hubble@0.20.6'
+      'telescope:core@0.21.1',
+      'telescope:theme-base@0.21.1',
+      'telescope:theme-hubble@0.21.1'
     ]);
 
   api.addFiles([
@@ -49,7 +49,8 @@ Package.onUse(function (api) {
       'lib/client/templates/post_categories_sloan.html',
       'lib/client/templates/post_content_sloan.html',
       'lib/client/templates/post_info_sloan.html',
-      'lib/client/templates/post_upvote_sloan.html',
+      'lib/client/templates/post_vote_sloan.html',
+      'lib/client/templates/post_vote_sloan.js',
       'lib/client/templates/post_page_sloan.html',
 
       // customizations

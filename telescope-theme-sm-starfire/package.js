@@ -1,7 +1,7 @@
 Package.describe({
   name: "montecruiseto:telescope-theme-sm-starfire",
   summary: "Telescope Scopemount: Starfire theme package",
-  version: "0.1.3",
+  version: "0.1.4",
   git: "https://github.com/montecruiseto/scopemount.git"
 });
 
@@ -9,9 +9,9 @@ Package.onUse(function (api) {
 
   api.use([
       // core dependencies
-      'telescope:core@0.20.6',
-      'telescope:theme-base@0.20.6',
-      'telescope:theme-hubble@0.20.6'
+      'telescope:core@0.21.1',
+      'telescope:theme-base@0.21.1',
+      'telescope:theme-hubble@0.21.1'
     ]);
 
   api.addFiles([
@@ -52,7 +52,6 @@ Package.onUse(function (api) {
       'lib/client/templates/post_info_starfire.html',
       'lib/client/templates/post_page_starfire.html',
       'lib/client/templates/post_title_starfire.html',
-      'lib/client/templates/post_upvote_starfire.html',
       'lib/client/templates/post_thumbnail_starfire.html',
 
       // customizations

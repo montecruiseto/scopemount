@@ -30,7 +30,7 @@
 
 // ------------------------------ posts-list layout ------------------------------ //
 .posts-list {
-	.post-upvote {
+	.post-vote {
 		order: 3;
 	}
 	.post-rank {
@@ -109,30 +109,29 @@
 }
 // -------------------------------- post modules --------------------------------- //
 
-.post-upvote {
+.post-vote {
 	text-align: center;
 	font-size: 11px;
 	color: $main;
 	font-weight: bold;
+		.vote-actions {
+			border: 0px;
+			border-radius: 0%;
+		}
     .upvote-link {
+    		padding: 2px 7px;
         transform: scale(1.3);
         margin-bottom: 13px;
-        .icon-circle {
-        	border-radius: 0%;
-        	padding: 3px;
-        }
-        .icon-upvote{
-        	border: 1px solid silver;
-        	color: silver;
-        	background-color: white;
-        }
-        &.voted {
-        	i.icon-voted {
-        		border: 1px solid dimgray;
-        		color: white;
-        		background-color: dimgray;
-        	}
-        }
+        border: 1px solid silver;
+        color: silver;
+        background-color: white;
+    }
+    .upvoted {
+    	.upvote-link{
+    		border: 1px solid dimgray;
+    		color: white;
+    		background-color: dimgray;
+    	}
     }
     .points {
     	display: flex;

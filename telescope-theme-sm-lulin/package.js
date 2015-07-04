@@ -1,7 +1,7 @@
 Package.describe({
   name: "montecruiseto:telescope-theme-sm-lulin",
   summary: "Telescope Scopemount: Lulin theme package",
-  version: "0.1.3",
+  version: "0.1.4",
   git: "https://github.com/montecruiseto/scopemount.git"
 });
 
@@ -11,9 +11,9 @@ Package.onUse(function (api) {
 
   api.use([
       // core dependencies
-      'telescope:core@0.20.6',
-      'telescope:theme-base@0.20.6',
-      'telescope:theme-hubble@0.20.6',
+      'telescope:core@0.21.1',
+      'telescope:theme-base@0.21.1',
+      'telescope:theme-hubble@0.21.1',
     ]);
 
   api.addFiles([
@@ -54,7 +54,8 @@ Package.onUse(function (api) {
       'lib/client/templates/post_comments_link_lulin.html',
       'lib/client/templates/post_content_lulin.html',
       'lib/client/templates/post_info_lulin.html',
-      'lib/client/templates/post_upvote_lulin.html',
+      'lib/client/templates/post_vote_lulin.html',
+      'lib/client/templates/post_vote_lulin.js',
       'lib/client/templates/post_page_lulin.html',
 
       // customizations

@@ -1,6 +1,6 @@
 # Telescope Gemini Theme
 
-*Note: Gemini is up-to-date with Telescope v0.20.6.*
+*Note: Gemini is up-to-date with Telescope v0.21.1.*
 
 Gemini is part of [Scopemount](http://scopemount.startrack.io), a suite of 21 beautiful themes for [Telescope](http://www.telescopeapp.org/).
 

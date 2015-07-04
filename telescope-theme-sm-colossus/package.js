@@ -1,7 +1,7 @@
 Package.describe({
   name: "montecruiseto:telescope-theme-sm-colossus",
   summary: "Telescope Scopemount: Colossus theme package",
-  version: "0.1.0",
+  version: "0.1.1",
   git: "https://github.com/montecruiseto/scopemount.git"
 });
 
@@ -11,8 +11,8 @@ Package.onUse(function (api) {
 
   api.use([
       // core dependencies
-      'telescope:core@0.20.6',
-      'telescope:theme-base@0.20.6'
+      'telescope:core@0.21.1',
+      'telescope:theme-base@0.21.1'
     ]);
 
   api.addFiles([
@@ -51,7 +51,6 @@ Package.onUse(function (api) {
       'lib/client/templates/post_page_colossus.html',
       'lib/client/templates/post_content_colossus.html',
       'lib/client/templates/post_info_colossus.html',
-      'lib/client/templates/post_upvote_colossus.html',
       'lib/client/templates/post_item_colossus.html',
 
       // customizations

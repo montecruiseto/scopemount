@@ -1,7 +1,7 @@
 Scopemount
 =========
 
-*Note: Scopemount themes are up-to-date with Telescope v0.20.6*
+*Note: Scopemount themes are up-to-date with Telescope v0.21.1*
 
 Scopemount is a suite of 21 beautiful themes for [Telescope](http://www.telescopeapp.org/), an open source Meteor app that makes it easy to launch communities.
 
@@ -67,7 +67,9 @@ All the themes use the base and hubble theme as a dependency.
 
 ![Colossus](http://i.imgur.com/gJJSvXG.png)
 
-##### 9 -  Hale (a medical community - coming soon)
+##### 9 -  Magellan (turn Telescope into a blog [Demo](http://sm-magellan.meteor.com/) - [Blog Post](http://blog.startrack.io/scopemount-theme-magellan/))
+
+![Magellan](http://i.imgur.com/OuU66bM.png)
 
 ##### 10 -  Lemmon (a kids community - coming soon)
 
@@ -79,7 +81,7 @@ All the themes use the base and hubble theme as a dependency.
 
 ##### 14 -  Cassini (a journalism community - coming soon)
 
-##### 15 -  Magellan (mass media consumption - coming soon)
+##### 15 -  Hale (a medical community - coming soon)
 
 ##### 16 -  Copernico (a hacker news style skin - coming soon)
 
@@ -89,7 +91,7 @@ All the themes use the base and hubble theme as a dependency.
 
 ##### 19 -  Laval (a book club community - coming soon)
 
-##### 20 -  Kitt (tech whitepages - coming soon)
+##### 20 -  Kitt (mass media consumption - coming soon)
 
 ##### 21 -  Jacobus (a mindfulness community - coming soon)
 

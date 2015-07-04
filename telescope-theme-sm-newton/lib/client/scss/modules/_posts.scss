@@ -27,7 +27,7 @@
 
 // ------------------------------ posts-list layout ------------------------------ //
 .posts-list {
-	.post-upvote {
+	.post-vote {
 		@include small {
 			display: block;
 		}
@@ -91,7 +91,7 @@
 }
 // -------------------------------- post modules --------------------------------- //
 
-.post-upvote {
+.post-vote {
 	text-align: center;
 	font-size: 11px;
 	color: $main;

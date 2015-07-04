@@ -12,9 +12,9 @@ See [Blog Post](http://blog.startrack.io/scopemount-theme-magellan/)
 
 ### Look & Feel
 
-Magellan is a modern music theme - [Demo](http://sm-magellan.meteor.com/)
+Turn Telescope into a blog with Magellan - [Demo](http://sm-magellan.meteor.com/)
 
-![Magellan]()
+![Magellan](http://i.imgur.com/OuU66bM.png)
 
 ### Thanks
 

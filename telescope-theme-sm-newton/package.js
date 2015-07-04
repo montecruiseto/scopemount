@@ -1,7 +1,7 @@
 Package.describe({
   name: "montecruiseto:telescope-theme-sm-newton",
   summary: "Telescope Scopemount: Newton theme package",
-  version: "0.1.7",
+  version: "0.1.8",
   git: "https://github.com/montecruiseto/scopemount.git"
 });
 
@@ -9,9 +9,9 @@ Package.onUse(function (api) {
 
   api.use([
       // core dependencies
-      'telescope:core@0.20.6',
-      'telescope:theme-base@0.20.6',
-      'telescope:theme-hubble@0.20.6'
+      'telescope:core@0.21.1',
+      'telescope:theme-base@0.21.1',
+      'telescope:theme-hubble@0.21.1'
     ]);
 
   api.addFiles([
@@ -45,7 +45,8 @@ Package.onUse(function (api) {
       'lib/client/templates/post_content_newton.html',
       'lib/client/templates/post_domain_newton.html',
       'lib/client/templates/post_info_newton.html',
-      'lib/client/templates/post_upvote_newton.html',
+      'lib/client/templates/post_vote_newton.html',
+      'lib/client/templates/post_vote_newton.js',
 
       // customizations
       'lib/client/scripts/icons_newton.js',

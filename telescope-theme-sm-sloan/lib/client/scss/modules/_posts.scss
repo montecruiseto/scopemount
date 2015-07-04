@@ -45,7 +45,7 @@
 
 // ------------------------------ posts-list layout ------------------------------ //
 .posts-list {
-	.post-upvote {
+	.post-vote {
 		order: 1;
 		position: absolute;
 		left: -40px;
@@ -115,7 +115,7 @@
 }
 // -------------------------------- post modules --------------------------------- //
 
-.post-upvote {
+.post-vote {
 	text-align: center;
 	font-size: 11px;
 	color: $main;
@@ -131,7 +131,7 @@
         &.voted {
         	i.icon-voted {
         		border: none;
-        		color: red;
+        		color: white;
         		background-color: transparent;
         	}
         }
