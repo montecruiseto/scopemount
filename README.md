@@ -67,7 +67,7 @@ All the themes use the base and hubble theme as a dependency.
 
 ![Colossus](http://i.imgur.com/gJJSvXG.png)
 
-##### 9 -  Magellan (turn Telescope into a blog [Demo](http://sm-magellan.meteor.com/) - [Blog Post](http://blog.startrack.io/scopemount-theme-magellan/))
+##### 9 -  Magellan (a blogging theme [Demo](http://sm-magellan.meteor.com/) - [Blog Post](http://blog.startrack.io/scopemount-theme-magellan/))
 
 ![Magellan](http://i.imgur.com/OuU66bM.png)
 
