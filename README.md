@@ -63,11 +63,11 @@ All the themes use the base and hubble theme as a dependency.
 
 ![Starfire](http://i.imgur.com/v8cgZJH.png)
 
-##### 8 -  Colossus (a big & bold boutique theme [Demo](http://sm-colossus.meteor.com/) - [Blog Post](http://blog.startrack.io/scopemount-theme-colossus/))
+##### 8 -  Colossus (a big & bold boutique theme - [Demo](http://sm-colossus.meteor.com/) - [Blog Post](http://blog.startrack.io/scopemount-theme-colossus/))
 
 ![Colossus](http://i.imgur.com/gJJSvXG.png)
 
-##### 9 -  Magellan (a blogging theme [Demo](http://sm-magellan.meteor.com/) - [Blog Post](http://blog.startrack.io/scopemount-theme-magellan/))
+##### 9 -  Magellan (a blogging theme - [Demo](http://sm-magellan.meteor.com/) - [Blog Post](http://blog.startrack.io/scopemount-theme-magellan/))
 
 ![Magellan](http://i.imgur.com/OuU66bM.png)
 
