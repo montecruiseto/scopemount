@@ -1,0 +1,7 @@
+<template name="post_item_laval">
+    <section class="laval-post">
+        <div class="post {{#if sticky}}sticky{{/if}} {{inactiveClass}} {{postClass}}" id="{{_id}}">
+            {{> modules zone="postComponents" moduleClass="post-module"}}
+        </div>
+    </section>
+</template>

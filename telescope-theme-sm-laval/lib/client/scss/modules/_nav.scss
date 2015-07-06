@@ -1,0 +1,100 @@
+// ------------------------------------ Top Nav Layout ------------------------------------ //
+.top-nav {
+    .header {
+        height: 100px;
+        @include small {
+            height: 60px;
+        }
+        color: #4b4b4b;
+        background-color: white;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        margin-bottom: 12px;
+        padding: 24px;
+        .primary-nav {
+            display: none;
+        }
+        .secondary-nav {
+            text-transform: capitalize;
+            letter-spacing: 0.8px;
+            font-size: 15px;
+            z-index: 20;
+            position: relative;
+            float: right;
+            font-weight: 700;
+            .sign-up, .sign-in {
+                padding: 21px;
+            }
+            .btn.btn-primary, .btn.submit {
+                background: transparent;
+                color: white;
+                text-transform: capitalize;
+                border-radius: 30px;
+                padding: 21px 51px;
+                font-size: 17px;
+                text-decoration: none;
+                font-weight: 700;
+                cursor: pointer;
+                border: none;
+                -webkit-transition: color 0.3s;
+                transition: color 0.3s;
+                position: relative;
+                /** Button effect
+                 * Thanks http://tympanus.net/codrops/2015/02/26/inspiration-button-styles-effects/
+                 **/
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: inherit;
+                    z-index: -1;
+                    box-shadow: inset 0 0 0 35px $button;
+                    -webkit-transform: scale3d(0.9, 0.9, 1);
+                    transform: scale3d(0.9, 0.9, 1);
+                    -webkit-transition: box-shadow 0.3s, -webkit-transform 0.3;
+                    transition: box-shadow 0.3s, transform 0.3s;
+                }
+                &:hover {
+                    color: $button;
+                }
+                &:hover::before {
+                    box-shadow: inset 0 0 0 2px $button;
+                    -webkit-transform: scale3d(1, 1, 1);
+                    transform: scale3d(1, 1, 1);
+                }
+            }
+        }
+        .header-submodule {
+            display: inline-block;
+            margin-right: 30px;
+            font-size: 15px;
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+        .menu-item a {
+            font-size: 15px;
+        }
+        .header-submodule:nth-child(2) {
+            display: none;
+        }
+        .logo {
+            float: left;
+            z-index: 20;
+            position: relative;
+            letter-spacing: 7px;
+            text-transform: uppercase;
+            transition: all 0.2s ease;
+            @include medium-large {
+                padding: 14px 20px;
+                font-size: 20px;
+            }
+            a {
+                color: black;
+            }
+        }
+    }
+}

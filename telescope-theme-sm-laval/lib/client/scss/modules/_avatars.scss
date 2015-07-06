@@ -1,0 +1,26 @@
+.avatar {
+  margin: 0 auto 30px;
+  .avatar-initials{
+    line-height: 46px;
+    background-color: whitesmoke;
+    color: #808393;
+    border: 1px solid;
+    font-weight: bold;
+  }
+}
+.avatar-circle {
+  .avatar-image {
+    box-shadow: 0px 0px 2px 0px #000;
+  }
+}
+.avatar-medium {
+  .avatar-initials{
+    font-size: 0px;
+  }
+}
+.avatar-large {
+  .avatar-initials{
+    font-size: 0px;
+  }
+}
+

@@ -1,0 +1,22 @@
+
+body{
+  background: white;
+}
+
+.content-wrapper {
+	max-width: 770px;
+}
+
+.grid-module, .at-form{
+  padding: 0px;
+}
+
+.at-form {
+	max-width: 380px;
+	margin-top: 40px;
+	h3 {
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+}
+

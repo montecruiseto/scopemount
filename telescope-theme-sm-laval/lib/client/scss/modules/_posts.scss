@@ -1,0 +1,164 @@
+// ------------------------------------ post ------------------------------------ //
+.laval-post {
+    background: white;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    .post {
+        margin: 80px auto -8px;
+        max-width: 730px;
+        width: 83.3333333%;
+        text-align: center;
+    }
+    @include medium-large {
+       .post {
+           margin: 120px auto -8px;
+       }
+    }
+    &:first-child {
+        .post {
+            margin-top: 60px;
+        }
+    }
+}
+.post-list-title, .page-title{
+    display: none;
+}
+.single-post {
+    .posts-list {
+        margin-bottom: 30px;
+    }
+    .laval-post {
+        .post {
+            margin: 60px auto 0px;
+        }
+    }
+}
+
+// ------------------------------------ posts views nav ------------------------------------ //
+.posts-list-views{
+    display: none;
+}
+
+// ------------------------------ posts-list layout ------------------------------ //
+.posts-list {
+    .post-upvote {
+        display: none;
+    }
+}
+.template-posts_list_controller {
+    .content-wrapper {
+      max-width: none;
+      padding: 0px;
+    }
+}
+
+// -------------------------------- post content --------------------------------- //
+.post-heading {
+    margin-bottom: 20px;
+    .post-title {
+        transition: all 0.2s ease;
+        display: block;
+        font-weight: 700;
+        letter-spacing: -1.8px;
+        line-height: 1.2;
+        font-size: 34px;
+        &:visited {
+            color: $text;
+        }
+        @include medium-large {
+            font-size: 61px;
+            line-height: 1.1;
+        }
+    }
+}
+.post-body, .page-body {
+    transition: all 0.2s ease;
+    font-size: 20px;
+    line-height: 1.1;
+    color: dimgray;
+    margin-bottom: 10px;
+    p {
+        line-height: 1.5;
+    }
+    @include medium-large {
+        font-size: 23px;
+        p {
+            line-height: 1.6;
+        }
+    }
+}
+.post-meta {
+    transition: all 0.2s ease;
+    margin: 15px auto 50px;
+    font-weight: 400;
+    font-size: 14px;
+    a:link, a:visited, a:active {
+        color: $light-text;
+    }
+    a:hover {
+        color: $light-text;
+    }
+    @include medium-large {
+        margin: 15px auto 80px;
+    }
+}
+.post-meta-item {
+    font-size: 14px;
+    font-weight: normal;
+    color: $light-text;
+    display: inline-block;
+}
+.post-commenters {
+    display: none;
+}
+
+// -------------------------------- post tags --------------------------------- //
+.post-category {
+    background: orange;
+    color: white !important;
+    &:hover {
+        background: orange;
+    }
+    @include small {
+        display: none;
+    }
+}
+
+// -------------------------------- embedly thumbs --------------------------------- //
+.post-thumbnail-link {
+    width: 100%;
+    max-width: 580px;
+}
+.posts-list .post-thumbnail {
+    transition: all 0.2s ease;
+    margin: 0 auto;
+    max-width: 580px;
+}
+.post-thumbnail-image {
+    transition: all 0.2s ease;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 8px solid black;
+    @include small {
+        border-bottom: 0px;
+    }
+}
+
+// ----------------------------------- other ------------------------------------ //
+.more-button {
+    margin-top: 35px;
+    margin-bottom: 40px;
+    text-align: center;
+    background: white;
+    font-size: 20px;
+    height: 50px;
+    line-height: 46px;
+    &:hover {
+        background: white;
+    }
+    &:after {
+        font-size: 16px;
+        content: " »";
+    }
+}
