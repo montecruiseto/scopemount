@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lora);
 
+body, textarea, input, button, input[type="submit"], input[type="button"]{
+	font-family:"Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+}
+
 .post-body {
 	font-family: 'Lora',serif;
 }

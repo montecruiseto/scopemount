@@ -9,10 +9,6 @@ Telescope.modules.add("postComponents", [
 Telescope.modules.removeAll("postHeading");
 Telescope.modules.add("postHeading", [
   {
-    template: 'post_avatars',
-    order: 10
-  },
-  {
     template: 'post_title',
     order: 20
   }

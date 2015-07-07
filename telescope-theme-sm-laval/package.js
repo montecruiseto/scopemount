@@ -12,7 +12,8 @@ Package.onUse(function (api) {
   api.use([
       // core dependencies
       'telescope:core@0.21.1',
-      'telescope:theme-base@0.21.1'
+      'telescope:theme-base@0.21.1',
+      'rzymek:randomcolor@0.1.1'
     ]);
 
   api.addFiles([
@@ -54,12 +55,9 @@ Package.onUse(function (api) {
       'lib/client/templates/post_item_laval.html',
 
       // customizations
-      'lib/client/scripts/post_body_laval.js',
+      'lib/client/scripts/post_item_laval.js',
       'lib/client/scripts/icons_laval.js',
       'lib/client/scripts/templates_laval.js',
-
-      //plugins
-      'lib/client/scripts/succinct.js'
 
     ], ['client']);
 
