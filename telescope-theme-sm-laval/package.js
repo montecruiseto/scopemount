@@ -12,8 +12,7 @@ Package.onUse(function (api) {
   api.use([
       // core dependencies
       'telescope:core@0.21.1',
-      'telescope:theme-base@0.21.1',
-      'rzymek:randomcolor@0.1.1'
+      'telescope:theme-base@0.21.1'
     ]);
 
   api.addFiles([
@@ -53,11 +52,15 @@ Package.onUse(function (api) {
       'lib/client/templates/post_content_laval.html',
       'lib/client/templates/post_info_laval.html',
       'lib/client/templates/post_item_laval.html',
+      'lib/client/templates/post_title_laval.html',
+
+      //plugins
+      'lib/client/scripts/custom_randomColor.js',
 
       // customizations
       'lib/client/scripts/post_item_laval.js',
       'lib/client/scripts/icons_laval.js',
-      'lib/client/scripts/templates_laval.js',
+      'lib/client/scripts/templates_laval.js'
 
     ], ['client']);
 

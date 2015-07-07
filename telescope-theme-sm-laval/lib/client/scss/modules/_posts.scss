@@ -1,24 +1,38 @@
 // ------------------------------------ post ------------------------------------ //
-.laval-post {
-    background: white;
+.laval-post, .laval-post-rendered {
+    transition: all .12s ease;
     overflow: hidden;
     position: relative;
     z-index: 1;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.7 !important;
+        .discuss-link {
+            opacity: 0.8;
+            right: 14px;
+            bottom: 4px;
+            .icon {
+                font-size: 27px;
+            }
+            .action-count {
+              font-size: 18px;
+            }
+        }
+    }
     .post {
-        margin: 80px auto -8px;
+        margin: 30px auto 30px;
         max-width: 730px;
         width: 83.3333333%;
         text-align: center;
+        transition: all .12s ease;
     }
     @include medium-large {
-       .post {
-           margin: 120px auto -8px;
+       &:hover {
+           padding-left: 15px;
        }
-    }
-    &:first-child {
-        .post {
-            margin-top: 60px;
-        }
+       .post {
+           margin: 30px auto 30px;
+       }
     }
 }
 .post-list-title, .page-title{
@@ -30,7 +44,7 @@
     }
     .laval-post {
         .post {
-            margin: 60px auto 0px;
+            margin: 40px auto 0px;
         }
     }
 }
@@ -55,29 +69,30 @@
 
 // -------------------------------- post content --------------------------------- //
 .post-heading {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     .post-title {
-        transition: all 0.2s ease;
+        transition: all .12s ease;
         display: block;
-        font-weight: 700;
-        letter-spacing: -1.8px;
+        font-weight: 800;
         line-height: 1.2;
         font-size: 34px;
+        color: white;
+        text-transform: uppercase;
         &:visited {
-            color: $text;
+            color: white;
         }
         @include medium-large {
-            font-size: 61px;
+            font-size: 45px;
             line-height: 1.1;
         }
     }
 }
 .post-body, .page-body {
-    transition: all 0.2s ease;
+    transition: all .12s ease;
     font-size: 20px;
     line-height: 1.1;
-    color: dimgray;
-    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0px;
     p {
         line-height: 1.5;
     }
@@ -89,39 +104,22 @@
     }
 }
 .post-meta {
-    transition: all 0.2s ease;
-    margin: 15px auto 50px;
-    font-weight: 400;
-    font-size: 14px;
-    a:link, a:visited, a:active {
-        color: $light-text;
-    }
-    a:hover {
-        color: $light-text;
-    }
-    @include medium-large {
-        margin: 15px auto 80px;
-    }
-}
-.post-meta-item {
-    font-size: 14px;
-    font-weight: normal;
-    color: $light-text;
-    display: inline-block;
-}
-.post-commenters {
-    display: none;
-}
-
-// -------------------------------- post tags --------------------------------- //
-.post-category {
-    background: orange;
-    color: white !important;
-    &:hover {
-        background: orange;
-    }
-    @include small {
-        display: none;
+    .discuss-link {
+        transition: all .12s ease;
+        position: absolute;
+        right: 10px;
+        bottom: 0px;
+        color:white;
+        opacity: 0.3;
+        @media screen and (min-width: 38em) {
+          display: block;
+        }
+        .icon {
+            font-size: 25px;
+        }
+        .action-count {
+          font-size: 16px;
+        }
     }
 }
 

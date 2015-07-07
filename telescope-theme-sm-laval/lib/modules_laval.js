@@ -17,19 +17,12 @@ Telescope.modules.add("postHeading", [
 Telescope.modules.removeAll("postMeta");
 Telescope.modules.add("postMeta", [
   {
-    template: 'post_comments_link',
-    order: 10
-  },
-  {
-    template: 'post_info',
-    order: 20
-  },
-  {
-    template: 'post_author',
-    order: 30
-  },
-  {
     template: 'post_admin',
     order: 40
+  },
+  {
+    template: 'post_discuss',
+    order: 50
   }
 ]);
+
