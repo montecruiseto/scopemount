@@ -88,6 +88,7 @@
             letter-spacing: 7px;
             text-transform: uppercase;
             transition: all 0.2s ease;
+            line-height: 1.05;
             @include medium-large {
                 padding: 3px 20px;
                 font-size: 35px;
@@ -95,6 +96,12 @@
             a {
                 color: black;
             }
+        }
+        .laval-tagline {
+            text-transform: uppercase;
+            display:block;
+            font-size: 12px;
+            letter-spacing: 2px;
         }
     }
 }

@@ -53,6 +53,8 @@ Package.onUse(function (api) {
       'lib/client/templates/post_info_laval.html',
       'lib/client/templates/post_item_laval.html',
       'lib/client/templates/post_title_laval.html',
+      'lib/client/templates/logo_laval.html',
+      'lib/client/templates/logo_laval.js',
 
       //plugins
       'lib/client/scripts/custom_randomColor.js',
