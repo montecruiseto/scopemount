@@ -71,7 +71,9 @@ All the themes use the base and hubble theme as a dependency.
 
 ![Magellan](http://i.imgur.com/OuU66bM.png)
 
-##### 10 -  Lemmon (a kids community - coming soon)
+##### 10 - Laval - (a colourful book club theme - [Demo](http://sm-laval.meteor.com/) - [Setup instructions](http://scopemount.startrack.io))
+
+![Laval](http://i.imgur.com/2JGzvud.png)
 
 ##### 11 -  Paris (an art community - coming soon)
 
@@ -89,7 +91,7 @@ All the themes use the base and hubble theme as a dependency.
 
 ##### 18 -  Hooke (a modern intranet - coming soon)
 
-##### 19 -  Laval (a book club community - coming soon)
+##### 19 -  Lemmon (a kids community - coming soon)
 
 ##### 20 -  Kitt (mass media consumption - coming soon)
 

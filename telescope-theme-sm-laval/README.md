@@ -12,14 +12,14 @@ See [Blog Post](http://blog.startrack.io/scopemount-theme-laval/)
 
 ### Look & Feel
 
-Laval is a modern looking Q&A theme - [Demo](http://sm-laval.meteor.com/)
+Laval is a colourful book club theme - [Demo](http://sm-laval.meteor.com/)
 
-![Laval](http://i.imgur.com/gJJSvXG.png)
+![Laval](http://i.imgur.com/2JGzvud.png)
 
 ### Thanks
 
 [Sacha Greif](https://github.com/SachaG) for building [Telescope](https://github.com/TelescopeJS/Telescope).
-[Mike King](https://github.com/micjamking) for [Succinct](http://mikeking.io/succinct/).
+[David Merfield](https://twitter.com/davidmerfieid) for [randomColor](https://github.com/davidmerfield/randomColor).
 
 ### License
 

@@ -17,6 +17,10 @@ Telescope.modules.add("postHeading", [
 Telescope.modules.removeAll("postMeta");
 Telescope.modules.add("postMeta", [
   {
+    template: 'post_info',
+    order: 20
+  },
+  {
     template: 'post_admin',
     order: 40
   },

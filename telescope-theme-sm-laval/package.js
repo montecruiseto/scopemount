@@ -52,6 +52,7 @@ Package.onUse(function (api) {
       'lib/client/templates/post_content_laval.html',
       'lib/client/templates/post_info_laval.html',
       'lib/client/templates/post_item_laval.html',
+      'lib/client/templates/post_item_laval.js',
       'lib/client/templates/post_title_laval.html',
       'lib/client/templates/logo_laval.html',
       'lib/client/templates/logo_laval.js',
