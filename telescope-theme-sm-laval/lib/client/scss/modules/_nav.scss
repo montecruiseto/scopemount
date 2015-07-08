@@ -26,45 +26,18 @@
                 padding: 21px;
             }
             .btn.btn-primary, .btn.submit {
+                z-index: 1;
                 background: transparent;
-                color: white;
-                text-transform: capitalize;
-                border-radius: 30px;
-                padding: 21px 51px;
-                font-size: 17px;
+                color: #444;
+                text-transform: uppercase;
+                border-radius: 0px;
+                padding: 12px 26px;
+                font-size: 16px;
                 text-decoration: none;
                 font-weight: 700;
                 cursor: pointer;
-                border: none;
-                -webkit-transition: color 0.3s;
-                transition: color 0.3s;
+                border: 2px solid #444;
                 position: relative;
-                /** Button effect
-                 * Thanks http://tympanus.net/codrops/2015/02/26/inspiration-button-styles-effects/
-                 **/
-                &::before {
-                    content: '';
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    border-radius: inherit;
-                    z-index: -1;
-                    box-shadow: inset 0 0 0 35px $button;
-                    -webkit-transform: scale3d(0.9, 0.9, 1);
-                    transform: scale3d(0.9, 0.9, 1);
-                    -webkit-transition: box-shadow 0.3s, -webkit-transform 0.3;
-                    transition: box-shadow 0.3s, transform 0.3s;
-                }
-                &:hover {
-                    color: $button;
-                }
-                &:hover::before {
-                    box-shadow: inset 0 0 0 2px $button;
-                    -webkit-transform: scale3d(1, 1, 1);
-                    transform: scale3d(1, 1, 1);
-                }
             }
         }
         .header-submodule {
@@ -88,7 +61,7 @@
             letter-spacing: 7px;
             text-transform: uppercase;
             transition: all 0.2s ease;
-            line-height: 1.05;
+            line-height: 0.95;
             @include medium-large {
                 padding: 3px 20px;
                 font-size: 35px;

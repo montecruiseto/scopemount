@@ -44,6 +44,7 @@ $medium-break: 800px;
 }
 
 .grid-small, .at-form{
+  background: transparent;
   width: 100%;
   text-align: center;
   @include medium-large{
@@ -54,6 +55,10 @@ $medium-break: 800px;
   button.submit {
     margin: 10px auto;
   }
+}
+
+.at-form {
+  margin-top: 20px;
 }
 
 .grid-block, .error, .at-error {

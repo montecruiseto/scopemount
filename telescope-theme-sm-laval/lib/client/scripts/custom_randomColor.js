@@ -7,15 +7,15 @@
   // Support CommonJS
   } else if (typeof exports === 'object') {
     var randomColor = factory();
-    
+
     // Support NodeJS & Component, which allow module.exports to be a function
     if (typeof module === 'object' && module && module.exports) {
       exports = module.exports = randomColor;
     }
-    
+
     // Support CommonJS 1.1.1 spec
     exports.randomColor = randomColor;
-  
+
   // Support vanilla script loading
   } else {
     root.randomColor = factory();
@@ -52,9 +52,9 @@
 
       options.count = totalColors;
 
-      //Keep the seed constant between runs. 
+      //Keep the seed constant between runs.
       if (options.seed) seed = options.seed;
-      
+
       return colors;
     }
 
@@ -105,6 +105,11 @@
         sMin = 55;
         break;
 
+      case 'lavalBrightness':
+        sMin = 70;
+        sMax = 100;
+        break;
+
       case 'dark':
         sMin = sMax - 10;
         break;
@@ -132,6 +137,11 @@
 
       case 'light':
         bMin = (bMax + bMin)/2;
+        break;
+
+      case 'lavalBrightness':
+        bMin = 70;
+        bMax = 99;
         break;
 
       case 'random':
@@ -321,6 +331,12 @@
     defineColor(
       'blue',
       [179, 257],
+      [[20,100],[30,86],[40,80],[50,74],[60,60],[70,52],[80,44],[90,39],[100,35]]
+    );
+
+    defineColor(
+      'lavalCustomBlue',
+      [195, 210],
       [[20,100],[30,86],[40,80],[50,74],[60,60],[70,52],[80,44],[90,39],[100,35]]
     );
 
