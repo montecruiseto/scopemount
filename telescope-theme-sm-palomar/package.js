@@ -1,7 +1,7 @@
 Package.describe({
   name: "montecruiseto:telescope-theme-sm-palomar",
   summary: "Telescope Scopemount: Palomar theme package",
-  version: "0.1.8",
+  version: "0.1.9",
   git: "https://github.com/montecruiseto/scopemount.git"
 });
 
