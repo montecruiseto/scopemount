@@ -3,7 +3,7 @@ Scopemount
 
 *Note: Scopemount themes are up-to-date with Telescope v0.21.1*
 
-Scopemount is a suite of 21 beautiful themes for [Telescope](http://www.telescopeapp.org/), an open source Meteor app that makes it easy to launch communities.
+Scopemount is a suite of 10 beautiful themes for [Telescope](http://www.telescopeapp.org/), an open source Meteor app that makes it easy to launch communities.
 
 [![Imgur](http://i.imgur.com/8yYLXiY.jpg)](http://scopemount.startrack.io)
 
@@ -75,27 +75,6 @@ All the themes use the base and hubble theme as a dependency.
 
 ![Laval](http://i.imgur.com/2JGzvud.png)
 
-##### 11 -  Paris (an art community - coming soon)
-
-##### 12 -  Gillett (hipster style - coming soon)
-
-##### 13 -  AZT-11 (a fashion community - coming soon)
-
-##### 14 -  Cassini (a journalism community - coming soon)
-
-##### 15 -  Hale (a medical community - coming soon)
-
-##### 16 -  Copernico (a hacker news style skin - coming soon)
-
-##### 17 -  Chara (pure alchemy - coming soon)
-
-##### 18 -  Hooke (a modern intranet - coming soon)
-
-##### 19 -  Lemmon (a kids community - coming soon)
-
-##### 20 -  Kitt (mass media consumption - coming soon)
-
-##### 21 -  Jacobus (a mindfulness community - coming soon)
 
 ### Thanks
 

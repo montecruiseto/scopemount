@@ -2,7 +2,7 @@
 
 *Note: Laval is up-to-date with Telescope v0.21.1*
 
-Laval is part of [Scopemount](http://scopemount.startrack.io), a suite of 21 beautiful themes for [Telescope](http://www.telescopeapp.org/).
+Laval is part of [Scopemount](http://scopemount.startrack.io), a suite of 10 beautiful themes for [Telescope](http://www.telescopeapp.org/).
 
 [![Imgur](http://i.imgur.com/8yYLXiY.jpg)](http://scopemount.startrack.io)
 
