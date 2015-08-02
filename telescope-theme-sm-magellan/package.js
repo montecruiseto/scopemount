@@ -1,7 +1,7 @@
 Package.describe({
   name: "montecruiseto:telescope-theme-sm-magellan",
   summary: "Telescope Scopemount: Magellan theme package",
-  version: "0.1.2",
+  version: "0.1.3",
   git: "https://github.com/montecruiseto/scopemount.git"
 });
 

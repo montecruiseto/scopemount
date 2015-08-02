@@ -29,5 +29,5 @@ Telescope.modules.add("postMeta", [
     order: 50
   }
 ]);
-Telescope.modules.removeAll("postsListTop");
+Telescope.modules.removeAll("top");
 
