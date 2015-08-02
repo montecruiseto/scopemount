@@ -1,7 +1,7 @@
 Package.describe({
   name: "montecruiseto:telescope-theme-sm-starfire",
   summary: "Telescope Scopemount: Starfire theme package",
-  version: "0.1.5",
+  version: "0.1.6",
   git: "https://github.com/montecruiseto/scopemount.git"
 });
 
