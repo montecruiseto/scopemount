@@ -1,7 +1,7 @@
 Scopemount
 =========
 
-*Note: Scopemount themes are up-to-date with Telescope v0.21.1*
+*Note: Scopemount themes are up-to-date with Telescope v0.22.2*
 
 Scopemount is a suite of 10 beautiful themes for [Telescope](http://www.telescopeapp.org/), an open source Meteor app that makes it easy to launch communities.
 
