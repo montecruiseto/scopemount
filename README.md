@@ -1,13 +1,15 @@
 Scopemount
 =========
 
-*Note: Scopemount themes are up-to-date with Telescope v0.22.2*
+*Scopemount was featured on [ProductHunt](http://www.producthunt.com/tech/scopemount) with special kudos from [Ryan Hoover](http://scopemount.startrack.io/)!*
 
 Scopemount is a suite of 10 beautiful themes for [Telescope](http://www.telescopeapp.org/), an open source Meteor app that makes it easy to launch communities.
 
 [![Imgur](http://i.imgur.com/8yYLXiY.jpg)](http://scopemount.startrack.io)
 
 ### Usage
+
+*Note: Scopemount themes are up-to-date with Telescope v0.22.2*
 
 Install automagically from Atmosphere
 
