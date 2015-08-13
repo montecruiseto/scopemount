@@ -1,78 +1,78 @@
 <template name="svg_palomar">
+    <div class="svg-palomar">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="698" height="170" viewBox="0 0 698 170" style="position: absolute; left:1;top: 1;" class="largescreen-only">
+            <defs>
+                <filter id="glass">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="7" color-interpolation-filters="sRGB" result="frosted" />
+                    <!-- Shadow Offset -->
+                    <feOffset in="SourceGraphic" dx='0' dy='1' />
+                    <!-- Shadow Blur -->
+                    <feGaussianBlur stdDeviation='0' result='offset-blur' />
+                    <!-- Invert the drop shadow to create an inner bevel -->
+                    <feComposite operator='out' in='SourceGraphic' in2='offset-blur' result='inverse' />
+                    <!-- Set the color & opacity of the bevel -->
+                    <feFlood flood-color='rgba(255,255,255,0.5)' flood-opacity='1' result='color' />
+                    <!-- Clip color inside bevel -->
+                    <feComposite operator='in' in='color' in2='inverse' result='bevel' />
+                    <!-- Put bevel over frosted object -->
+                    <feComposite operator='over' in='bevel' in2='frosted' />
+                    <!-- Compensate for opacity bleeding around the edges -->
+                    <feComponentTransfer>
+                        <feFuncA type="discrete" tableValues="1 1" />
+                    </feComponentTransfer>
+                </filter>
+            </defs>
+            <image id="panel" filter="url(#glass)" xlink:href="{{thumbnailUrl}}" x="0" y="0" width="700px" height="350px" />
+        </svg>
 
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="698" height="170" viewBox="0 0 698 170" style="position: absolute; left:1;top: 1;" class="largescreen-only">
-    <defs>
-        <filter id="glass">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="7" color-interpolation-filters="sRGB" result="frosted" />
-            <!-- Shadow Offset -->
-            <feOffset in="SourceGraphic" dx='0' dy='1' />
-            <!-- Shadow Blur -->
-            <feGaussianBlur stdDeviation='0' result='offset-blur' />
-            <!-- Invert the drop shadow to create an inner bevel -->
-            <feComposite operator='out' in='SourceGraphic' in2='offset-blur' result='inverse' />
-            <!-- Set the color & opacity of the bevel -->
-            <feFlood flood-color='rgba(255,255,255,0.5)' flood-opacity='1' result='color' />
-            <!-- Clip color inside bevel -->
-            <feComposite operator='in' in='color' in2='inverse' result='bevel' />
-            <!-- Put bevel over frosted object -->
-            <feComposite operator='over' in='bevel' in2='frosted' />
-            <!-- Compensate for opacity bleeding around the edges -->
-            <feComponentTransfer>
-                <feFuncA type="discrete" tableValues="1 1" />
-            </feComponentTransfer>
-        </filter>
-    </defs>
-    <image id="panel" filter="url(#glass)" xlink:href="{{thumbnailUrl}}" x="0" y="0" width="700px" height="350px" />
-</svg>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="559" height="136" viewBox="0 0 559 136" style="position: absolute; left:1;top: 1;" class="tablet-only">
+            <defs>
+                <filter id="glass">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="7" color-interpolation-filters="sRGB" result="frosted" />
+                    <!-- Shadow Offset -->
+                    <feOffset in="SourceGraphic" dx='0' dy='1' />
+                    <!-- Shadow Blur -->
+                    <feGaussianBlur stdDeviation='0' result='offset-blur' />
+                    <!-- Invert the drop shadow to create an inner bevel -->
+                    <feComposite operator='out' in='SourceGraphic' in2='offset-blur' result='inverse' />
+                    <!-- Set the color & opacity of the bevel -->
+                    <feFlood flood-color='rgba(255,255,255,0.5)' flood-opacity='1' result='color' />
+                    <!-- Clip color inside bevel -->
+                    <feComposite operator='in' in='color' in2='inverse' result='bevel' />
+                    <!-- Put bevel over frosted object -->
+                    <feComposite operator='over' in='bevel' in2='frosted' />
+                    <!-- Compensate for opacity bleeding around the edges -->
+                    <feComponentTransfer>
+                        <feFuncA type="discrete" tableValues="1 1" />
+                    </feComponentTransfer>
+                </filter>
+            </defs>
+            <image id="panel" filter="url(#glass)" xlink:href="{{thumbnailUrl}}" x="0" y="0" width="561px" height="280px" />
+        </svg>
 
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="559" height="136" viewBox="0 0 559 136" style="position: absolute; left:1;top: 1;" class="tablet-only">
-    <defs>
-        <filter id="glass">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="7" color-interpolation-filters="sRGB" result="frosted" />
-            <!-- Shadow Offset -->
-            <feOffset in="SourceGraphic" dx='0' dy='1' />
-            <!-- Shadow Blur -->
-            <feGaussianBlur stdDeviation='0' result='offset-blur' />
-            <!-- Invert the drop shadow to create an inner bevel -->
-            <feComposite operator='out' in='SourceGraphic' in2='offset-blur' result='inverse' />
-            <!-- Set the color & opacity of the bevel -->
-            <feFlood flood-color='rgba(255,255,255,0.5)' flood-opacity='1' result='color' />
-            <!-- Clip color inside bevel -->
-            <feComposite operator='in' in='color' in2='inverse' result='bevel' />
-            <!-- Put bevel over frosted object -->
-            <feComposite operator='over' in='bevel' in2='frosted' />
-            <!-- Compensate for opacity bleeding around the edges -->
-            <feComponentTransfer>
-                <feFuncA type="discrete" tableValues="1 1" />
-            </feComponentTransfer>
-        </filter>
-    </defs>
-    <image id="panel" filter="url(#glass)" xlink:href="{{thumbnailUrl}}" x="0" y="0" width="561px" height="280px" />
-</svg>
-
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="278" height="75" viewBox="0 0 278 75" style="position: absolute; left:1;top: 1;" class="mobile-only">
-    <defs>
-        <filter id="glass">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="7" color-interpolation-filters="sRGB" result="frosted" />
-            <!-- Shadow Offset -->
-            <feOffset in="SourceGraphic" dx='0' dy='1' />
-            <!-- Shadow Blur -->
-            <feGaussianBlur stdDeviation='0' result='offset-blur' />
-            <!-- Invert the drop shadow to create an inner bevel -->
-            <feComposite operator='out' in='SourceGraphic' in2='offset-blur' result='inverse' />
-            <!-- Set the color & opacity of the bevel -->
-            <feFlood flood-color='rgba(255,255,255,0.5)' flood-opacity='1' result='color' />
-            <!-- Clip color inside bevel -->
-            <feComposite operator='in' in='color' in2='inverse' result='bevel' />
-            <!-- Put bevel over frosted object -->
-            <feComposite operator='over' in='bevel' in2='frosted' />
-            <!-- Compensate for opacity bleeding around the edges -->
-            <feComponentTransfer>
-                <feFuncA type="discrete" tableValues="1 1" />
-            </feComponentTransfer>
-        </filter>
-    </defs>
-    <image id="panel" filter="url(#glass)" xlink:href="{{thumbnailUrl}}" x="0" y="0" width="280px" height="140px" />
-</svg>
-
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="278" height="75" viewBox="0 0 278 75" style="position: absolute; left:1;top: 1;" class="mobile-only">
+            <defs>
+                <filter id="glass">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="7" color-interpolation-filters="sRGB" result="frosted" />
+                    <!-- Shadow Offset -->
+                    <feOffset in="SourceGraphic" dx='0' dy='1' />
+                    <!-- Shadow Blur -->
+                    <feGaussianBlur stdDeviation='0' result='offset-blur' />
+                    <!-- Invert the drop shadow to create an inner bevel -->
+                    <feComposite operator='out' in='SourceGraphic' in2='offset-blur' result='inverse' />
+                    <!-- Set the color & opacity of the bevel -->
+                    <feFlood flood-color='rgba(255,255,255,0.5)' flood-opacity='1' result='color' />
+                    <!-- Clip color inside bevel -->
+                    <feComposite operator='in' in='color' in2='inverse' result='bevel' />
+                    <!-- Put bevel over frosted object -->
+                    <feComposite operator='over' in='bevel' in2='frosted' />
+                    <!-- Compensate for opacity bleeding around the edges -->
+                    <feComponentTransfer>
+                        <feFuncA type="discrete" tableValues="1 1" />
+                    </feComponentTransfer>
+                </filter>
+            </defs>
+            <image id="panel" filter="url(#glass)" xlink:href="{{thumbnailUrl}}" x="0" y="0" width="280px" height="140px" />
+        </svg>
+    </div>
 </template>
