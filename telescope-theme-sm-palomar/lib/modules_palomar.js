@@ -7,7 +7,11 @@ Telescope.modules.add("postComponents", [
   {
     template: 'post_content',
     order: 20
-  }
+  },
+  {
+    template: 'post_author_avatar_palomar',
+    order: 30
+  },
 ]);
 
 Telescope.modules.removeAll("postHeading");
@@ -39,10 +43,6 @@ Telescope.modules.add("postMeta", [
   {
     template: 'post_admin',
     order: 40
-  },
-  {
-    template: 'post_avatars',
-    order: 50
   }
 ]);
 

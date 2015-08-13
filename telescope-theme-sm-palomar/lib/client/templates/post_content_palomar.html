@@ -1,12 +1,9 @@
 <template name="post_content_palomar">
+  <div class="post-content {{moduleClass}}">
     <div class="post-info">
-        <h3 class="post-heading">
-        {{> modules "postHeading"}}
-      </h3>
-        <div class="post-meta">
-            {{> modules "postMeta"}}
-        </div>
+      {{> modules zone="postHeading" zoneClass="post-heading"}}
+      {{> modules zone="postMeta" zoneClass="post-meta"}}
     </div>
-    {{> modules "postThumbnail"}}
-    {{> modules "svgPalomar"}}
+    {{> modules zone="postThumbnail" zoneClass="post-thumbnail-zone"}}
+  </div>
 </template>

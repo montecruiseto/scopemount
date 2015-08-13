@@ -60,6 +60,7 @@ Package.onUse(function (api) {
 
       // customizations
       'lib/client/templates/svg_palomar.html',
+      'lib/client/templates/post_author_avatar_palomar.html',
       'lib/client/scripts/post_title_palomar.js',
       'lib/client/scripts/icons_palomar.js',
       'lib/client/scripts/templates_palomar.js',
