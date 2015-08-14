@@ -1,10 +1,8 @@
 <template name="post_item_laval">
-    <a href="{{pathFor 'post_page'}}">
-        <section class="laval-post">
-            <div class="post {{#if sticky}}sticky{{/if}} {{inactiveClass}} {{postClass}}" id="{{_id}}">
-                {{> modules zone="postComponents" moduleClass="post-module"}}
-            </div>
-        </section>
-    </a>
-    <a class="laval-link" href="{{postLink}}" target="_blank"><i class="fa fa-external-link-square"></i></a>
+  <a href="{{pathFor 'post_page'}}">
+      <section class="laval-post">
+        {{> modules zoneClass=postClass zone="postComponents" moduleClass="post-module"}}
+      </section>
+  </a>
+  <a class="laval-link" href="{{postLink}}" target="_blank"><i class="fa fa-external-link-square"></i></a>
 </template>

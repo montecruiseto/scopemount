@@ -25,6 +25,8 @@
         width: 83.3333333%;
         text-align: center;
         transition: all .12s ease;
+        background: none;
+        border: none;
     }
     @include medium-large {
        &:hover {
@@ -47,6 +49,7 @@
         background: transparent !important;
         .post {
             margin: 40px auto 0px;
+            box-shadow: none;
         }
         &:hover {
             padding-left: 0px;
