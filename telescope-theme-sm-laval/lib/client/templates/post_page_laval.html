@@ -1,17 +1,17 @@
 <template name="post_page_laval">
-  {{#if isPending}}
-    <div class="grid">
-      <div class="error pending-message module">
-        {{_ "thanks_your_post_is_awaiting_approval"}}
+  {{#with post}}
+    {{#if isPending}}
+      <div class="grid">
+        <div class="error pending-message module">
+          {{_ "thanks_your_post_is_awaiting_approval"}}
+        </div>
       </div>
-    </div>
-  {{/if}}
-  <div class="single-post grid">
-    <div class="posts posts-list">
+    {{/if}}
+    <div class="single-post grid">
       {{> post_item}}
+      {{> comment_submit}}
+      {{> comment_list}}
     </div>
-    {{> comment_submit}}
-    {{> comment_list}}
-  </div>
+  {{/with}}
 </template>
 
