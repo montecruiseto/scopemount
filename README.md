@@ -1,4 +1,4 @@
-*New: Scopemount was featured on [Product Hunt](http://www.producthunt.com/tech/scopemount) with special kudos from [Ryan Hoover](http://scopemount.startrack.io/)!*
+*Scopemount was featured on [Product Hunt](http://www.producthunt.com/tech/scopemount) with special kudos from [Ryan Hoover](http://scopemount.startrack.io/)!*
 
 Scopemount
 =========
@@ -7,26 +7,9 @@ Scopemount is a suite of 10 beautiful themes for [Telescope](http://www.telescop
 
 [![Imgur](http://i.imgur.com/8yYLXiY.jpg)](http://scopemount.startrack.io)
 
-### Usage
+### Update
 
-*Note: Scopemount themes are up-to-date with Telescope v0.22.2*
-
-Install automagically from Atmosphere
-
-```bash
-meteor add montecruiseto:telescope-theme-sm-<name>
-```
-
-so for instance if you wanted to add the 'Galileo' theme you would run
-
-```bash
-meteor add montecruiseto:telescope-theme-sm-galileo
-```
-
-***For detailed setup instructions on each theme, see corresponding blog post.***
-
-Alternatively if you want to customize the themes: Download and extract the themes of your choice to your Telescope package directory and add to your Telescope app by running the `meteor add` command e.g. `meteor add montecruiseto:telescope-theme-sm-galileo`.
-All the themes use the base and hubble theme as a dependency.
+As of Telescope v0.22, Scopemount will no longer be updated. However, the themes will remain accessible as inspirational showcases.
 
 ### Themes
 
